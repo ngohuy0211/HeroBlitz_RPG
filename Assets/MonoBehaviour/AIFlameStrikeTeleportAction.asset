@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda97b5f2c9bdc36ec848ceb45f24eb2, type: 3}
+  m_Name: AIFlameStrikeTeleportAction
+  m_EditorClassIdentifier:
+  guid: 8f8bdcd3369244d438aa0ca6c9c20af3
+  Name: AIFlameStrikeTeleportAction
+  context: {fileID: 1450538191671771, guid: c34b0413dbc399045b9c87ec231321ca, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 53fe09278d318274aa5d35b5d2a319b2, type: 2}
+  - {fileID: 11400000, guid: 7666ae1f19b697a4882286c454c27ecb, type: 2}
+  - {fileID: 11400000, guid: c4b006e8efa5a2d438ce96c38117b052, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 2e65b150dcde2c144b627b883e95570d, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 0
+  actionSequenceID: 8
+  thresholdDistance: 20
+  extraDistance: 15

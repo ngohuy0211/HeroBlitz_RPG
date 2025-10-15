@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7e436aa3a1e081bd121384c1df2f56, type: 3}
+  m_Name: AI1102SkillAction
+  m_EditorClassIdentifier:
+  guid: e28ae534d8c25a14fa060b24ef46db3a
+  Name: AI1102SkillAction
+  context: {fileID: 1101405204000760, guid: 9ba7068ec1b3165448df286f94dfc749, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: c8bbbc5138242504da4a7a3caabcf678, type: 2}
+  - {fileID: 11400000, guid: b3539de97101c9a4dbfed86e04e6bc2b, type: 2}
+  - {fileID: 11400000, guid: 76533e17f18e7c74f8f35293b6fa54ea, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 2e8ed245394924f489219f9566f5d3b5, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  cooldown: 2

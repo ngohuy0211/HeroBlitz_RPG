@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a257de0988bbb1855e7c40e5834322, type: 3}
+  m_Name: AITeleportDistanceTargetAction
+  m_EditorClassIdentifier:
+  guid: 364f76cb04f9e1c479e5662f5ed66ee4
+  Name: AITeleportDistanceTargetAction
+  context: {fileID: 1450538191671771, guid: c34b0413dbc399045b9c87ec231321ca, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 1eb835e364a46e6409e579ec5b550813, type: 2}
+  - {fileID: 11400000, guid: 447397a075698ff4aa0ea217590b776b, type: 2}
+  - {fileID: 11400000, guid: 23d20bb214d70da4aa511d093d89cd1e, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 2e65b150dcde2c144b627b883e95570d, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 0
+  actionSequenceID: 0
+  distanceToTarget: {x: 35, y: 0, z: 0}
+  _targetPosition: {x: 0, y: 0, z: 0}

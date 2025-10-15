@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6167bae0b2361ac15032e2115bb83a31, type: 3}
+  m_Name: AI2103SkillAction
+  m_EditorClassIdentifier:
+  guid: 840c75dc46e7d44c2a0214e8f3f49900
+  Name: AI2103SkillAction
+  context: {fileID: 1376291539567599, guid: b392d02006d8aa54d956ebbe3ab30b5d, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: e5d8ee5d725ffac4aa1466d97cc7f025, type: 2}
+  - {fileID: 11400000, guid: 08e7e334b4b4a8f4a800710c1ff80bc0, type: 2}
+  - {fileID: 11400000, guid: bc29cfee743431b4f8bc020f0c166b71, type: 2}
+  - {fileID: 11400000, guid: 4dd2ecaa4946baf43baef2a9dc31cd95, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 0a22fed14ec999140b85606644067900, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  skillDistance: 25
+  skillDuration: 0.4
+  cooldown: 1
+  actionSequenceId: 0

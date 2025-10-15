@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519c0d0cd6a53bfd197ae0a3b2b713f6, type: 3}
+  m_Name: AI3015MoveAction
+  m_EditorClassIdentifier:
+  guid: 20aaac24266c5f940a526b763d8895c7
+  Name: AI3015MoveAction
+  context: {fileID: 1024250150001371, guid: 1e7bd60effeb0334790755a750844b30, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 569fb88044b037e41a507a698e2f5391, type: 2}
+  - {fileID: 11400000, guid: ab619927215e63f4984b79503d7c808c, type: 2}
+  - {fileID: 11400000, guid: b768cb81fc0a31041a5112350c7ef5fd, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 50b6e3688d543b44586eaf83e44f05e1, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 0
+  coolDown: 0.67
+  actionSequenceID: 4
+  moveSpeed: 70
+  moveType: 1
+  attackRangedDistance: 0
+  distanceToBounds:
+  - 10
+  - 15
+  thresholdDistanceToEndPoint: 1
+  _randomPoint: []

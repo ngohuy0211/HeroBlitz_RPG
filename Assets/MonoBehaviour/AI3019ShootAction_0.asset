@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275a00b7b2c685f680011523751bc43e, type: 3}
+  m_Name: AI3019ShootAction
+  m_EditorClassIdentifier:
+  guid: 8ea70a4e09babbc4786d06038352c117
+  Name: AI3019ShootAction
+  context: {fileID: 1728829775208259, guid: 534f8af33e9bd9342a42350b6f2371f9, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: ee69c90e611e5784c83d95ba583f8d25, type: 2}
+  - {fileID: 11400000, guid: 65efed75bbbfc7d478f5229cc939804f, type: 2}
+  - {fileID: 11400000, guid: 64930ccddf1111a488167d181ad8fa8a, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 0
+  runtimeAnimatorController: {fileID: 0}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 1.5
+  actionSequenceId: 2
+  skillType: 2
+  ballExistTime: 10
+  delayShootBall: 0.1
+  totalBalls: 2
+  chargeAnimation: 27
+  delayBeforeFinish: 0.15
+  totalCards: 3
+  cardSpeed: 50
+  shootAnimation: 30
+  _shootAnimDuration: 0
+  _ballCounter: 0
+  _cardCounter: 0

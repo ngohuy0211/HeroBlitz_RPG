@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7efcd907ec42f815c6b54c6074046f6d, type: 3}
+  m_Name: AI3005RushForward
+  m_EditorClassIdentifier:
+  guid: 6314c0c5577664f479effd219fe8f53a
+  Name: AI3005RushForward
+  context: {fileID: 1428802159002768, guid: 4e56884a876412746a70aca0bb945e9c, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 65862857c8564574b8588c1e8171c4c8, type: 2}
+  - {fileID: 11400000, guid: 7388aa65a46b3064b94dc3b7b7a7feb8, type: 2}
+  - {fileID: 11400000, guid: dcb9cb8048a75b1439f5e9099b44895c, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 930bcbbd33bf3064d8ed87ffe9e6c182, type: 2}
+  mapDistance: 200
+  dashDuration: 0.6
+  chargeDuration: 1.333
+  cooldown: 0

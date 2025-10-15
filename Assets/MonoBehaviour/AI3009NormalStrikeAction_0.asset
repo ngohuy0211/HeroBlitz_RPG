@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1349ee8ff547ad3e848c818c0f9bc7f1, type: 3}
+  m_Name: AI3009NormalStrikeAction
+  m_EditorClassIdentifier:
+  guid: c9d01eb8e7848b64181e1a8ba5bde0af
+  Name: AI3009NormalStrikeAction
+  context: {fileID: 1014859432381864, guid: 318213d2eff163041b84c46c0b650679, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 6efa75f4e8af72844870443d4f4d0626, type: 2}
+  - {fileID: 11400000, guid: 14e674b29077cf14f8b984ebfe263009, type: 2}
+  - {fileID: 11400000, guid: 86269aaa302029d4dad9416789ce1711, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 56aba184bd82f3f43bd0944f3493168a, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  coolDown: 0.67
+  animMelee: 22
+  isEnemy3010: 0

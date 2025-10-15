@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297aa9b7df294c2e3851618f2419ccac, type: 3}
+  m_Name: AI2101RangedAction
+  m_EditorClassIdentifier:
+  guid: 1768190bd8e5f244f99a072938e78164
+  Name: AI2101RangedAction_far
+  context: {fileID: 1115300601209515, guid: 936752b52485c364b8d3b6b3c91d3920, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 781a10535d0ae1a409be4a2ec7ca6195, type: 2}
+  - {fileID: 11400000, guid: 9d19ca6f998d49348bdf80ffb40e91fd, type: 2}
+  - {fileID: 11400000, guid: 1230ebc176d8e3c4297993f87e3473dd, type: 2}
+  - {fileID: 11400000, guid: 69130d7d6d8ff5c458748df6d933aa1e, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 1be536d800ce45c40aaba50f2a4d334b, type: 2}
+  actionSequenceId: 9
+  cooldown: 1

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21744debc5c1f1c02fdec340c62e6500, type: 3}
+  m_Name: AICooldownAction
+  m_EditorClassIdentifier:
+  guid: 8102eeade014c6143a951b356abc96e4
+  Name: AICooldownAction
+  context: {fileID: 1024250150001371, guid: 1e7bd60effeb0334790755a750844b30, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: cfdd78f2b699f7244af61a7975a76fc9, type: 2}
+  - {fileID: 11400000, guid: 9a117421944c0de4ab130dabc7aa8c3b, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 0}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95aa24fdea8868a6095d79c35bce4165, type: 3}
+  m_Name: AI3011HorizontalBeamAction
+  m_EditorClassIdentifier:
+  guid: 0e7305101a740ac40bde19cbca714d8a
+  Name: AI3011HorizontalBeamAction
+  context: {fileID: 1365835699747087, guid: 0bf10a034b766f542a6df006a6661c77, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 25e227a2213262b409f34429eff75207, type: 2}
+  - {fileID: 11400000, guid: 651da574d700d304f949b9bea613a08c, type: 2}
+  - {fileID: 11400000, guid: ca047ff2260f09945b544b2a826ec603, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 0b24fa1eda42f4b4fb93aa658865325f, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 1
+  sequenceID: 1
+  totalBeam: 3
+  distanceMapBound: 3
+  distanceToTarget: 35
+  chargeTime: 0.84
+  delaySpawnWarning: 0
+  activeBeamTime: 0.67
+  delayPerBeamTime: 1

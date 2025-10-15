@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 962687a97b30151c829d9c007883cb63, type: 3}
+  m_Name: Enemy3001SkillsAction
+  m_EditorClassIdentifier:
+  guid: a8985255b185ac146929ec0931e4b248
+  Name: Enemy3001SkillsAction
+  context: {fileID: 1560358930609855, guid: 275767d53d8c2124ca8e16a83dd295a5, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 97c7311bca1b7294081dc4c37153289a, type: 2}
+  - {fileID: 11400000, guid: 881649152d829cf41a775f64a82e2b82, type: 2}
+  - {fileID: 11400000, guid: 902705a8c596ea841be42e72d1b0497b, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 0
+  runtimeAnimatorController: {fileID: 0}
+  gameObjectKeyName:
+    Value: 0
+  rangeSkill:
+  - 15
+  - 30
+  - 10
+  Skill0Action: {fileID: 0}
+  Skill1Action: {fileID: 0}
+  Skill2Action: {fileID: 0}

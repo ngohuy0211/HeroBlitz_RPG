@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab68e78412fe05732365447615c1314c, type: 3}
+  m_Name: AI3014JumpToSideAction
+  m_EditorClassIdentifier:
+  guid: 4a3ea0c1f87b2e44ba01b864aa071dd4
+  Name: AI3014JumpToSideAction
+  context: {fileID: 1860960296573709, guid: 6443698c0f044b349a164e798f06b7cf, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 317b452b8eb1ff94a92f296da67c39c1, type: 2}
+  - {fileID: 11400000, guid: f1b5aff429b73214486c278ecb21caae, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 83215503285edd64b9fff86b85694c32, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 1
+  actionSequenceID: 2
+  distanceToWall: {x: 0, y: 10, z: 0}
+  jumpSpeed: 100

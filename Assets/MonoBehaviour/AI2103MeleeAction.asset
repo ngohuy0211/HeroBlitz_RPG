@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349010c01de258bfaba38d644ab4a765, type: 3}
+  m_Name: AI2103MeleeAction
+  m_EditorClassIdentifier:
+  guid: 370b1ba21725846d8b22cad5806ae14d
+  Name: AI2103MeleeAction
+  context: {fileID: 1376291539567599, guid: b392d02006d8aa54d956ebbe3ab30b5d, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: f17ba50aca4abd3469f12b8c9a0b5c87, type: 2}
+  - {fileID: 11400000, guid: 11ebb29e5cff955438787cec1d2a1921, type: 2}
+  - {fileID: 11400000, guid: dd2466c31c66a7346bee5ec8f572760d, type: 2}
+  - {fileID: 11400000, guid: 0d9423d6b1e97ac4f9e40e77532b806e, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 969b7a3f16cb5c34599d0f1636ba5a2f, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  cooldown: 1
+  actionSequenceId: 1

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1718965e41598def9b027b98bc409805, type: 3}
+  m_Name: AI3020Strike
+  m_EditorClassIdentifier:
+  guid: 6d41b2b5cdcfe7b4ead970ed2028b847
+  Name: AI3020Strike
+  context: {fileID: 1277503562027776, guid: 3471306749fc24a45851830ed8ae3442, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: d7348a2b869ae1140a8ef16041c94fb8, type: 2}
+  - {fileID: 11400000, guid: 30b9818680e4e3f4d96fbabcaa11ad91, type: 2}
+  - {fileID: 11400000, guid: 6730b246e619e4846aca1ae41f25af1c, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 54f982c2b33bc0a45ada86feab1c9616, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 0.7
+  skillType: 2
+  actionSequenceId: 0
+  shockWaveSpeed: 30
+  slamDuration: 0.067
+  moveSpeed: 10
+  moveDistance: 2
+  chargeAnimation: 27
+  _chargeDuration: 0
+  meleeAnimation: 6
+  _meleeDuration: 0
+  meleeThresholdDistance: 12
+  moveStep: 25
+  spinDuration: 7
+  spinInertiaTime: 1
+  velocityFly: 15

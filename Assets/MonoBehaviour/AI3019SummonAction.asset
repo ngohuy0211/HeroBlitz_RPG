@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c7b6e2140412d4289670a2820b51e7a, type: 3}
+  m_Name: AI3019SummonAction
+  m_EditorClassIdentifier:
+  guid: 38788a7d139f7044698958f09846fdfc
+  Name: AI3019SummonAction
+  context: {fileID: 1728829775208259, guid: 534f8af33e9bd9342a42350b6f2371f9, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: cc113c8ea603f074b97329109b2fef59, type: 2}
+  - {fileID: 11400000, guid: fd47adf62abd03947b2a944fa1e3cc47, type: 2}
+  - {fileID: 11400000, guid: e95a4c882cf3b2c469d84aca773d07f5, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 6a910a9aae5e5ae41b1157a513a1111c, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 0
+  coolDown: 0
+  stunDuration: 3
+  delayAppearDuration: 0
+  hatOffset: {x: 0, y: 3}
+  hatEachSpacing: 12
+  hatStunDuration: 0.45
+  chooseHatDuration: 1.5
+  totalSwap: 7
+  swapSpeed: 40
+  swapDelayIncrease: 0.2
+  swapIncreaseSpeedFactor: 5
+  swapBeginIncreaseSpeed: 0
+  _swapScenario: []
+  hatDistanceToTarget:
+  - {x: 0, y: 7}
+  - {x: 12, y: -6}
+  - {x: -12, y: -6}
+  flyDuration: 1
+  followTimeout: 5
+  followSpeed: 50
+  followInertiaTime: 0.5
+  shootAnimationType: 5
+  appearAnimationType: 21
+  _shootDuration: 0
+  _appearDuration: 0
+  _chosenHatIndex: 0

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff0bd3e8cfd07301203acce70c1e8cc, type: 3}
+  m_Name: AI1004Death
+  m_EditorClassIdentifier:
+  guid: 1d72dd4670be4004e8f4cd163a423b4f
+  Name: AI1004Death
+  context: {fileID: 1627196001015193, guid: eb54a410d734dd04e8dced8fe8d39201, type: 2}
+  _priority: 2
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 3e586e5c55418824ca174bea63295390, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 2e8ed245394924f489219f9566f5d3b5, type: 2}
+  TimeAnimation: 1.367
+  _explosionSize: {x: 10, y: 12}

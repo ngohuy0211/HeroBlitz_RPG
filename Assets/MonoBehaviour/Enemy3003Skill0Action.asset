@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b631741f4ee38998668d46098c141952, type: 3}
+  m_Name: Enemy3003Skill0Action
+  m_EditorClassIdentifier:
+  guid: e85de7ac3962f3c4e944d4ab07fec862
+  Name: Enemy3003Skill0Action
+  context: {fileID: 1536385919841536, guid: 2bdc2771fca15154f8fa77b9c62d4c2d, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: ffcca07dca210bd459257f6d166f8704, type: 2}
+  - {fileID: 11400000, guid: 5b579d4aa9e754b4da9fe0640e5a1e89, type: 2}
+  - {fileID: 11400000, guid: 44eb020b76d63cf4281a1ccf4f846cc7, type: 2}
+  - {fileID: 11400000, guid: 769ba0fa8107a3b4e8d110d5a9ec1f64, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: b9709fd504e369b4d84ca484eb46990a, type: 2}
+  skillId: 0
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  TimeIdleEndSkill: 0.5
+  IgnoreGetHurtCancelSkill: 1
+  attackParameter: Attack
+  endAttackParameter: EndAttack
+  _animationType: 4
+  rangeSkill: 100
+  MoveHeight: 17
+  TimeMove: 0.3
+  TimeFall: 0.05
+  offsetTime: 0.9

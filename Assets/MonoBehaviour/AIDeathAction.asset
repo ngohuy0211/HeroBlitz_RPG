@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab6a466f76937d88b82fb5480bf5d42, type: 3}
+  m_Name: AIDeathAction
+  m_EditorClassIdentifier:
+  guid: 16707e341afc92c4cb927b1d565a75db
+  Name: AIDeathAction
+  context: {fileID: 1164423381550473, guid: 373eeed8d10a38c4a8071e6a9ee7a09a, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: bd718c5fba72c824494e4e4c24fd967f, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 0
+  runtimeAnimatorController: {fileID: 0}
+  TimeAnimation: 0

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5718854de6aad2bc1d42cec339468dc, type: 3}
+  m_Name: AI2106WideAttackAction
+  m_EditorClassIdentifier:
+  guid: 9ca9706c2ca5b214ab0ed9098b05b82b
+  Name: AI2106WideAttackAction
+  context: {fileID: 1591677296194202, guid: 878319ea1009ac34bbeb114ffb11c3a0, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 148b285eecdf4794299c218cac6859a9, type: 2}
+  - {fileID: 11400000, guid: 3e327ccf90bdf3342b245453d3ff63d7, type: 2}
+  - {fileID: 11400000, guid: 81162e8d227a83942bbce008665d47d9, type: 2}
+  - {fileID: 11400000, guid: cb566708c50dbff4d86481d7ed3dde51, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: c222c7ecce6094246a2c309299b9afcb, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 2
+  shootAnimationType: 5
+  _animationDuration: 0

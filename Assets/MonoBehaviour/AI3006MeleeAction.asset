@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7298884f02da90478fb5df067307a26, type: 3}
+  m_Name: AI3006MeleeAction
+  m_EditorClassIdentifier:
+  guid: 6057be8c5869c4cd1b4390e29728d489
+  Name: AI3006MeleeAction
+  context: {fileID: 1158686883697037, guid: f8d8a2d828eb3394db1f6368e7480fd1, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 3
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: a2836c7113907884a974d3ff8e5daff7, type: 2}
+  - {fileID: 11400000, guid: 92282907a7544d842b908bef85a68f04, type: 2}
+  - {fileID: 11400000, guid: 2d996df40bd909d49b4b78581bc35fd5, type: 2}
+  - {fileID: 11400000, guid: a267fbfeb3a055d4aa3ac64e7853bed4, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: c87ced07af4058644adab435d54faa41, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  cooldown: 0.5
+  attackParameter: Attack
+  endAttackParameter: EndAttack
+  actionId: 12

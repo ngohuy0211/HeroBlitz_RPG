@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e8011cd5d2fd32fc8983a8b2d7b16a5, type: 3}
+  m_Name: AIMoveAndPatrolAction
+  m_EditorClassIdentifier:
+  guid: 4e184030ea8752448a0647a084c191ee
+  Name: AIMoveAndPatrolAction
+  context: {fileID: 1272509521458153, guid: bbcb5e6755813b34093dbefc40d12c78, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: b485bbb1fd5d7714bae97b99dcb9b358, type: 2}
+  - {fileID: 11400000, guid: e6e0314c23f447346a0b9460d9ba499d, type: 2}
+  - {fileID: 11400000, guid: b2648b967947a794f8f31bf91156f5f6, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 771477fc840390944b4905da4f9e3b73, type: 2}
+  changeDirectionOnWall: 1
+  avoidFalling: 1
+  turnTime: 1
+  timeBetweenTurn: 1.5
+  usePatrol: 1
+  useBoundPatrol: 0
+  horizontalBoundPatrol: 0
+  boundPatrolStart: {x: 41.1, y: 8.5}
+  boundPatrolEnd: {x: 68.4, y: 8.5}
+  configAsset:
+    m_AssetGUID: 43b2bcdfa79817b4081c8e6c42e1eb4a
+    m_SubObjectName:
+    m_SubObjectType:
+  groundedParameter: Grounded
+  verticalSpeedParameter: VerticalSpeed
+  planarSpeedParameter: PlanarSpeed

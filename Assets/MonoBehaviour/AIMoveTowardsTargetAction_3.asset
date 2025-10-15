@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3998ef785006da35f669cd794e0994ff, type: 3}
+  m_Name: AIMoveTowardsTargetAction
+  m_EditorClassIdentifier:
+  guid: fb6f46102aa31497990cfa50905923b5
+  Name: Melee MoveTowardsTarget
+  context: {fileID: 1376291539567599, guid: b392d02006d8aa54d956ebbe3ab30b5d, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 7bed0a0c642f29e43877920dcd28b330, type: 2}
+  - {fileID: 11400000, guid: f93c54164eecd01489adf6df0791f5c6, type: 2}
+  - {fileID: 11400000, guid: caf7554faf6a2c44bbf30e927e805f4e, type: 2}
+  - {fileID: 11400000, guid: ba7b0a821da9da44782623ad5a997142, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 704679c978c43e843bfded26c90c87cb, type: 2}
+  minimumDistance: 1
+  avoidFalling: 1
+  gameObjectKeyName:
+    Value: 0
+  boostSpeedPercent: 0
+  chaseParameter: IsChasing
+  groundedParameter: Grounded
+  planarSpeedParameter: PlanarSpeed

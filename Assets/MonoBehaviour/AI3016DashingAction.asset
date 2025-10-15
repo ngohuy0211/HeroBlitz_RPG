@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64ea7172db85698d3b6143d20ed5a7c, type: 3}
+  m_Name: AI3016DashingAction
+  m_EditorClassIdentifier:
+  guid: 7e1f63339e64e4742ac6f0dd9ee22e1c
+  Name: AI3016DashingAction
+  context: {fileID: 1450538191671771, guid: c34b0413dbc399045b9c87ec231321ca, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 1b10cfb32b3df0f49baeb1d4e4fd825c, type: 2}
+  - {fileID: 11400000, guid: 3b4dab5dbacdbbe42a819f9eb1da0912, type: 2}
+  - {fileID: 11400000, guid: 0112637e6b5a00c40a2d1243b82ee672, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 7150b9c3920c41241bd0f6572dd703af, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 1
+  actionSequenceID: 7
+  extraDistance: 15
+  dashAnim: 7
+  _dashAnimDuration: 0
+  dashDuration: 0.1
+  projectileConfig:
+  - Angle: 90
+    Speed: 40
+  - Angle: 67
+    Speed: 40
+  - Angle: 45
+    Speed: 40
+  - Angle: 23
+    Speed: 40
+  - Angle: 0
+    Speed: 40

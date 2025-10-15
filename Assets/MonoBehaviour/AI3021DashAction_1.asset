@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 800c2c0d324bc14ffa16bc1fd950667d, type: 3}
+  m_Name: AI3021DashAction
+  m_EditorClassIdentifier:
+  guid: 3ccc98cbfb860fc45bbcc326575dc209
+  Name: AI3021DashAction
+  context: {fileID: 1164423381550473, guid: 373eeed8d10a38c4a8071e6a9ee7a09a, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 7a8fc44ddd3d2d34b9d1df6edb0c416a, type: 2}
+  - {fileID: 11400000, guid: 0404c12e8ff26d44fb0a1d59d7dcbac1, type: 2}
+  - {fileID: 11400000, guid: 07ba63cd3f266fb4192505be7a880305, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: ca7a4df5c7a6cdf4aae28c8ee311aec8, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 1.2
+  skillType: 3
+  chargeAnimation: 32
+  _chargeDuration: 0
+  dashSpeed: 150
+  totalFakeOut: 2
+  fakeOutPercent: 80
+  slamProcess: 50
+  delaySpawnWave: 0
+  shockWaveSpeed: 30
+  fakeOutThreshold: 2
+  slamDuration: 0.08
+  distanceFromTarget: {x: 0, y: 0}
+  moveSpeed: 0
+  moveDistance: 0
+  distanceToStrike: 7
+  energySpeed: 10
+  thirdAnimation: 30
+  thirdHitChange: 60
+  _fakeOutCount: 0
+  _isActiveFakeOut: 0

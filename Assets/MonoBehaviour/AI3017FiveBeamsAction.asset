@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d846f6347d7fdc0d0fede7e8abd2d7ec, type: 3}
+  m_Name: AI3017FiveBeamsAction
+  m_EditorClassIdentifier:
+  guid: 7047cb11f460b394899621479cf7837f
+  Name: AI3017FiveBeamsAction
+  context: {fileID: 1365835699747087, guid: 0bf10a034b766f542a6df006a6661c77, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: fbf2477259e93814681fa8cc8a99b4ad, type: 2}
+  - {fileID: 11400000, guid: 0ff09df5c21c48b428e2c6454ed77db4, type: 2}
+  - {fileID: 11400000, guid: b534e8f678fbb1c45b8f31027a585700, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 7150b9c3920c41241bd0f6572dd703af, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 2
+  sequenceID: 3
+  turnConfig:
+  - ChargedTime: 2
+    DelayBeforeWarningTime: 1.17
+    BeamAngles:
+    - 100
+    - 15
+    - -30
+    - -95
+    - 145
+    - -170
+    ActiveTime: 0.67
+  - ChargedTime: 1
+    DelayBeforeWarningTime: 0.17
+    BeamAngles:
+    - -290
+    - -10
+    - -70
+    - -120
+    - -200
+    - -240
+    ActiveTime: 0.67
+  - ChargedTime: 1
+    DelayBeforeWarningTime: 0.17
+    BeamAngles:
+    - -420
+    - 65
+    - -100
+    - -165
+    - -270
+    - -235
+    ActiveTime: 0.67
+  _turnBeamShuffle:

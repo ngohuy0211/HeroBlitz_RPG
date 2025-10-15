@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894c0cce74d1e5d108477d9ec80b2ea9, type: 3}
+  m_Name: AI2106MeleeAction
+  m_EditorClassIdentifier:
+  guid: 0c5e03bf03750494a911bab90bf950b8
+  Name: AI2106MeleeAction
+  context: {fileID: 1591677296194202, guid: 878319ea1009ac34bbeb114ffb11c3a0, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 8797d097db4b5a54eb91734f8a724a03, type: 2}
+  - {fileID: 11400000, guid: 8a958647bb44ac942910f6a5bc4a1cfa, type: 2}
+  - {fileID: 11400000, guid: 9c147549c06671c478a7808a61eb9c51, type: 2}
+  - {fileID: 11400000, guid: 2501387c721492740a8850f271e6d3ae, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 3e519d19bcc6b4844b5006c65230d343, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 2
+  shootAnimationType: 4
+  _animationDuration: 0
+  distanceToTarget: 10
+  distanceToDash: 20
+  speedDash: 40

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6ee137436d32ec45ded877aedd3483, type: 3}
+  m_Name: AIApproachTarget
+  m_EditorClassIdentifier:
+  guid: 0d5bccb9c4b5ca34d98fc3f8d15a6a5b
+  Name: AIApproachTarget
+  context: {fileID: 1835692070303845, guid: 148f2f3a521655649b241540585c0ee4, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 92cb2a95e267811499156384295d3706, type: 2}
+  - {fileID: 11400000, guid: 3e22bbedad8fdf043be9408719b0e0ad, type: 2}
+  - {fileID: 11400000, guid: 5256347c9fb4be341825271c8bba2fa8, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 0
+  runtimeAnimatorController: {fileID: 0}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Enemy
+  _target: {fileID: 0}
+  isUsingCooldown: 0
+  coolDown: 0.67
+  _hero: {fileID: 0}
+  _actorBrain: {fileID: 0}
+  moveThreshold: 5
+  moveDirection: {x: 0, y: 0}
+  _isMoving: 0
+  heightThreshold: 2
+  jumpDelaySeconds: 0.2
+  _isJumping: 0
+  _targetDetected: 0

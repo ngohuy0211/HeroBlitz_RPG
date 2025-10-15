@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081e8b74b01fea7a94826ced734a2b8b, type: 3}
+  m_Name: AI3015JumpThrowGrenadeAction
+  m_EditorClassIdentifier:
+  guid: da3367cb78fd63b4d900119bf7ae8316
+  Name: AI3015JumpThrowGrenadeAction
+  context: {fileID: 1024250150001371, guid: 1e7bd60effeb0334790755a750844b30, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: cb4e774f4a1c2e54a85fda25c5a7a56c, type: 2}
+  - {fileID: 11400000, guid: 009ede4577cb33a4db583d4095dd6232, type: 2}
+  - {fileID: 11400000, guid: afc44e21b2140994f81eddd960f15452, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 298fde773493ee84d86d9b717e42f206, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 2.5
+  actionSequenceID: 6
+  attackRangedDistance: 10
+  distanceToTarget: 35
+  jumpHeight: 10
+  totalGrenade: 5
+  grenadesHeight:
+  - 7
+  - 10
+  - 7
+  - 12
+  - 9
+  grenadesSpacing:
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  grenadeSpeed: 7.5
+  jumpDuration: 0.7
+  chargedTime: 0.5
+  landAnimation: 31
+  _landAnimDuration: 0

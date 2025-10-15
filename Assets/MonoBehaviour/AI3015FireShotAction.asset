@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d4aee8b8b0529ec4f986db2f937af8, type: 3}
+  m_Name: AI3015FireShotAction
+  m_EditorClassIdentifier:
+  guid: bf442767182d49141a1f5fece9e4a853
+  Name: AI3015FireShotAction
+  context: {fileID: 1024250150001371, guid: 1e7bd60effeb0334790755a750844b30, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 15afc8349b6b5fd42bb1634c4ef8fa9a, type: 2}
+  - {fileID: 11400000, guid: 6b55e5612de41c4428110ca756ccc2df, type: 2}
+  - {fileID: 11400000, guid: 2bcd3453df02eb44d92b39eac2de02c4, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 50b6e3688d543b44586eaf83e44f05e1, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 1
+  actionSequenceID: 3
+  totalShot: 3
+  fireSpeed: 50
+  shootAnimations: 150000001600000022000000
+  _shootDuration: 0
+  _shuffleArray:

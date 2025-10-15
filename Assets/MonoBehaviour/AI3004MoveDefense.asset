@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6a0c14faf52ff069dcd554aee19e58, type: 3}
+  m_Name: AI3004MoveDefense
+  m_EditorClassIdentifier:
+  guid: 4409d75aea6db412a96c46915fbfd659
+  Name: AI3004MoveDefense_1_1
+  context: {fileID: 1717618674109131, guid: 392560914ad7adc49a47f75aa970bd09, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 4b2710c7f5fac4446a08911ef5bfe6e3, type: 2}
+  - {fileID: 11400000, guid: d1678553e51ef6146947ed66362d789e, type: 2}
+  - {fileID: 11400000, guid: 1fc9726be8941234e98ceb8e98079364, type: 2}
+  - {fileID: 11400000, guid: 2cca81319d13af948998500f7edc23e0, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 8e7f8e38d7b4f1c4983eea8c7ad5c8b6, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  dashDistance: 24
+  wallDashDistanceCheck: 20
+  dashDuration: 0.3
+  actionSequenceId: 0

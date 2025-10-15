@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 809a3f25590c21262aa0260eb383695b, type: 3}
+  m_Name: AI1113RangedShot
+  m_EditorClassIdentifier:
+  guid: 6be3883ba1b474724a68becc26110ca2
+  Name: AI1113RangedShot
+  context: {fileID: 1377567153246614, guid: 809ad16da58678043b4ab6c96b7fc5a1, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: ff26cafbd57fd5048bece0b10f8e14f8, type: 2}
+  - {fileID: 11400000, guid: fa40b7f20111a6c48bcb3163adea3d55, type: 2}
+  - {fileID: 11400000, guid: 0966e622615d36a419bcfda6dc0e0471, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 2e8ed245394924f489219f9566f5d3b5, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  cooldown: 2
+  timeToClearWarning: 0.7

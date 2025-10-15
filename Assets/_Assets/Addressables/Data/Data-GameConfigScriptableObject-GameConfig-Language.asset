@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c3e3e1855f7a936985a109aab3c828, type: 3}
+  m_Name: Data-GameConfigScriptableObject-GameConfig-Language
+  m_EditorClassIdentifier:
+  languages:
+  - id: 0
+    language: English
+    languageCode: en
+    active: 1
+  - id: 1
+    language: Vietnamese
+    languageCode: vi
+    active: 1
+  - id: 2
+    language: Korean
+    languageCode: ko
+    active: 1
+  - id: 3
+    language: Japanese
+    languageCode: ja
+    active: 1
+  - id: 4
+    language: Chinese (Simplified)
+    languageCode: zh-CN
+    active: 1
+  - id: 5
+    language: Chinese (Traditional)
+    languageCode: zh-TW
+    active: 1
+  - id: 6
+    language: German
+    languageCode: de-DE
+    active: 1
+  - id: 7
+    language: French
+    languageCode: fr
+    active: 1
+  - id: 8
+    language: Thai
+    languageCode: th
+    active: 1
+  - id: 9
+    language: Russian
+    languageCode: ru
+    active: 1
+  - id: 10
+    language: Spanish
+    languageCode: es
+    active: 1
+  - id: 11
+    language: Portuguese
+    languageCode: pt
+    active: 1
+  - id: 12
+    language: Indonesian
+    languageCode: id
+    active: 1
+  - id: 13
+    language: Italian
+    languageCode: it
+    active: 0
+  - id: 14
+    language: Turkish
+    languageCode: tr
+    active: 0
+  - id: 15
+    language: Indian
+    languageCode: hi
+    active: 0
+  editBtnProfile:
+  - id: 0
+    size:
+    - size: 0
+      scale: 0.8
+    - size: 1
+      scale: 1
+    - size: 2
+      scale: 1.2
+  - id: 1
+    size:
+    - size: 0
+      scale: 0.8
+    - size: 1
+      scale: 1
+    - size: 2
+      scale: 1.2
+  - id: 2
+    size:
+    - size: 0
+      scale: 0.8
+    - size: 1
+      scale: 1
+    - size: 2
+      scale: 1.2
+  - id: 3
+    size:
+    - size: 0
+      scale: 0.75
+    - size: 1
+      scale: 1
+    - size: 2
+      scale: 1.2
+  valueConfig:
+  - key_str: TimeSkipToTutBattle
+    value: 10
+  - key_str: PriorityShow_LevelUp
+    value: -100000
+  - key_str: PriorityShow_UnlockFeature
+    value: -10000
+  - key_str: PriorityShow_Tutorial
+    value: -1000
+  - key_str: PriorityShow_MonthlyPack
+    value: 0
+  - key_str: PriorityShow_Bundle
+    value: 10000
+  - key_str: TimeSwapItem_Top_SevenDayLogin
+    value: 5
+  - key_str: World_Color_FX_0
+    value: '#00D050'
+  - key_str: World_Color_FX_1
+    value: '#00D050'
+  - key_str: World_Color_FX_2
+    value: '#FFC05D'
+  - key_str: World_Color_FX_3
+    value: '#2C3A95'
+  - key_str: World_Color_FX_4
+    value: '#42E3FF'
+  - key_str: World_Color_FX_5
+    value: '#8248D9'
+  - key_str: World_Color_FX_6
+    value: '#FF8820'
+  - key_str: World_Color_FX_7
+    value: '#53ACF1'
+  - key_str: World_Color_FX_8
+    value: '#33BB9E'
+  - key_str: World_Color_FX_9
+    value: '#00e6b1'
+  - key_str: World_Color_FX_10
+    value: '#0086e6'
+  - key_str: World_Color_FX_11
+    value: '#f9173d'
+  - key_str: Starter_Pack_Show_Popup_Duration
+    value: 100800
+  - key_str: First_Purchase_Show_Popup_Duration
+    value: 100800
+  - key_str: PriorityShow_Starter_Pack
+    value: 40
+  - key_str: PriorityShow_First_Purchase
+    value: 39
+  - key_str: TimeComboConfig
+    value: 1.2
+  - key_str: BossRaid_DamageIncrease_Per_Seconds
+    value: 20;20
+  - key_str: BossRaid_BaseDamageBossByPlayerHealth
+    value: 2
+  - key_str: BossRaid_PlayerClaim_Exp_Per_Seconds
+    value: 300;32
+  - key_str: BossRaid_GameTime
+    value: 120
+  - key_str: BossRaid_InititalExp
+    value: 120
+  - key_str: BossRaid_CapLevel
+    value: 14
+  - key_str: Survival_BalanceEnemyDamageConst
+    value: 50
+  - key_str: Survival_BalanceEnemyHpConst
+    value: 1050
+  - key_str: Arena_TimeRefreshLeaderboard
+    value: 600
+  mapColorConfig:
+  - mapId: 0
+    mapColor: '#51FF3D'
+  - mapId: 1
+    mapColor: '#51FF3D'
+  - mapId: 2
+    mapColor: '#FFC13D'
+  - mapId: 3
+    mapColor: '#404CFF'
+  - mapId: 4
+    mapColor: '#40D2FF'
+  - mapId: 5
+    mapColor: '#8248D9'
+  - mapId: 6
+    mapColor: '#FF8820'
+  - mapId: 7
+    mapColor: '#53ACF1'
+  - mapId: 8
+    mapColor: '#33BB9E'
+  - mapId: 9
+    mapColor: '#00e6b1'
+  - mapId: 10
+    mapColor: '#0086e6'
+  - mapId: 11
+    mapColor: '#f9173d'
+  - mapId: 12
+    mapColor: '#404CFF'
+  - mapId: 13
+    mapColor: '#40D2FF'
+  - mapId: 14
+    mapColor: '#8248D9'
+  - mapId: 15
+    mapColor: '#FF8820'
+  - mapId: 16
+    mapColor: '#53ACF1'
+  - mapId: 17
+    mapColor: '#33BB9E'
+  - mapId: 18
+    mapColor: '#00e6b1'
+  - mapId: 19
+    mapColor: '#0086e6'
+  - mapId: 20
+    mapColor: '#f9173d'
+  gameModeCostConfigs:
+  - gameMode: 0
+    gameModeType: 0
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 1
+    gameModeType: 0
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 0
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 1
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 2
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 3
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 4
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 5
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 6
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 4
+    gameModeType: 0
+    cost:
+      id: 0
+      quantity: 1
+      itemType: 26
+      branchType: 0
+      promote: 0
+  - gameMode: 5
+    gameModeType: 0
+    cost:
+      id: 1
+      quantity: 1
+      itemType: 26
+      branchType: 0
+      promote: 0
+  - gameMode: 7
+    gameModeType: 0
+    cost:
+      id: 4
+      quantity: 1
+      itemType: 26
+      branchType: 0
+      promote: 0
+  - gameMode: 8
+    gameModeType: 0
+    cost:
+      id: 5
+      quantity: 1
+      itemType: 26
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 7
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 8
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 9
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 10
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 11
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 12
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 13
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 14
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  - gameMode: 2
+    gameModeType: 15
+    cost:
+      id: 0
+      quantity: 5
+      itemType: 2
+      branchType: 0
+      promote: 0
+  gameModeBoon:
+  - gameMode: 0
+    boonIds: 360000000c000000170000001a0000000b0000001b0000001c0000001d0000001e000000210000002000000033000000220000002300000024000000250000002600000000000000190000002c0000002e0000002f0000003000000028000000290000002b000000270000002a000000340000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f0000005000000051000000520000005300000054000000550000005a0000005b0000005c0000005d0000005e0000005f00000060000000610000006200000063000000640000006500000066000000
+  - gameMode: 1
+    boonIds: 360000000c000000170000001a0000000b0000001b0000001c0000001d0000001e000000210000002000000033000000220000002300000024000000250000002600000000000000190000002c0000002e0000002f0000003000000028000000290000002b000000270000002a000000340000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f0000005000000051000000520000005300000054000000550000005a0000005b0000005c0000005d0000005e0000005f00000060000000610000006200000063000000640000006500000066000000
+  - gameMode: 2
+    boonIds: 360000000c000000170000001a0000000b0000001b0000001c0000001d0000001e000000210000002000000033000000220000002300000024000000250000002600000000000000190000002c0000002e0000002f0000003000000028000000290000002b000000270000002a000000340000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f0000005000000051000000520000005300000054000000550000005a0000005b0000005c0000005d0000005e0000005f00000060000000610000006200000063000000640000006500000066000000
+  - gameMode: 3
+    boonIds: 360000000c000000170000001a0000000b0000001b0000001c0000001d0000001e000000210000002000000033000000220000002300000024000000250000002600000000000000190000002c0000002e0000002f0000003000000028000000290000002b000000270000002a000000340000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f0000005000000051000000520000005300000054000000550000005a0000005b0000005c0000005d0000005e0000005f00000060000000610000006200000063000000640000006500000066000000
+  - gameMode: 4
+    boonIds: 360000000c000000170000001a0000000b0000001b0000001c0000001d0000001e000000210000002000000033000000220000002300000024000000250000002600000000000000190000002c0000002e0000002f0000003000000028000000290000002b000000270000002a000000340000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f0000005000000051000000520000005300000054000000550000005a0000005b0000005c0000005d0000005e0000005f00000060000000610000006500000066000000
+  - gameMode: 5
+    boonIds: 360000000c0000001700000021000000200000003300000024000000250000002600000000000000190000002c0000002e0000002f0000003000000028000000290000002b00000027000000340000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f0000005000000051000000520000005300000054000000550000005a0000005b0000005c0000005e0000005f0000006500000066000000
+  - gameMode: 7
+    boonIds: 360000000c000000170000001a0000000b0000001b0000001c0000001d0000001e000000210000002000000033000000220000002300000024000000250000002600000000000000190000002c0000002e0000002f0000003000000028000000290000002b000000270000002a000000340000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f0000005000000051000000520000005300000054000000550000005a0000005b0000005c0000005d0000005e0000005f000000610000006500000066000000
+  rankList:
+  - rank: 0
+    rankStar: 0
+  - rank: 1
+    rankStar: 0
+  - rank: 2
+    rankStar: 0
+  - rank: 3
+    rankStar: 0

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c2d5fa7bfaad5c236223038796bd44c, type: 3}
+  m_Name: AI3021SummonAction
+  m_EditorClassIdentifier:
+  guid: 8b681687b8b4a074996f722f4f469057
+  Name: AI3021SummonAction
+  context: {fileID: 1164423381550473, guid: 373eeed8d10a38c4a8071e6a9ee7a09a, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: cb45a0f79f5311940bf5ba06edd01453, type: 2}
+  - {fileID: 11400000, guid: e04337134daa6114689624324b650c3c, type: 2}
+  - {fileID: 11400000, guid: f13b4714001336046bba1f2ea7f955bc, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: bc53847d051589544a3326ec22e4c2b7, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 0
+  coolDown: 0.67
+  skillType: 0
+  chargeAnimation: 5
+  _chargeDuration: 0
+  skinPhase2:
+  totalTurn: 4
+  _isInitSummon: 0
+  enemy1203Position: 0
+  enemy2106Position: 0
+  delayBeforeSlam: 2
+  delayNextTurn: 3
+  slamDuration: 0.4
+  distanceToGround: 15
+  delayForPose: 4
+  summonProjectilePhase1:
+    totalProjectile: 6
+    spearPositions:
+    - leftPosition: {x: -4, y: -10}
+      rightPosition: {x: 53, y: -10}
+    - leftPosition: {x: 0, y: -5}
+      rightPosition: {x: 50, y: -5}
+    - leftPosition: {x: -4, y: 0}
+      rightPosition: {x: 53, y: 0}
+    projectileSpeed: 50
+  summonProjectilePhase2:
+    totalProjectile: 8
+    spearPositions:
+    - leftPosition: {x: 10, y: 10}
+      rightPosition: {x: 40, y: 10}
+    - leftPosition: {x: -4, y: -10}
+      rightPosition: {x: 53, y: -10}
+    - leftPosition: {x: 0, y: -5}
+      rightPosition: {x: 50, y: -5}
+    - leftPosition: {x: -4, y: 0}
+      rightPosition: {x: 53, y: 0}
+    projectileSpeed: 50
+  delayAfterThrow: 0.5
+  delayBetweenSummon: 0
+  delaySummonSpear: 0.15
+  shockWaveSpeed: 0
+  delayBeforeSummon: 0
+  delayNextSummon: 0.4
+  delayForWarning: 0.6
+  chestUnitPositions:
+  - 0
+  - 0

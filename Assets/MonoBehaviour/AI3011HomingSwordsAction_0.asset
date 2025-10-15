@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb40688a43b66f07c59426c5fc98f45, type: 3}
+  m_Name: AI3011HomingSwordsAction
+  m_EditorClassIdentifier:
+  guid: 5069868e7271a1445abe34ce82bfab95
+  Name: AI3011HomingSwordsAction
+  context: {fileID: 1338231702950471, guid: ec77e8ab6d41cfb49a64d0fcc79d0cb6, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 60d2f971708bc5b4da97339d4396fba6, type: 2}
+  - {fileID: 11400000, guid: 5aacea0952184ee4882f9aaa35c45ebf, type: 2}
+  - {fileID: 11400000, guid: 1fab132f071b53149b9f19560f16acd0, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 4c1f761665724b24eb990a6ecd10a09d, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 3
+  sequenceID: 2
+  totalNeedle: 5
+  needleCenter: {x: 25, y: 15, z: 0}
+  distancePerNeedle: 10
+  needleSpeed: 165
+  delayDespawnNeedle: 1
+  chargeTime: 0
+  delaySpawnTime: 0.13
+  suspendedTime: 0.5
+  needleDelayReleaseTime: 0.34

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba85e6e0b6b7720f5af7be467e0ddf0, type: 3}
+  m_Name: Data-RuleScriptableObject-Rule-Rule
+  m_EditorClassIdentifier:
+  rules:
+  - ruleType: 1
+    amount: 1
+    ruleTitle: rule_event_dice_title
+    ruleDecription: rule_event_dice_description
+    strKey:
+    - item/event_dice_currency1
+    - item/event_dice_currency_reward
+    - event_game/event_dice_chest_title
+    - item/redletter
+  - ruleType: 2
+    amount: 1
+    ruleTitle: rule_event_bossraid_title
+    ruleDecription: rule_event_bossraid_description
+    strKey:
+    - item/ticket_1
+  - ruleType: 3
+    amount: 1
+    ruleTitle: rule_event_bossraid_rank_title
+    ruleDecription: rule_event_bossraid_rank_description
+    strKey:
+    - 
+  - ruleType: 4
+    amount: 1
+    ruleTitle: rule_event_lottery_title
+    ruleDecription: rule_event_lottery_description
+    strKey:
+    - item/event_lottery_currency
+    - item/exchange_currency2
+    - event_game/event_dice_button_shop_exchange
+  - ruleType: 5
+    amount: 1
+    ruleTitle: rule_event_summer_title
+    ruleDecription: rule_event_summer_description
+    strKey:
+    - item/hook
+    - item/exchange_fish_shop
+    - item/excahnge_gold_shop
+    - event_game/event_dice_button_shop_exchange
+    - event_game/atlas
+  - ruleType: 6
+    amount: 1
+    ruleTitle: rule_event_star_title
+    ruleDecription: rule_event_star_description
+    strKey:
+    - 
+  - ruleType: 7
+    amount: 1
+    ruleTitle: rule_event_arena_title
+    ruleDecription: rule_event_arena_description
+    strKey:
+    - 
+  - ruleType: 8
+    amount: 1
+    ruleTitle: rule_event_autumn_title
+    ruleDecription: rule_event_autumn_description
+    strKey:
+    - 

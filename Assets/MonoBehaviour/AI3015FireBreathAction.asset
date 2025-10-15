@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713c4c8e00cd618e1bdebc4d47205511, type: 3}
+  m_Name: AI3015FireBreathAction
+  m_EditorClassIdentifier:
+  guid: 8833abf57a46cb247b2c57fd7316d866
+  Name: AI3015FireBreathAction
+  context: {fileID: 1024250150001371, guid: 1e7bd60effeb0334790755a750844b30, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 4c87be3361878a740a2934d41e1aa474, type: 2}
+  - {fileID: 11400000, guid: 3a254c81c033cea4d988f09592c200fa, type: 2}
+  - {fileID: 11400000, guid: d400dc4af17fece4b8125203a30e5872, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 0de358043d44fe840840330247ccd2b3, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 0.67
+  actionSequenceID: 5
+  activeTime: 2
+  chargedAnimation: 6
+  _changedDuration: 0

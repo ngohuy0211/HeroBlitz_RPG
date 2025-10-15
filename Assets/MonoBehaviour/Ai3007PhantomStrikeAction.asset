@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dde7b8f49ca2d6b3d4cee53ce2785df, type: 3}
+  m_Name: Ai3007PhantomStrikeAction
+  m_EditorClassIdentifier:
+  guid: 3ca5ac9ef8d32d94ba945105c8c5d492
+  Name: Ai3007PhantomStrikeAction
+  context: {fileID: 1167972451715947, guid: 878b67722f0f0d34cb541a66b910722c, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 1c86369c3680dfa4e9ebf5b07340ed63, type: 2}
+  - {fileID: 11400000, guid: 6dc55dbf08206b8498c622327f3227df, type: 2}
+  - {fileID: 11400000, guid: ea1f262aaeb432d41a8a8fb77edb8221, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 72bf1a912a75e6e49a6a140203f6edc4, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  cooldown: 2
+  chargeTime: 0.2

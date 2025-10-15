@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032ba66ce29cd76f8a8fb6a5ecc26d75, type: 3}
+  m_Name: AI3009WallAction
+  m_EditorClassIdentifier:
+  guid: 393cf47f15f2c584ca8f36d7b49ad38b
+  Name: AI3009WallAction
+  context: {fileID: 1014859432381864, guid: 318213d2eff163041b84c46c0b650679, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 8cabd6a5014ae9f43b2abd631b6533e7, type: 2}
+  - {fileID: 11400000, guid: 08649e301f79adc4da8b0b45c22a8ce2, type: 2}
+  - {fileID: 11400000, guid: 2c039fc2356bbaf44a9272659d26ed11, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 312f19e3b178ae34db96db6780f0fd60, type: 2}
+  coolDown: 0.67
+  delayPerSpawn: 0.33
+  sequenceID: 11
+  maxLoopAction: 3
+  wallSlamAnimation: 26
+  _wallSlamDuration: 0

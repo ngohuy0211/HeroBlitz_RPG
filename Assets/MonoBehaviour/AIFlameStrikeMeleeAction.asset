@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa9546cfea412c28b968cdc22458958, type: 3}
+  m_Name: AIFlameStrikeMeleeAction
+  m_EditorClassIdentifier:
+  guid: 56eeb977f16b35945ac6f79133d8b606
+  Name: AIFlameStrikeMeleeAction
+  context: {fileID: 1450538191671771, guid: c34b0413dbc399045b9c87ec231321ca, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 6ea8537dd3124ee4eb484b22a11f9b19, type: 2}
+  - {fileID: 11400000, guid: 427015ea54b827b47bec187b4c9a849a, type: 2}
+  - {fileID: 11400000, guid: ad9f7673f4e23fc44b009923b9f346e1, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: d71442f99d0da2544a6f5253938c95b3, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 0.5
+  actionSequenceID: 9
+  moveStep: 4
+  flameStrikeAnim: 6
+  _flameStrikeAnimDuration: 0
+  moveDuration: 0.05
+  delayAfterHit1: 0.67

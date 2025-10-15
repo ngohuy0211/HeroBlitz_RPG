@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191bfef47275fe2086aebea3c987738b, type: 3}
+  m_Name: AI3014ShootAction
+  m_EditorClassIdentifier:
+  guid: fd5b10fa2c9c12c40a070e11f4dfae45
+  Name: AI3014ShootProjectileAction
+  context: {fileID: 1737566686449841, guid: b5c60485804ac124a89dbf3c4befa540, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 2d2d67660ce5d63408c28d7a221eee89, type: 2}
+  - {fileID: 11400000, guid: b096a90e579c34041944de6157ca30ea, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 476f71a9fa75135448193f3b0ac56657, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 0
+  coolDown: 0.67
+  actionSequenceID: 1
+  selfCoolDown: 6
+  shootTurn: 2
+  delayBeforeShoot: 0.67
+  delayAfterShoot: 1.5
+  _currentTurn: 0
+  _currentShoot: 0
+  shootType: 0
+  ammoAmount: 1
+  delayShootPerBullet: 0.2
+  bulletType: 2
+  activeTime: 6
+  speed: 30
+  beamSpeed: []
+  delayAfterShotPerBeam: []
+  isUsingTimeCharged: 0
+  chargedDuration: 1
+  chargedAnimationTypes: 5
+  shootAnimationTypes: 21
+  _chargedAnimationDuration: 0
+  _shootAnimationDuration: 0
+  _chargedTime: 0

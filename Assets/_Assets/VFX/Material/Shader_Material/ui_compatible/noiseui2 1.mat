@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: noiseui2 1
+  m_Shader: {fileID: 4800000, guid: 06a410f9f21399a4696e436baf186c3b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _BLENDING_MODE_ADP
+  - _PAN_MAIN_TEX_X_OR_Y_CUSTOMDATA_PAN_Y
+  - _PAN_MASK_TEX_X_OR_Y_CUSTOMDATA_PAN_Y
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  - SHADOWCASTER
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DissovleTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Distorsion_Tex_Main_Tex:
+        m_Texture: {fileID: 2800000, guid: b2f881db95234a047a10e7d086e2fd88, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Gradient_Map_Fill_Color:
+        m_Texture: {fileID: 2800000, guid: 0e169e1602afec440a73f1ad6c6eb4f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 350d06888297dce4e9e148f71dcf1692, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: -0.3, y: -0.2}
+      _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 526e3371f26e5db4893eb0bd19e78821, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Mask_for_Dissovle_Trail:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaClip: 0
+      _AlphaToMask: 0
+      _BLENDING_MODE: 1
+      _BUILTIN_AlphaClip: 0
+      _BUILTIN_Blend: 1
+      _BUILTIN_CullMode: 2
+      _BUILTIN_DstBlend: 10
+      _BUILTIN_QueueControl: 0
+      _BUILTIN_QueueOffset: 0
+      _BUILTIN_SrcBlend: 1
+      _BUILTIN_Surface: 1
+      _BUILTIN_ZTest: 4
+      _BUILTIN_ZWrite: 0
+      _BUILTIN_ZWriteControl: 0
+      _Blend: 1
+      _CastShadows: 0
+      _ColorMask: 15
+      _Cull: 0
+      _Dissovle_Edge_Smooth: 0
+      _Dissovle_for_Trail: 0
+      _Distorsion_Value: 0.5
+      _DstBlend: 10
+      _Edge_Color_HDR: 1
+      _Edge_Scale: 0
+      _MAINTEX_ALPHA_ASSET: 0
+      _MAINTEX_ASSET: 0
+      _MainTex_Asset: 0
+      _Maintex_HDR: 1
+      _OffsetUV_dissovle_no_loop: 0
+      _PAN_MAIN_TEX_X_OR_Y: 1
+      _PAN_MASK_TEX_X_OR_Y: 1
+      _Polar_UV_Maintex: 0
+      _QueueControl: 0
+      _QueueOffset: 0
+      _SrcBlend: 1
+      _Stencil: 0
+      _StencilComp: 8
+      _StencilOp: 0
+      _StencilReadMask: 255
+      _StencilWriteMask: 255
+      _Surface: 1
+      _USE_GRADIENT_MAP_FILL_COLOR: 0
+      _Use_Custom_Data_HDR_Edge_Color: 0
+      _Use_Custom_Data_HDR_Main_Tex: 0
+      _Use_Custom_Data_Pan_Main_Tex: 0
+      _Use_Custom_Data_Pan_Mask: 0
+      _Use_Gradient_Map_Fill_Color: 1
+      _ZTest: 4
+      _ZWrite: 0
+      _ZWriteControl: 0
+    m_Colors:
+      _ColorB: {r: 0.57480454, g: 0.15686274, b: 1, a: 1}
+      _ColorW: {r: 0.16509432, g: 0.7447159, b: 1, a: 1}
+      _Edge_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11776ad8b5aaa9bfee696e5a89862e85, type: 3}
+  m_Name: AI2102CoolDownAction
+  m_EditorClassIdentifier:
+  guid: 54dfedf2d78aa204787366990715d498
+  Name: AI2102CoolDownAction
+  context: {fileID: 1030936277575203, guid: f9ae1f7f723ba3746a936289965179d2, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: b5e40a2a08e728e4eac987ab9c006c94, type: 2}
+  - {fileID: 11400000, guid: 86c278d7024d3c94cb32b8eebe7db0d5, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: de278d1bdc6684247bf7613e3bc35e39, type: 2}
+  percentMeleeChance: 30
+  diceValue: 0

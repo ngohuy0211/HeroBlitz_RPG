@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9cb45cde6f9a51b8360a7fbda486603, type: 3}
+  m_Name: AISlamingAction
+  m_EditorClassIdentifier:
+  guid: 3f55c02c33782fb4ab09471dd6accfa9
+  Name: AISlamingAction
+  context: {fileID: 1450538191671771, guid: c34b0413dbc399045b9c87ec231321ca, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: bfb781542f591334ca78ee59e548e6c3, type: 2}
+  - {fileID: 11400000, guid: 93be365589a218a4ba433830b391adf6, type: 2}
+  - {fileID: 11400000, guid: 11b6d7f301eb0384aad6fdcdedb15f59, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 72c4323419e2bc74caa0292cdb462d22, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 0
+  actionSequenceID: 6
+  coolDownToDash: 0
+  thresholdDistance: 20
+  slamAnimation: 5
+  _slamAnimDuration: 0
+  slamDuration: 0.05
+  delayAfterSlamTime: 0.34
+  _isProcess: 0

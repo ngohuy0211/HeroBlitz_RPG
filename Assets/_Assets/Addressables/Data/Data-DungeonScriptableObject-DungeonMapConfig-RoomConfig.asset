@@ -1,0 +1,5088 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: babc87dbfd5843520c12382f899ea061, type: 3}
+  m_Name: Data-DungeonScriptableObject-DungeonMapConfig-RoomConfig
+  m_EditorClassIdentifier:
+  roomConfig:
+  - worldId: 0
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE1_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE1_A2
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE1_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE1_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE1_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE1_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE1_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE1_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE1_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE1_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE1_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE1_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE1_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE1_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE1_A15
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE1_B1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE1_B2
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE1_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE1_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE1_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE1_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE1_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE1_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE1_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE1_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE1_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE1_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE1_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE1_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE1_B15
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DE1_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DE1_BBoss
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DE1_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DE1_Angel_2
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DE1_Start
+  - worldId: 1
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE2_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE2_A2
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE2_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE2_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE2_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE2_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE2_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE2_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE2_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE2_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE2_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE2_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE2_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE2_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE2_A15
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE2_A16
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE2_A17
+    - roomType: 1
+      roomDifficulty: 0
+      worldName: DE2_B1
+    - roomType: 1
+      roomDifficulty: 0
+      worldName: DE2_B2
+    - roomType: 1
+      roomDifficulty: 0
+      worldName: DE2_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE2_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE2_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE2_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE2_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE2_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE2_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE2_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE2_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE2_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE2_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE2_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE2_B15
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DE2_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DE2_BBoss
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DE2_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DE2_Angel_2
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DE2_Start
+  - worldId: 2
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE3_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE3_A2
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE3_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE3_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE3_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE3_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE3_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE3_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE3_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE3_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE3_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE3_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE3_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE3_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE3_A15
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE3_B1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE3_B2
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE3_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE3_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE3_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE3_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE3_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE3_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE3_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE3_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE3_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE3_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE3_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE3_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE3_B15
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DE3_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DE3_Angel_2
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DE3_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DE3_BBoss
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DE3_Start
+  - worldId: 3
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH1_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH1_A2
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH1_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH1_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH1_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH1_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH1_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH1_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH1_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH1_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH1_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH1_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH1_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH1_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH1_A15
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH1_B1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH1_B2
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH1_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH1_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH1_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH1_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH1_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH1_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH1_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH1_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH1_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH1_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH1_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH1_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH1_B15
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DH1_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DH1_Angel_1
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DH1_Start
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DH1_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DH1_BBoss
+  - worldId: 4
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH2_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH2_A2
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH2_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH2_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH2_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH2_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH2_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH2_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH2_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH2_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH2_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH2_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH2_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH2_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH2_A15
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH2_A16
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH2_B1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH2_B2
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH2_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH2_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH2_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH2_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH2_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH2_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH2_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH2_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH2_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH2_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH2_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH2_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH2_B15
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DH2_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DH2_Angel_1
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DH2_Start
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DH2_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DH2_BBoss
+  - worldId: 5
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH3_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH3_A2
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH3_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH3_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH3_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH3_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH3_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH3_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH3_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH3_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH3_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH3_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH3_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH3_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH3_A15
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH3_B1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH3_B2
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH3_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH3_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH3_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH3_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH3_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH3_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH3_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH3_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH3_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH3_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH3_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH3_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH3_B15
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DH3_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DH3_Angel_1
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DH3_Start
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DH3_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DH3_BBoss
+  - worldId: 6
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE4_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE4_A2
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE4_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE4_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE4_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE4_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE4_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE4_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE4_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE4_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE4_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE4_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE4_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE4_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE4_A15
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE4_B1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE4_B2
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE4_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE4_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE4_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE4_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE4_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE4_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE4_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE4_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE4_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE4_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE4_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE4_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE4_B15
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DE4_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DE4_BBoss
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DE4_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DE4_Angel_2
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DE4_Start
+  - worldId: 7
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE5_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE5_A2
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE5_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE5_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE5_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE5_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE5_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE5_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE5_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE5_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE5_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE5_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE5_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE5_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE5_A15
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE5_A16
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE5_A17
+    - roomType: 1
+      roomDifficulty: 0
+      worldName: DE5_B1
+    - roomType: 1
+      roomDifficulty: 0
+      worldName: DE5_B2
+    - roomType: 1
+      roomDifficulty: 0
+      worldName: DE5_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE5_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE5_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE5_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE5_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE5_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE5_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE5_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE5_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE5_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE5_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE5_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE5_B15
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DE5_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DE5_BBoss
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DE5_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DE5_Angel_2
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DE5_Start
+  - worldId: 8
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE6_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE6_A2
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE6_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE6_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE6_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE6_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE6_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE6_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE6_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE6_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE6_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE6_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE6_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE6_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE6_A15
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE6_B1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE6_B2
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE6_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE6_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE6_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE6_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE6_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE6_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE6_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE6_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE6_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE6_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE6_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE6_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE6_B15
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DE6_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DE6_Angel_2
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DE6_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DE6_BBoss
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DE6_Start
+  - worldId: 9
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE7_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE7_A2
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DE7_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE7_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE7_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE7_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE7_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE7_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE7_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE7_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE7_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE7_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE7_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DE7_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DE7_A15
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE7_B1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE7_B2
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE7_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE7_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE7_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE7_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE7_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE7_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE7_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE7_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE7_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE7_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE7_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DE7_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DE7_B15
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DE7_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DE7_Angel_2
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DE7_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DE7_BBoss
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DE7_Start
+  - worldId: 10
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH4_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH4_A2
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH4_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH4_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH4_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH4_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH4_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH4_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH4_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH4_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH4_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH4_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH4_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH4_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH4_A15
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH4_B1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH4_B2
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH4_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH4_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH4_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH4_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH4_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH4_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH4_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH4_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH4_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH4_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH4_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH4_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH4_B15
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DH4_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DH4_Angel_1
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DH4_Start
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DH4_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DH4_BBoss
+  - worldId: 11
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH5_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH5_A2
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH5_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH5_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH5_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH5_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH5_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH5_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH5_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH5_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH5_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH5_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH5_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH5_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH5_A15
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH5_A16
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH5_B1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH5_B2
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH5_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH5_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH5_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH5_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH5_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH5_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH5_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH5_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH5_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH5_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH5_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH5_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH5_B15
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DH5_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DH5_Angel_1
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DH5_Start
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DH5_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DH5_BBoss
+  - worldId: 12
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH6_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH6_A2
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH6_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH6_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH6_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH6_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH6_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH6_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH6_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH6_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH6_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH6_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH6_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH6_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH6_A15
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH6_B1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH6_B2
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH6_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH6_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH6_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH6_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH6_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH6_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH6_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH6_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH6_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH6_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH6_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH6_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH6_B15
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DH6_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DH6_Angel_1
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DH6_Start
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DH6_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DH6_BBoss
+  - worldId: 13
+    rooms:
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH7_A1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH7_A2
+    - roomType: 0
+      roomDifficulty: 0
+      worldName: DH7_A3
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH7_A4
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH7_A5
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH7_A6
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH7_A7
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH7_A8
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH7_A9
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH7_A10
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH7_A11
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH7_A12
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH7_A13
+    - roomType: 0
+      roomDifficulty: 1
+      worldName: DH7_A14
+    - roomType: 0
+      roomDifficulty: 3
+      worldName: DH7_A15
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH7_B1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH7_B2
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH7_B3
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH7_B4
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH7_B5
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH7_B6
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH7_B7
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH7_B8
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH7_B9
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH7_B10
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH7_B11
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH7_B12
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH7_B13
+    - roomType: 1
+      roomDifficulty: 1
+      worldName: DH7_B14
+    - roomType: 1
+      roomDifficulty: 3
+      worldName: DH7_B15
+    - roomType: 3
+      roomDifficulty: 0
+      worldName: DH7_Angel
+    - roomType: 3
+      roomDifficulty: 1
+      worldName: DH7_Angel_1
+    - roomType: 4
+      roomDifficulty: 0
+      worldName: DH7_Start
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: DH7_ABoss
+    - roomType: 1
+      roomDifficulty: 2
+      worldName: DH7_BBoss
+  dungeonDatas:
+  - worldId: 0
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 200
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  - worldId: 1
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 200
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  - worldId: 2
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 350
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  - worldId: 3
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 200
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  - worldId: 4
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 350
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  - worldId: 5
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 200
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  - worldId: 6
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 200
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  - worldId: 7
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 200
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  - worldId: 8
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 350
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  - worldId: 9
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 350
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  - worldId: 10
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 200
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  - worldId: 11
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 350
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  - worldId: 12
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 200
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  - worldId: 13
+    rooms:
+    - roomType: 4
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 80
+      enemyDamageIncreaseRate: 30
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 3
+      roomDifficulty: 0
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 0
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 0
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 150
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 0
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 110
+      enemyDamageIncreaseRate: 50
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 3
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 1
+      worldName:
+      rewardExp: 60
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 1
+    - roomType: 1
+      roomDifficulty: 3
+      worldName:
+      rewardExp: 80
+      enemyHpIncreaseRate: 140
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 45
+      coinMax: 55
+      canGachaBox: 1
+      gemMax: 0
+    - roomType: 1
+      roomDifficulty: 2
+      worldName:
+      rewardExp: 0
+      enemyHpIncreaseRate: 200
+      enemyDamageIncreaseRate: 80
+      accountExp: 22
+      coinMin: 750
+      coinMax: 1000
+      canGachaBox: 1
+      gemMax: 1
+  GachaWorld:
+  - worldId: 0
+    gachaWrapperId: 11002
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 0
+    gachaWrapperId: 11002
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 0
+    gachaWrapperId: 11003
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 0
+    gachaWrapperId: 11004
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  - worldId: 1
+    gachaWrapperId: 11005
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 1
+    gachaWrapperId: 11005
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 1
+    gachaWrapperId: 11006
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 1
+    gachaWrapperId: 11007
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  - worldId: 2
+    gachaWrapperId: 11008
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 2
+    gachaWrapperId: 11008
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 2
+    gachaWrapperId: 11009
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 2
+    gachaWrapperId: 11010
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  - worldId: 3
+    gachaWrapperId: 20000
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 3
+    gachaWrapperId: 20000
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 3
+    gachaWrapperId: 20001
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 3
+    gachaWrapperId: 20001
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  - worldId: 4
+    gachaWrapperId: 21000
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 4
+    gachaWrapperId: 21000
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 4
+    gachaWrapperId: 21001
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 4
+    gachaWrapperId: 21001
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  - worldId: 5
+    gachaWrapperId: 22000
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 5
+    gachaWrapperId: 22000
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 5
+    gachaWrapperId: 22001
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 5
+    gachaWrapperId: 22001
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  - worldId: 6
+    gachaWrapperId: 11011
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 6
+    gachaWrapperId: 11011
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 6
+    gachaWrapperId: 11012
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 6
+    gachaWrapperId: 11013
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  - worldId: 7
+    gachaWrapperId: 11014
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 7
+    gachaWrapperId: 11014
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 7
+    gachaWrapperId: 11015
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 7
+    gachaWrapperId: 11016
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  - worldId: 8
+    gachaWrapperId: 11017
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 8
+    gachaWrapperId: 11017
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 8
+    gachaWrapperId: 11018
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 8
+    gachaWrapperId: 11019
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  - worldId: 9
+    gachaWrapperId: 11020
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 9
+    gachaWrapperId: 11020
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 9
+    gachaWrapperId: 11021
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 9
+    gachaWrapperId: 11022
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  - worldId: 10
+    gachaWrapperId: 11023
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 10
+    gachaWrapperId: 11023
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 10
+    gachaWrapperId: 11024
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 10
+    gachaWrapperId: 11024
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  - worldId: 11
+    gachaWrapperId: 11025
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 11
+    gachaWrapperId: 11025
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 11
+    gachaWrapperId: 11026
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 11
+    gachaWrapperId: 11026
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  - worldId: 12
+    gachaWrapperId: 11027
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 12
+    gachaWrapperId: 11027
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 12
+    gachaWrapperId: 11028
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 12
+    gachaWrapperId: 11028
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  - worldId: 13
+    gachaWrapperId: 20000
+    minCount: 5
+    maxCount: 8
+    difficulty: 0
+  - worldId: 13
+    gachaWrapperId: 20000
+    minCount: 5
+    maxCount: 12
+    difficulty: 1
+  - worldId: 13
+    gachaWrapperId: 20001
+    minCount: 5
+    maxCount: 15
+    difficulty: 2
+  - worldId: 13
+    gachaWrapperId: 20001
+    minCount: 5
+    maxCount: 18
+    difficulty: 3
+  statEnemyDifficulty:
+  - difficulty: 0
+    enemyHpIncreaseRate: 0
+    enemyDamageIncreaseRate: 0
+  - difficulty: 1
+    enemyHpIncreaseRate: 600
+    enemyDamageIncreaseRate: 600
+  - difficulty: 2
+    enemyHpIncreaseRate: 1700
+    enemyDamageIncreaseRate: 1700
+  - difficulty: 3
+    enemyHpIncreaseRate: 3000
+    enemyDamageIncreaseRate: 3000

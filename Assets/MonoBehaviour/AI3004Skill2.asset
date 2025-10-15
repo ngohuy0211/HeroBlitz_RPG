@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f1c5da72f7f03368233239500e935e, type: 3}
+  m_Name: AI3004Skill2
+  m_EditorClassIdentifier:
+  guid: c98aa0ba1d03d466883523ae11055568
+  Name: AI3004Skill2
+  context: {fileID: 1717618674109131, guid: 392560914ad7adc49a47f75aa970bd09, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 7f4c2bd8f4c7cab4aa3887d092429c8b, type: 2}
+  - {fileID: 11400000, guid: 0ca2a3af9c9a567448e57e16b18a973b, type: 2}
+  - {fileID: 11400000, guid: 429d7b9df26037e44945248c69b42030, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: de1510c7bb5540243bab236ba59a7e6f, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  height: 40
+  cooldown: 0
+  actionSequenceId: 2

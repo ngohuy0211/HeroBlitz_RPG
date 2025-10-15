@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: effc1d7db5b70b9f1ea9dfc1ce41b793, type: 3}
+  m_Name: AI3021TeleportAction
+  m_EditorClassIdentifier:
+  guid: a8da1d7b70e86fc4eb4897347607c1de
+  Name: AI3021TeleportAction
+  context: {fileID: 1164423381550473, guid: 373eeed8d10a38c4a8071e6a9ee7a09a, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 0d1221b301c01094db33cb85e38a50db, type: 2}
+  - {fileID: 11400000, guid: ee06d1a97d2f4e84a844e1cb08eb4725, type: 2}
+  - {fileID: 11400000, guid: 50ad7d814cc88ff48a56ea4a28f4ef85, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: de278d1bdc6684247bf7613e3bc35e39, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 0
+  coolDown: 0.67
+  skillType: 3
+  teleportOption:
+    optionTeleport: 3
+    distanceFromTarget: {x: 0, y: 20}
+    isOppositeTarget: 0

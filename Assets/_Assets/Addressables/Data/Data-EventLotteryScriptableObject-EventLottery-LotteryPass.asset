@@ -1,0 +1,376 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 059d8d237dfcf0e21b9fcedbe1d12178, type: 3}
+  m_Name: Data-EventLotteryScriptableObject-EventLottery-LotteryPass
+  m_EditorClassIdentifier:
+  boxs:
+  - itemId: 0
+    reward:
+      id: -2
+      quantity: 5
+      itemType: 12
+      branchType: 0
+      promote: 0
+    rate: 1
+  - itemId: 1
+    reward:
+      id: 0
+      quantity: 50
+      itemType: 30
+      branchType: 0
+      promote: 0
+    rate: 10
+  - itemId: 2
+    reward:
+      id: 0
+      quantity: 150
+      itemType: 30
+      branchType: 0
+      promote: 0
+    rate: 5
+  - itemId: 3
+    reward:
+      id: 23
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+    rate: 10
+  - itemId: 4
+    reward:
+      id: 0
+      quantity: 100
+      itemType: 30
+      branchType: 0
+      promote: 0
+    rate: 8
+  - itemId: 5
+    reward:
+      id: 0
+      quantity: 50
+      itemType: 0
+      branchType: 0
+      promote: 0
+    rate: 10
+  - itemId: 6
+    reward:
+      id: 0
+      quantity: 300
+      itemType: 30
+      branchType: 0
+      promote: 0
+    rate: 2
+  - itemId: 7
+    reward:
+      id: 0
+      quantity: 2500
+      itemType: 1
+      branchType: 0
+      promote: 0
+    rate: 15
+  - itemId: 8
+    reward:
+      id: 0
+      quantity: 300
+      itemType: 30
+      branchType: 0
+      promote: 0
+    rate: 2
+  - itemId: 9
+    reward:
+      id: 7
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+    rate: 10
+  boxs1:
+  - itemId: 0
+    reward:
+      id: 13
+      quantity: 5
+      itemType: 18
+      branchType: 0
+      promote: 0
+    rate: 1
+  - itemId: 1
+    reward:
+      id: 0
+      quantity: 50
+      itemType: 30
+      branchType: 0
+      promote: 0
+    rate: 10
+  - itemId: 2
+    reward:
+      id: 0
+      quantity: 150
+      itemType: 30
+      branchType: 0
+      promote: 0
+    rate: 5
+  - itemId: 3
+    reward:
+      id: 23
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+    rate: 10
+  - itemId: 4
+    reward:
+      id: 0
+      quantity: 100
+      itemType: 30
+      branchType: 0
+      promote: 0
+    rate: 8
+  - itemId: 5
+    reward:
+      id: 0
+      quantity: 50
+      itemType: 0
+      branchType: 0
+      promote: 0
+    rate: 10
+  - itemId: 6
+    reward:
+      id: 0
+      quantity: 300
+      itemType: 30
+      branchType: 0
+      promote: 0
+    rate: 2
+  - itemId: 7
+    reward:
+      id: 0
+      quantity: 2500
+      itemType: 1
+      branchType: 0
+      promote: 0
+    rate: 15
+  - itemId: 8
+    reward:
+      id: 0
+      quantity: 300
+      itemType: 30
+      branchType: 0
+      promote: 0
+    rate: 2
+  - itemId: 9
+    reward:
+      id: 7
+      quantity: 1
+      itemType: 9
+      branchType: 0
+      promote: 0
+    rate: 10
+  exchangeItem:
+  - exchangeItemId: 0
+    limit: 50
+    spentAmount: 900
+    rewards:
+    - id: 5
+      quantity: 5
+      itemType: 12
+      branchType: 0
+      promote: 0
+  - exchangeItemId: 1
+    limit: 50
+    spentAmount: 900
+    rewards:
+    - id: 7
+      quantity: 5
+      itemType: 12
+      branchType: 0
+      promote: 0
+  - exchangeItemId: 2
+    limit: 1
+    spentAmount: 12000
+    rewards:
+    - id: 40005
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - exchangeItemId: 3
+    limit: 1
+    spentAmount: 8000
+    rewards:
+    - id: 41023
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - exchangeItemId: 4
+    limit: 1
+    spentAmount: 8000
+    rewards:
+    - id: 42024
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - exchangeItemId: 5
+    limit: 1
+    spentAmount: 8000
+    rewards:
+    - id: 43025
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - exchangeItemId: 6
+    limit: 1
+    spentAmount: 8000
+    rewards:
+    - id: 44026
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - exchangeItemId: 7
+    limit: 1
+    spentAmount: 8000
+    rewards:
+    - id: 45004
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - exchangeItemId: 8
+    limit: 99
+    spentAmount: 1200
+    rewards:
+    - id: 2
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+  exchangeItem1:
+  - exchangeItemId: 0
+    limit: 50
+    spentAmount: 900
+    rewards:
+    - id: 5
+      quantity: 3
+      itemType: 31
+      branchType: 0
+      promote: 0
+  - exchangeItemId: 1
+    limit: 50
+    spentAmount: 900
+    rewards:
+    - id: 6
+      quantity: 3
+      itemType: 12
+      branchType: 0
+      promote: 0
+  - exchangeItemId: 2
+    limit: 1
+    spentAmount: 12000
+    rewards:
+    - id: 40003
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - exchangeItemId: 3
+    limit: 1
+    spentAmount: 8000
+    rewards:
+    - id: 41011
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - exchangeItemId: 4
+    limit: 1
+    spentAmount: 8000
+    rewards:
+    - id: 42018
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - exchangeItemId: 5
+    limit: 1
+    spentAmount: 8000
+    rewards:
+    - id: 43019
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - exchangeItemId: 6
+    limit: 1
+    spentAmount: 8000
+    rewards:
+    - id: 44023
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - exchangeItemId: 7
+    limit: 1
+    spentAmount: 8000
+    rewards:
+    - id: 45005
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - exchangeItemId: 8
+    limit: 10
+    spentAmount: 1200
+    rewards:
+    - id: 2
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+  continous:
+  - point: 50
+    rewards:
+    - id: -2
+      quantity: 5
+      itemType: 12
+      branchType: 0
+      promote: 0
+  - point: 100
+    rewards:
+    - id: 1
+      quantity: 2
+      itemType: 22
+      branchType: 3
+      promote: 0
+  - point: 150
+    rewards:
+    - id: 0
+      quantity: 2
+      itemType: 22
+      branchType: 3
+      promote: 0
+  - point: 200
+    rewards:
+    - id: 26
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+  - point: 250
+    rewards:
+    - id: 27
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0

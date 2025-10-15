@@ -1,0 +1,5788 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0968da01c06be8c9084d65cfa7125f, type: 3}
+  m_Name: Data-ShopScriptableObject-Shop-Gem
+  m_EditorClassIdentifier:
+  gems:
+  - productId: sr.raw.gem.1
+    price: 0.99
+    rewards:
+    - id: 0
+      quantity: 80
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 80
+      itemType: 0
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: 9153095118853504ba3145225e75c8a9, type: 2}
+  - productId: sr.raw.gem.2
+    price: 4.99
+    rewards:
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: 712a722256d4eb34783cb0e4c2da27e4, type: 2}
+  - productId: sr.raw.gem.3
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: 07f5c940f41c2944a9d6429edf382ff9, type: 2}
+  - productId: sr.raw.gem.4
+    price: 19.99
+    rewards:
+    - id: 0
+      quantity: 2500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 2500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: 468f6f57377afb94095bbd94d883dfd5, type: 2}
+  - productId: sr.raw.gem.5
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: 1822b8bdd2b734640909322b5f738a28, type: 2}
+  - productId: sr.raw.gem.6
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: 1822b8bdd2b734640909322b5f738a28, type: 2}
+  - productId: sr.revive_gem_1
+    price: 0.99
+    rewards:
+    - id: 0
+      quantity: 80
+      itemType: 0
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: 9153095118853504ba3145225e75c8a9, type: 2}
+  - productId: sr.revive_gem_2
+    price: 4.99
+    rewards:
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: 712a722256d4eb34783cb0e4c2da27e4, type: 2}
+  coins:
+  - productId: raw.coin.1
+    price: 60
+    rewards:
+    - id: 0
+      quantity: 1500
+      itemType: 1
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: 3ba33eadd1c3f1e4db07e62b96079ddf, type: 2}
+  - productId: raw.coin.2
+    price: 200
+    rewards:
+    - id: 0
+      quantity: 5000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: 20d08bea0db24554ca9cad7120726e77, type: 2}
+  - productId: raw.coin.3
+    price: 500
+    rewards:
+    - id: 0
+      quantity: 13000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: d649fbaaca81e0741a430a6163d0f8c2, type: 2}
+  - productId: raw.coin.4
+    price: 1000
+    rewards:
+    - id: 0
+      quantity: 30000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: c3918ef14b6beb742b357f720da13f69, type: 2}
+  - productId: raw.coin.5
+    price: 4000
+    rewards:
+    - id: 0
+      quantity: 130000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: 60d94f4f3e2fd514885c7a18d5b8f1c0, type: 2}
+  - productId: raw.coin.6
+    price: 12000
+    rewards:
+    - id: 0
+      quantity: 400000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    icon: {fileID: 21300000, guid: 60d94f4f3e2fd514885c7a18d5b8f1c0, type: 2}
+  bundle:
+  - productId: sr.starter_pack_1
+    price: 4.99
+    rewards:
+    - id: 1
+      quantity: 10
+      itemType: 12
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 20
+      itemType: 10
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 400
+    slotShow: -1
+    repeatAfter: 259200
+    availableDuration: 172800
+    durationShowPopup: 7200
+    priority: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 1000
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 1209600
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 1
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 43b5aff0427af6d40bbe336fddce438d, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.starter_pack_1
+    prefabBestDealName: bestdeal.sr.starter_pack_1
+    iconBundleNameMenu: sr.starter_pack_1
+  - productId: sr.starter_pack_2
+    price: 2.99
+    rewards:
+    - id: 40003
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 0
+      quantity: 10
+      itemType: 5
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 2000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 400
+    slotShow: -1
+    repeatAfter: 259200
+    availableDuration: 172800
+    durationShowPopup: 7200
+    priority: 2
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 1000
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 1209600
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 2
+    indextextTile: 3
+    background: {fileID: 21300000, guid: ebfc8d104f93c9a4f8df1f9df24fe21c, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.starter_pack_2
+    prefabBestDealName: bestdeal.sr.starter_pack_2
+    iconBundleNameMenu: sr.starter_pack_2
+  - productId: sr.starter_pack_3
+    price: 0.99
+    rewards:
+    - id: 0
+      quantity: 300
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 300
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 300
+      itemType: 0
+      branchType: 0
+      promote: 0
+    profit: 900
+    slotShow: -1
+    repeatAfter: 259200
+    availableDuration: 172800
+    durationShowPopup: 14400
+    priority: 3
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 1000
+      conditionValue2: 28
+    exitCondition:
+      exitConditionType: 0
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 3
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 3db7563bd15b10f42be3d46e04688907, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.starter_pack_3
+    prefabBestDealName: bestdeal.sr.starter_pack_3
+    iconBundleNameMenu: sr.starter_pack_3
+  - productId: sr.world_pack_1
+    price: 1.99
+    rewards:
+    - id: 0
+      quantity: 300
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 30
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1300
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 0
+    durationShowPopup: 0
+    priority: 4
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 0
+      conditionValue2: 0
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 4
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1e6fb7ea8d41c0b4cb23c0f558e8def4, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.world_pack_1
+    prefabBestDealName: bestdeal.sr.world_pack_1
+    iconBundleNameMenu: sr.world_pack_1
+  - productId: sr.world_pack_2
+    price: 2.99
+    rewards:
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 5
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1300
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 0
+    durationShowPopup: 0
+    priority: 6
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 2
+      conditionValue2: 29
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 5
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1c950a641194f0a45a225abae2853b5f, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.world_pack_2
+    prefabBestDealName: bestdeal.sr.world_pack_2
+    iconBundleNameMenu: sr.world_pack_2
+  - productId: sr.world_pack_3
+    price: 4.99
+    rewards:
+    - id: 0
+      quantity: 800
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 8
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 40
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1300
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 0
+    durationShowPopup: 0
+    priority: 7
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 3
+      conditionValue2: 29
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 6
+    indextextTile: 1
+    background: {fileID: 21300000, guid: e8f36e0a87c508544b0f52068c71e447, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.world_pack_3
+    prefabBestDealName: bestdeal.sr.world_pack_3
+    iconBundleNameMenu: sr.world_pack_3
+  - productId: sr.world_pack_4
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 20
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 10000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1300
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 0
+    durationShowPopup: 0
+    priority: 8
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 4
+      conditionValue2: 11
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 7
+    indextextTile: 1
+    background: {fileID: 21300000, guid: e8f36e0a87c508544b0f52068c71e447, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.world_pack_4
+    prefabBestDealName: bestdeal.sr.world_pack_4
+    iconBundleNameMenu: sr.world_pack_3
+  - productId: sr.world_pack_5
+    price: 19.99
+    rewards:
+    - id: 0
+      quantity: 2500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 35
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 20
+      itemType: 13
+      branchType: 0
+      promote: 0
+    profit: 1300
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 0
+    durationShowPopup: 0
+    priority: 9
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 5
+      conditionValue2: 29
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 8
+    indextextTile: 1
+    background: {fileID: 21300000, guid: e8f36e0a87c508544b0f52068c71e447, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.world_pack_5
+    prefabBestDealName: bestdeal.sr.world_pack_5
+    iconBundleNameMenu: sr.world_pack_3
+  - productId: sr.world_pack_6
+    price: 29.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 50
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 10000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 40
+      itemType: 13
+      branchType: 0
+      promote: 0
+    profit: 1300
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 0
+    durationShowPopup: 0
+    priority: 10
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 6
+      conditionValue2: 7
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 9
+    indextextTile: 1
+    background: {fileID: 21300000, guid: e8f36e0a87c508544b0f52068c71e447, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.world_pack_6
+    prefabBestDealName: bestdeal.sr.world_pack_6
+    iconBundleNameMenu: sr.world_pack_3
+  - productId: sr.world_pack_7
+    price: 39.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 16
+      quantity: 4
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 17
+      quantity: 4
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 18
+      quantity: 2
+      itemType: 18
+      branchType: 0
+      promote: 0
+    profit: 1300
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 0
+    durationShowPopup: 0
+    priority: 11
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 7
+      conditionValue2: 29
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 10
+    indextextTile: 1
+    background: {fileID: 21300000, guid: e8f36e0a87c508544b0f52068c71e447, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.world_pack_7
+    prefabBestDealName: bestdeal.sr.world_pack_7
+    iconBundleNameMenu: sr.world_pack_3
+  - productId: sr.basic_sword_upgrade_pack_1
+    price: 9.99
+    rewards:
+    - id: 40000
+      quantity: 3
+      itemType: 4
+      branchType: 1
+      promote: 0
+    - id: 0
+      quantity: 100
+      itemType: 5
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 50000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 800
+    slotShow: -1
+    repeatAfter: 259200
+    availableDuration: 172800
+    durationShowPopup: 0
+    priority: 8
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 1000
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 10
+      exitConditionValue1: 18
+      exitConditionValue2:
+    exitConditionBougth: 0
+    shopCategory: 0
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1e6fb7ea8d41c0b4cb23c0f558e8def4, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.basic_sword_upgrade_pack_1
+    prefabBestDealName: bestdeal.sr.basic_sword_upgrade_pack_1
+    iconBundleNameMenu: sr.basic_sword_upgrade_pack_1
+  - productId: sr.armor_upgrade_pack_1
+    price: 19.99
+    rewards:
+    - id: 41007
+      quantity: 2
+      itemType: 4
+      branchType: 2
+      promote: 0
+    - id: 1
+      quantity: 250
+      itemType: 5
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 70000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 800
+    slotShow: -1
+    repeatAfter: 259200
+    availableDuration: 172800
+    durationShowPopup: 0
+    priority: 9
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 1000
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 11
+      exitConditionValue1: 38
+      exitConditionValue2:
+    exitConditionBougth: 0
+    shopCategory: 0
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1e6fb7ea8d41c0b4cb23c0f558e8def4, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.armor_upgrade_pack_1
+    prefabBestDealName: bestdeal.sr.armor_upgrade_pack_1
+    iconBundleNameMenu: sr.armor_upgrade_pack_1
+  - productId: sr.dagger_upgrade_pack_1
+    price: 9.99
+    rewards:
+    - id: 40001
+      quantity: 3
+      itemType: 4
+      branchType: 1
+      promote: 0
+    - id: 0
+      quantity: 100
+      itemType: 5
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 50000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 800
+    slotShow: -1
+    repeatAfter: 259200
+    availableDuration: 172800
+    durationShowPopup: 0
+    priority: 10
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 1000
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 12
+      exitConditionValue1: 18
+      exitConditionValue2:
+    exitConditionBougth: 0
+    shopCategory: 0
+    indextextTile: 2
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.dagger_upgrade_pack_1
+    prefabBestDealName: bestdeal.sr.dagger_upgrade_pack_1
+    iconBundleNameMenu: sr.dagger_upgrade_pack_1
+  - productId: sr.katana_upgrade_pack_1
+    price: 9.99
+    rewards:
+    - id: 40003
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 0
+      quantity: 60
+      itemType: 5
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 2500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    profit: 1500
+    slotShow: -1
+    repeatAfter: 259200
+    availableDuration: 10800
+    durationShowPopup: 9999999999999
+    priority: 11
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 40003;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 1209600
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 2
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.katana_upgrade_pack_1
+    prefabBestDealName: bestdeal.sr.katana_upgrade_pack_1
+    iconBundleNameMenu: sr.katana_upgrade_pack_1
+  - productId: sr.katana_upgrade_pack_2
+    price: 9.99
+    rewards:
+    - id: 6
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 6
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 6
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 2500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    profit: 2300
+    slotShow: -1
+    repeatAfter: 259200
+    availableDuration: 10800
+    durationShowPopup: 9999999999999
+    priority: 12
+    availableCondition:
+      conditionType: 15
+      conditionValue1: sr.katana_upgrade_pack_1
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 1209600
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 2
+    background: {fileID: 21300000, guid: 75acf319028ecab48a11fc69662da2bc, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.katana_upgrade_pack_2
+    prefabBestDealName: bestdeal.sr.katana_upgrade_pack_2
+    iconBundleNameMenu: sr.katana_upgrade_pack_2
+  - productId: sr.flash_sale_life_1
+    price: 0.99
+    rewards:
+    - id: 0
+      quantity: 10
+      itemType: 15
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 172800
+    availableDuration: 7200
+    durationShowPopup: 0
+    priority: 13
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 1000
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 0
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 0
+    shopCategory: 0
+    indextextTile: -1
+    background: {fileID: 21300000, guid: eb13b5da2f6ee26408e1bb23b945b774, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.flash_sale_life_1
+    prefabBestDealName: bestdeal.sr.flash_sale_life_1
+    iconBundleNameMenu: sr.flash_sale_life_1
+  - productId: sr.hero_test_pack_1
+    price: 29.99
+    rewards:
+    - id: 6
+      quantity: 60
+      itemType: 12
+      branchType: 0
+      promote: 0
+    - id: 5
+      quantity: 100
+      itemType: 10
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    profit: 1200
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 14
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 0
+      conditionValue2: 29
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 86400
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: -1
+    background: {fileID: 21300000, guid: eb13b5da2f6ee26408e1bb23b945b774, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.hero_test_pack_1
+    prefabBestDealName: bestdeal.sr.hero_test_pack_1
+    iconBundleNameMenu: sr.hero_test_pack_1
+  - productId: sr.hero_test_pack_2
+    price: 49.99
+    rewards:
+    - id: -2
+      quantity: 60
+      itemType: 12
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 500
+      itemType: 14
+      branchType: 0
+      promote: 0
+    profit: 1900
+    slotShow: -1
+    repeatAfter: 172800
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 15
+    availableCondition:
+      conditionType: 2
+      conditionValue1: 6
+      conditionValue2: 9
+    exitCondition:
+      exitConditionType: 0
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: -1
+    background: {fileID: 21300000, guid: eb13b5da2f6ee26408e1bb23b945b774, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.hero_test_pack_2
+    prefabBestDealName: bestdeal.sr.hero_test_pack_2
+    iconBundleNameMenu: sr.hero_test_pack_2
+  - productId: sr.hero_test_pack_3
+    price: 19.99
+    rewards:
+    - id: 0
+      quantity: 50
+      itemType: 11
+      branchType: 0
+      promote: 0
+    profit: 400
+    slotShow: -1
+    repeatAfter: 172800
+    availableDuration: 43200
+    durationShowPopup: 0
+    priority: 16
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 999
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 0
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: eb13b5da2f6ee26408e1bb23b945b774, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.hero_test_pack_3
+    prefabBestDealName: bestdeal.sr.hero_test_pack_3
+    iconBundleNameMenu: sr.hero_test_pack_3
+  - productId: sr.skipads
+    price: 9.99
+    rewards:
+    - id: 1
+      quantity: 1
+      itemType: 16
+      branchType: 311040000
+      promote: 0
+    profit: 0
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 0
+    durationShowPopup: 9999999999999
+    priority: 17
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 2
+    background: {fileID: 21300000, guid: 3f7b1aae3e64d6d4da8de0690ee26691, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.skipads
+    prefabBestDealName: bestdeal.sr.skipads
+    iconBundleNameMenu: sr.skipads
+  - productId: sr.knuckle.1
+    price: 19.99
+    rewards:
+    - id: 40005
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 0
+      quantity: 6600
+      itemType: 0
+      branchType: 0
+      promote: 0
+    profit:
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 18000
+    durationShowPopup: 9999999999999
+    priority: 18
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 999
+      conditionValue2: 29
+    exitCondition:
+      exitConditionType: 6
+      exitConditionValue1: 5
+      exitConditionValue2: 11
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: 0
+    prefabBundleName: sr.knuckle.1
+    prefabBestDealName: bestdeal.sr.knuckle.1
+    iconBundleNameMenu: sr.knuckle.1
+  - productId: sr.world3.support
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 50
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1100
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 21600
+    durationShowPopup: 9999999999999
+    priority: 19
+    availableCondition:
+      conditionType: 16
+      conditionValue1: 2
+      conditionValue2: 1
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: 0
+    prefabBundleName: sr.world3.support
+    prefabBestDealName: bestdeal.world3.support
+    iconBundleNameMenu: bestdeal.world3.support
+  - productId: sr.world4.support
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 15
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 50
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1100
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 21600
+    durationShowPopup: 9999999999999
+    priority: 20
+    availableCondition:
+      conditionType: 16
+      conditionValue1: 3
+      conditionValue2: 1
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: 0
+    prefabBundleName: sr.world4.support
+    prefabBestDealName: bestdeal.sr.world4.support
+    iconBundleNameMenu: bestdeal.sr.world4.support
+  - productId: sr.keygold.offer.1
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+    profit: 700
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 21
+    availableCondition:
+      conditionType: 21
+      conditionValue1: 5
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: 0
+    prefabBundleName: sr.keygold.offer.1
+    prefabBestDealName: bestdeal.sr.keygold.offer.1
+    iconBundleNameMenu: bestdeal.sr.keygold.offer.1
+  - productId: sr.keygold.offer.2
+    price: 19.99
+    rewards:
+    - id: 0
+      quantity: 2500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 50
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 20
+      itemType: 13
+      branchType: 0
+      promote: 0
+    profit: 700
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 22
+    availableCondition:
+      conditionType: 21
+      conditionValue1: 20
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: 0
+    prefabBundleName: sr.keygold.offer.2
+    prefabBestDealName: bestdeal.sr.keygold.offer.1
+    iconBundleNameMenu: bestdeal.sr.keygold.offer.1
+  - productId: sr.keygold.offer.3
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 40
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 1
+      itemType: 22
+      branchType: 4
+      promote: 0
+    profit: 700
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 23
+    availableCondition:
+      conditionType: 21
+      conditionValue1: 25
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.keygold.offer.3
+    prefabBestDealName: bestdeal.sr.keygold.offer.1
+    iconBundleNameMenu: bestdeal.sr.keygold.offer.1
+  - productId: sr.keyhero.offer.1
+    price: 19.99
+    rewards:
+    - id: 0
+      quantity: 2500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 4
+      quantity: 20
+      itemType: 13
+      branchType: 0
+      promote: 0
+    profit: 700
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 24
+    availableCondition:
+      conditionType: 19
+      conditionValue1: 5
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.keyhero.offer.1
+    prefabBestDealName: bestdeal.sr.keyhero.offer.1
+    iconBundleNameMenu: bestdeal.sr.keyhero.offer.1
+  - productId: sr.keyhero.offer.2
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 4
+      quantity: 40
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: -2
+      quantity: 20
+      itemType: 12
+      branchType: 0
+      promote: 0
+    profit: 700
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 25
+    availableCondition:
+      conditionType: 19
+      conditionValue1: 15
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.keyhero.offer.2
+    prefabBestDealName: bestdeal.sr.keyhero.offer.1
+    iconBundleNameMenu: bestdeal.sr.keyhero.offer.1
+  - productId: sr.flashsale.w2
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+    profit: 1100
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 26
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 1
+      conditionValue2: 29
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.flashsale.w2
+    prefabBestDealName: bestdeal.sr.flashsale.w2
+    iconBundleNameMenu: bestdeal.sr.flashsale.w2
+  - productId: sr.flashsale.w3
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 20
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 25
+      itemType: 13
+      branchType: 0
+      promote: 0
+    profit: 1100
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 27
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 2
+      conditionValue2: 10
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.flashsale.w3
+    prefabBestDealName: bestdeal.sr.flashsale.w3
+    iconBundleNameMenu: bestdeal.sr.flashsale.w3
+  - productId: sr.flashsale.w4
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 2500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 20
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 40
+      itemType: 13
+      branchType: 0
+      promote: 0
+    profit: 1100
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 28
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 3
+      conditionValue2: 29
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.flashsale.w4
+    prefabBestDealName: bestdeal.sr.flashsale.w4
+    iconBundleNameMenu: bestdeal.sr.flashsale.w4
+  - productId: sr.fuse.weapon.epic1
+    price: 19.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 3
+      itemType: 22
+      branchType: 3
+      promote: 0
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 2800
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 29
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 999
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.weapon.epic1
+    prefabBestDealName: bestdeal.sr.fuse.weapon.epic1
+    iconBundleNameMenu: bestdeal.sr.fuse.weapon.epic1
+  - productId: sr.fuse.basicsword.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 40000
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 30
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 40000;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.basicsword.legend
+    prefabBestDealName: bestdeal.sr.fuse.basicsword.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.basicsword.legend
+  - productId: sr.fuse.dualdagger.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 40001
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 31
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 40001;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.dualdagger.legend
+    prefabBestDealName: bestdeal.sr.fuse.dualdagger.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.dualdagger.legend
+  - productId: sr.fuse.heavyhammer.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 40002
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 32
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 40002;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.heavyhammer.legend
+    prefabBestDealName: bestdeal.sr.fuse.heavyhammer.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.heavyhammer.legend
+  - productId: sr.fuse.spear.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 40004
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 33
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 40004;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.spear.legend
+    prefabBestDealName: bestdeal.sr.fuse.spear.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.spear.legend
+  - productId: sr.fuse.katana.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 40003
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 34
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 40003;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.katana.legend
+    prefabBestDealName: bestdeal.sr.fuse.katana.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.katana.legend
+  - productId: sr.fuse.knuckle.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 40005
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 35
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 40005;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.knuckle.legend
+    prefabBestDealName: bestdeal.sr.fuse.knuckle.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.knuckle.legend
+  - productId: sr.fuse.equipment.epic1
+    price: 19.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 1
+      quantity: 3
+      itemType: 22
+      branchType: 3
+      promote: 0
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 2600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 36
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 999
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.equipment.epic1
+    prefabBestDealName: bestdeal.sr.fuse.equipment.epic1
+    iconBundleNameMenu: bestdeal.sr.fuse.equipment.epic1
+  - productId: sr.fuse.glove_dmgtoflying.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 42011
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 37
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 42011;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.glove_dmgtoflying.legend
+    prefabBestDealName: bestdeal.sr.fuse.glove_dmgtoflying.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.glove_dmgtoflying.legend
+  - productId: sr.fuse.glove_dmgtoground.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 42012
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 38
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 42012;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.glove_dmgtoground.legend
+    prefabBestDealName: bestdeal.sr.fuse.glove_dmgtoground.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.glove_dmgtoground.legend
+  - productId: sr.fuse.glove_dmgtoranged.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 42013
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 39
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 42013;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.glove_dmgtoranged.legend
+    prefabBestDealName: bestdeal.sr.fuse.glove_dmgtoranged.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.glove_dmgtoranged.legend
+  - productId: sr.fuse.glove_dmgtomelee.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 42014
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 40
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 42014;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.glove_dmgtomelee.legend
+    prefabBestDealName: bestdeal.sr.fuse.glove_dmgtomelee.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.glove_dmgtomelee.legend
+  - productId: sr.fuse.orb_goldbonus.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 44019
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 42
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 44019;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.orb_goldbonus.legend
+    prefabBestDealName: bestdeal.sr.fuse.orb_goldbonus.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.orb_goldbonus.legend
+  - productId: sr.fuse.orb_expbonus.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 44020
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 43
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 44020;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.orb_expbonus.legend
+    prefabBestDealName: bestdeal.sr.fuse.orb_expbonus.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.orb_expbonus.legend
+  - productId: sr.fuse.orb_heal.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 44021
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 44
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 44021;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.orb_heal.legend
+    prefabBestDealName: bestdeal.sr.fuse.orb_heal.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.orb_heal.legend
+  - productId: sr.fuse.orb_elemental.legend
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 44022
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 2
+    - id: 0
+      quantity: 45000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1600
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 43200
+    durationShowPopup: 9999999999999
+    priority: 45
+    availableCondition:
+      conditionType: 14
+      conditionValue1: 44022;3;2
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.fuse.orb_elemental.legend
+    prefabBestDealName: bestdeal.sr.fuse.orb_elemental.legend
+    iconBundleNameMenu: bestdeal.sr.fuse.orb_elemental.legend
+  - productId: sr.world2.support
+    price: 4.99
+    rewards:
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 20
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    profit: 1100
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 21600
+    durationShowPopup: 9999999999999
+    priority: 46
+    availableCondition:
+      conditionType: 16
+      conditionValue1: 1
+      conditionValue2: 1
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 0
+    background: {fileID: 21300000, guid: 4baaf583671010546b2b09fc62732036, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.world2.support
+    prefabBestDealName: bestdeal.sr.world2.support
+    iconBundleNameMenu: bestdeal.sr.world2.support
+  - productId: sr.tower.boost.100.9.99
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 2000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 20
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 2
+    profit:
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 21600
+    durationShowPopup: 9999999999999
+    priority: 47
+    availableCondition:
+      conditionType: 27
+      conditionValue1: 10
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1e6fb7ea8d41c0b4cb23c0f558e8def4, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.tower.boost.100.9.99
+    prefabBestDealName: bestdeal.sr.world_pack_1
+    iconBundleNameMenu: sr.world_pack_1
+  - productId: sr.tower.boost.200.49.99
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 10000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 200
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 40
+      itemType: 13
+      branchType: 0
+      promote: 2
+    profit:
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 21600
+    durationShowPopup: 9999999999999
+    priority: 48
+    availableCondition:
+      conditionType: 27
+      conditionValue1: 20
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1e6fb7ea8d41c0b4cb23c0f558e8def4, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.tower.boost.200.49.99
+    prefabBestDealName: bestdeal.sr.world_pack_1
+    iconBundleNameMenu: sr.world_pack_1
+  - productId: sr.tower.boost.250.49.99
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 10000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 200
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 40
+      itemType: 13
+      branchType: 0
+      promote: 2
+    profit: 1100
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 21600
+    durationShowPopup: 9999999999999
+    priority: 49
+    availableCondition:
+      conditionType: 27
+      conditionValue1: 25
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1e6fb7ea8d41c0b4cb23c0f558e8def4, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.tower.boost.250.49.99
+    prefabBestDealName: bestdeal.sr.world_pack_1
+    iconBundleNameMenu: sr.world_pack_1
+  - productId: sr.tower.boost.300.99.99
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 16
+      quantity: 8
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 17
+      quantity: 8
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 18
+      quantity: 4
+      itemType: 18
+      branchType: 0
+      promote: 0
+    profit: 1100
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 21600
+    durationShowPopup: 9999999999999
+    priority: 50
+    availableCondition:
+      conditionType: 27
+      conditionValue1: 30
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1e6fb7ea8d41c0b4cb23c0f558e8def4, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.tower.boost.300.99.99
+    prefabBestDealName: bestdeal.sr.world_pack_1
+    iconBundleNameMenu: sr.world_pack_1
+  - productId: sr.tower.boost.400.99.99
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 16
+      quantity: 8
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 17
+      quantity: 8
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 18
+      quantity: 4
+      itemType: 18
+      branchType: 0
+      promote: 0
+    profit: 1100
+    slotShow: -1
+    repeatAfter: 86400
+    availableDuration: 21600
+    durationShowPopup: 9999999999999
+    priority: 51
+    availableCondition:
+      conditionType: 27
+      conditionValue1: 40
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 5
+      exitConditionValue1: 604800
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1e6fb7ea8d41c0b4cb23c0f558e8def4, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.tower.boost.400.99.99
+    prefabBestDealName: bestdeal.sr.world_pack_1
+    iconBundleNameMenu: sr.world_pack_1
+  - productId: sr.world_pack_8.49.99
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: -1
+      quantity: 50
+      itemType: 12
+      branchType: 0
+      promote: 0
+    profit: 1100
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 0
+    durationShowPopup: 0
+    priority: 52
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 8
+      conditionValue2: 12
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 11
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1e6fb7ea8d41c0b4cb23c0f558e8def4, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.world_pack_1
+    prefabBestDealName: bestdeal.sr.world_pack_8
+    iconBundleNameMenu: sr.world_pack_1
+  - productId: sr.world_pack_9.49.99
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 20
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 80
+      itemType: 13
+      branchType: 0
+      promote: 0
+    profit: 1100
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 0
+    durationShowPopup: 0
+    priority: 53
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 9
+      conditionValue2: 8
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 5
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1e6fb7ea8d41c0b4cb23c0f558e8def4, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.world_pack_1
+    prefabBestDealName: bestdeal.sr.world_pack_9
+    iconBundleNameMenu: sr.world_pack_1
+  - productId: sr.world_pack_10.99.99
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 50
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 24
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+    profit: 1100
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 0
+    durationShowPopup: 0
+    priority: 54
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 10
+      conditionValue2: 19
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 5
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1e6fb7ea8d41c0b4cb23c0f558e8def4, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.world_pack_1
+    prefabBestDealName: bestdeal.sr.world_pack_10
+    iconBundleNameMenu: sr.world_pack_1
+  - productId: sr.world_pack_11.99.99
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 50
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 24
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+    profit: 1100
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 0
+    durationShowPopup: 0
+    priority: 55
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 11
+      conditionValue2: 20
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 5
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1e6fb7ea8d41c0b4cb23c0f558e8def4, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.world_pack_1
+    prefabBestDealName: bestdeal.sr.world_pack_11
+    iconBundleNameMenu: sr.world_pack_1
+  - productId: sr.energy.4.99
+    price: 4.99
+    rewards:
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 50
+      itemType: 2
+      branchType: 0
+      promote: 0
+    profit: 300
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 14400
+    durationShowPopup: 9999999999999
+    priority: 56
+    availableCondition:
+      conditionType: 28
+      conditionValue1: 5
+      conditionValue2:
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 0
+    indextextTile: 1
+    background: {fileID: 21300000, guid: 1e6fb7ea8d41c0b4cb23c0f558e8def4, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 1
+    bundleGroup: 0
+    prefabBundleName: sr.energy.4.99
+    prefabBestDealName: bestdeal.sr.world_pack_1
+    iconBundleNameMenu: sr.world_pack_1
+  - productId: sr.world_pack_survival_1_2.99
+    price: 2.99
+    rewards:
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 5
+      itemType: 13
+      branchType: 0
+      promote: 0
+    profit: 1300
+    slotShow: -1
+    repeatAfter: 0
+    availableDuration: 0
+    durationShowPopup: 0
+    priority: 5
+    availableCondition:
+      conditionType: 6
+      conditionValue1: 1
+      conditionValue2: 29
+    exitCondition:
+      exitConditionType: 4
+      exitConditionValue1:
+      exitConditionValue2:
+    exitConditionBougth: 1
+    shopCategory: 5
+    indextextTile: 1
+    background: {fileID: 21300000, guid: bd4b0e7bcf9eb4d46b1f04c46f4d6e21, type: 2}
+    icon:
+    loop: 0
+    loopAfter: 0
+    showPopupFirstTrigger: 0
+    bundleGroup: -1
+    prefabBundleName: sr.world_pack_survival_1
+    prefabBestDealName: bestdeal.world_pack_survival_1
+    iconBundleNameMenu: icon_world_pack_survival_1
+  offer:
+  - productId: sr.daily_offer0
+    price: 0
+    rewards:
+    - id: 0
+      quantity: 10
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 100
+      itemType: 1
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 0
+    profit:
+    duration: 86400
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.daily_offer1
+    price: 0.99
+    rewards:
+    - id: 0
+      quantity: 80
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 15
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 4500
+      itemType: 1
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 0
+    profit: 400
+    duration: 86400
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.daily_offer2
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 1
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5
+      itemType: 13
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 0
+    profit: 400
+    duration: 86400
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.daily_offer3
+    price: 19.99
+    rewards:
+    - id: 0
+      quantity: 2500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 20
+      itemType: 14
+      branchType: 0
+      promote: 0
+    - id: 3
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 0
+    profit: 400
+    duration: 86400
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.daily_offer4
+    price: 24.99
+    rewards:
+    - id: 0
+      quantity: 3300
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: -1
+      quantity: 50
+      itemType: 10
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 50
+      itemType: 11
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 0
+    profit: 400
+    duration: 86400
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.daily_offer5
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 3
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: -2
+      quantity: 50
+      itemType: 12
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 0
+    profit: 400
+    duration: 86400
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.weely_offer0
+    price: 0
+    rewards:
+    - id: 0
+      quantity: 20
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 200
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 2
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 1
+    profit:
+    duration: 604800
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.weely_offer1
+    price: 4.99
+    rewards:
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 10000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 90
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 1
+    profit: 800
+    duration: 604800
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.weekly_offer2
+    price: 24.99
+    rewards:
+    - id: 0
+      quantity: 3300
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 20000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 20
+      itemType: 13
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 1
+    profit: 800
+    duration: 604800
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.weekly_offer3
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 20
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 30
+      itemType: 13
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 1
+    profit: 800
+    duration: 604800
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.weekly_offer4
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: -1
+      quantity: 20
+      itemType: 10
+      branchType: 0
+      promote: 0
+    - id: 4
+      quantity: 30
+      itemType: 13
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 1
+    profit: 800
+    duration: 604800
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.weekly_offer5
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 24000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: -1
+      quantity: 50
+      itemType: 10
+      branchType: 0
+      promote: 0
+    - id: -1
+      quantity: 30
+      itemType: 12
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 1
+    profit: 800
+    duration: 604800
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.monthly_offer0
+    price: 0
+    rewards:
+    - id: 0
+      quantity: 30
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 300
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 2
+    profit:
+    duration: 2592000
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.monthly_offer1
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 50000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 200
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 2
+    profit: 1000
+    duration: 2592000
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.monthly_offer2
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 20
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: -2
+      quantity: 50
+      itemType: 12
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 2
+    profit: 1000
+    duration: 2592000
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.monthly_offer3
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 4
+      quantity: 15
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 22
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 2
+    profit: 1000
+    duration: 2592000
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.monthly_offer4
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 24
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 0
+    category: 2
+    profit: 1000
+    duration: 2592000
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  - productId: sr.monthly_offer5
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 1
+      quantity: 1
+      itemType: 22
+      branchType: 4
+      promote: 0
+    - id: 0
+      quantity: 1
+      itemType: 22
+      branchType: 4
+      promote: 0
+    offer: 0
+    category: 2
+    profit: 1000
+    duration: 2592000
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 3
+      conditionValue2:
+  common:
+  - productId: sr.battlepass.ss1
+    price: 0.99
+    rewards:
+    - id: 0
+      quantity: 0
+      itemType: 0
+      branchType: 0
+      promote: 0
+  - productId: sr.battlepass.ss1.premium
+    price: 4.99
+    rewards:
+    - id: 0
+      quantity: 0
+      itemType: 0
+      branchType: 0
+      promote: 0
+  premiumCards:
+  - productId: sr.ticket.quickhunt
+    price: 4.99
+  - productId: sr.ticket.dungeon
+    price: 4.99
+  - productId: sr.ticket.dungeon.forever
+    price: 14.99
+  - productId: sr.ticket.bossraid
+    price: 4.99
+  - productId: sr.ticket.goldmine
+    price: 4.99
+  rune_Offer:
+  - productId: sr.daily.rune.offer0
+    price: 0
+    rewards:
+    - id: 0
+      quantity: 10
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 1000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 0
+    profit:
+    duration: 86400
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.daily.rune.offer1
+    price: 4.99
+    rewards:
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 5
+      itemType: 13
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 0
+    profit: 400
+    duration: 86400
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.daily.rune.offer2
+    price: 19.99
+    rewards:
+    - id: 0
+      quantity: 2500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 20
+      itemType: 13
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 0
+    profit: 400
+    duration: 86400
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.daily.rune.offer3
+    price: 29.99
+    rewards:
+    - id: 0
+      quantity: 3900
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 15
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 16
+      quantity: 2
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 0
+    profit: 400
+    duration: 86400
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.daily.rune.offer4
+    price: 29.99
+    rewards:
+    - id: 0
+      quantity: 3900
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 15
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 17
+      quantity: 2
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 0
+    profit: 400
+    duration: 86400
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.daily.rune.offer5
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 30
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 18
+      quantity: 2
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 0
+    profit: 400
+    duration: 86400
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.weely.rune.offer0
+    price: 0
+    rewards:
+    - id: 0
+      quantity: 10
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 10
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 2000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 1
+    profit:
+    duration: 604800
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.weely.rune.offer1
+    price: 4.99
+    rewards:
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 6
+      itemType: 13
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 1
+    profit: 500
+    duration: 604800
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.weekly.rune.offer2
+    price: 24.99
+    rewards:
+    - id: 0
+      quantity: 3300
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 30
+      itemType: 13
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 1
+    profit: 500
+    duration: 604800
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.weekly.rune.offer3
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 30
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 16
+      quantity: 4
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 1
+    profit: 500
+    duration: 604800
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.weekly.rune.offer4
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 30
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 17
+      quantity: 4
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 1
+    profit: 500
+    duration: 604800
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.weekly.rune.offer5
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 40
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 18
+      quantity: 6
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 1
+    profit: 500
+    duration: 604800
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.monthly.rune.offer0
+    price: 0
+    rewards:
+    - id: 0
+      quantity: 10
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 15
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 3000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 2
+    profit:
+    duration: 2592000
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.monthly.rune.offer1
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 15
+      itemType: 13
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 2
+    profit: 600
+    duration: 2592000
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.monthly.rune.offer2
+    price: 29.99
+    rewards:
+    - id: 0
+      quantity: 3900
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 40
+      itemType: 13
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 2
+    profit: 600
+    duration: 2592000
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.monthly.rune.offer3
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 25
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 16
+      quantity: 6
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 2
+    profit: 600
+    duration: 2592000
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.monthly.rune.offer4
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 25
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 17
+      quantity: 6
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 2
+    profit: 600
+    duration: 2592000
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  - productId: sr.monthly.rune.offer5
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 35
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 18
+      quantity: 8
+      itemType: 18
+      branchType: 0
+      promote: 0
+    offer: 1
+    category: 2
+    profit: 600
+    duration: 2592000
+    limit: 1
+    availableCondition:
+      conditionType: 1
+      conditionValue1: 8
+      conditionValue2:
+  eventDice:
+  - productId: event.dice.pack.free
+    price: 0
+    rewards:
+    - id: 0
+      quantity: 20
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 500
+      itemType: 1
+      branchType: 0
+      promote: 0
+    bundleId: 0
+    rewardType: 0
+    limit: 1
+    profit: 0
+    saleOff: 0
+    timeReset: 86400
+  - productId: event.dice.pack.ads
+    price: 0
+    rewards:
+    - id: 0
+      quantity: 1
+      itemType: 29
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 800
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 3
+      itemType: 18
+      branchType: 0
+      promote: 0
+    bundleId: 1
+    rewardType: 1
+    limit: 1
+    profit: 0
+    saleOff: 0
+    timeReset: 86400
+  - productId: event.dice.pack.gem
+    price: 750
+    rewards:
+    - id: 0
+      quantity: 5
+      itemType: 29
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 1000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5
+      itemType: 18
+      branchType: 0
+      promote: 0
+    bundleId: 2
+    rewardType: 3
+    limit: 1
+    profit: 0
+    saleOff: 0
+    timeReset: 86400
+  - productId: sr.event.dice.pack.0.99
+    price: 0.99
+    rewards:
+    - id: 0
+      quantity: 5
+      itemType: 29
+      branchType: 0
+      promote: 0
+    bundleId: 3
+    rewardType: 2
+    limit: 1
+    profit: 0
+    saleOff: 50
+    timeReset: 1209600
+  - productId: sr.event.dice.pack.4.99
+    price: 4.99
+    rewards:
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 10
+      itemType: 29
+      branchType: 0
+      promote: 0
+    bundleId: 4
+    rewardType: 2
+    limit: 1
+    profit: 200
+    saleOff: 0
+    timeReset: 1209600
+  - productId: sr.event.dice.pack.9.99
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 20
+      itemType: 29
+      branchType: 0
+      promote: 0
+    bundleId: 5
+    rewardType: 2
+    limit: 1
+    profit: 200
+    saleOff: 0
+    timeReset: 1209600
+  - productId: sr.event.dice.pack.24.99
+    price: 24.99
+    rewards:
+    - id: 0
+      quantity: 3300
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 50
+      itemType: 29
+      branchType: 0
+      promote: 0
+    bundleId: 6
+    rewardType: 2
+    limit: 99
+    profit: 200
+    saleOff: 0
+    timeReset: 1209600
+  - productId: sr.event.dice.pack.49.99
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 100
+      itemType: 29
+      branchType: 0
+      promote: 0
+    bundleId: 7
+    rewardType: 2
+    limit: 99
+    profit: 200
+    saleOff: 0
+    timeReset: 1209600
+  - productId: sr.event.dice.pack.99.99
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 200
+      itemType: 29
+      branchType: 0
+      promote: 0
+    bundleId: 8
+    rewardType: 2
+    limit: 99
+    profit: 200
+    saleOff: 0
+    timeReset: 1209600
+  eventLottery:
+  - productId: sr.event.lottery.pack.free
+    price: 0
+    rewards:
+    - id: 0
+      quantity: 20
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 500
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 2
+      itemType: 18
+      branchType: 0
+      promote: 0
+    bundleId: 0
+    rewardType: 0
+    limit: 1
+    profit: 0
+    saleOff: 0
+    timeReset: 86400
+  - productId: sr.event.lottery.pack.ad
+    price: 0
+    rewards:
+    - id: 0
+      quantity: 1
+      itemType: 31
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 800
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 2
+      itemType: 18
+      branchType: 0
+      promote: 0
+    bundleId: 1
+    rewardType: 1
+    limit: 1
+    profit: 0
+    saleOff: 0
+    timeReset: 86400
+  - productId: sr.event.lottery.pack.gem
+    price: 3000
+    rewards:
+    - id: 0
+      quantity: 10
+      itemType: 31
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 1000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5
+      itemType: 18
+      branchType: 0
+      promote: 0
+    bundleId: 2
+    rewardType: 3
+    limit: 1
+    profit: 0
+    saleOff: 0
+    timeReset: 86400
+  - productId: sr.event.lottery.pack.4.99
+    price: 4.99
+    rewards:
+    - id: 0
+      quantity: 8
+      itemType: 31
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 1200
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 5
+      itemType: 18
+      branchType: 0
+      promote: 0
+    bundleId: 3
+    rewardType: 2
+    limit: 1
+    profit: 700
+    saleOff: 0
+    timeReset: 1209600
+  - productId: sr.event.lottery.pack.9.99
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 16
+      itemType: 31
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 2400
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 10
+      itemType: 18
+      branchType: 0
+      promote: 0
+    bundleId: 4
+    rewardType: 2
+    limit: 1
+    profit: 700
+    saleOff: 0
+    timeReset: 1209600
+  - productId: sr.event.lottery.pack.14.99
+    price: 14.99
+    rewards:
+    - id: 0
+      quantity: 24
+      itemType: 31
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 3600
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 15
+      itemType: 18
+      branchType: 0
+      promote: 0
+    bundleId: 5
+    rewardType: 2
+    limit: 99
+    profit: 700
+    saleOff: 0
+    timeReset: 1209600
+  - productId: sr.event.lottery.pack.24.99
+    price: 24.99
+    rewards:
+    - id: 0
+      quantity: 35
+      itemType: 31
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 6000
+      itemType: 1
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 25
+      itemType: 18
+      branchType: 0
+      promote: 0
+    bundleId: 6
+    rewardType: 2
+    limit: 99
+    profit: 700
+    saleOff: 0
+    timeReset: 1209600
+  - productId: sr.event.lottery.pack.49.99
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 50
+      itemType: 31
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 50
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 50
+      itemType: 13
+      branchType: 0
+      promote: 0
+    bundleId: 7
+    rewardType: 2
+    limit: 99
+    profit: 1000
+    saleOff: 0
+    timeReset: 1209600
+  - productId: sr.event.lottery.pack.99.99
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 31
+      branchType: 0
+      promote: 0
+    - id: -1
+      quantity: 30
+      itemType: 12
+      branchType: 0
+      promote: 0
+    - id: -2
+      quantity: 50
+      itemType: 12
+      branchType: 0
+      promote: 0
+    bundleId: 8
+    rewardType: 2
+    limit: 99
+    profit: 1500
+    saleOff: 0
+    timeReset: 1209600
+  eventSummer:
+  - productId: sr.event.fish.pack.4.99
+    price: 4.99
+    rewards:
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 20
+      itemType: 33
+      branchType: 0
+      promote: 0
+    bundleId: 0
+    rewardType: 2
+    limit: 30
+    profit: 0
+    saleOff: 700
+    timeReset: 1209600
+  - productId: sr.event.fish.pack.9.99
+    price: 9.99
+    rewards:
+    - id: 0
+      quantity: 1200
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 38
+      itemType: 33
+      branchType: 0
+      promote: 0
+    bundleId: 1
+    rewardType: 2
+    limit: 30
+    profit: 0
+    saleOff: 700
+    timeReset: 1209600
+  - productId: sr.event.fish.pack.24.99
+    price: 24.99
+    rewards:
+    - id: 0
+      quantity: 3900
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 90
+      itemType: 33
+      branchType: 0
+      promote: 0
+    bundleId: 2
+    rewardType: 2
+    limit: 30
+    profit: 0
+    saleOff: 700
+    timeReset: 1209600
+  - productId: sr.event.fish.pack.49.99
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 120
+      itemType: 33
+      branchType: 0
+      promote: 0
+    - id: 18
+      quantity: 2
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 7
+      quantity: 50
+      itemType: 13
+      branchType: 0
+      promote: 0
+    bundleId: 3
+    rewardType: 2
+    limit: 5
+    profit: 0
+    saleOff: 1000
+    timeReset: 1209600
+  - productId: sr.event.fish.pack.99.99
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 240
+      itemType: 33
+      branchType: 0
+      promote: 0
+    - id: 24
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+    - id: 2
+      quantity: 40
+      itemType: 13
+      branchType: 0
+      promote: 0
+    bundleId: 4
+    rewardType: 2
+    limit: 5
+    profit: 0
+    saleOff: 1000
+    timeReset: 1209600
+  eventAutumn:
+  - productId: sr.event.midautumn.1
+    price: 0
+    rewards:
+    - id: 0
+      quantity: 2
+      itemType: 45
+      branchType: 0
+      promote: 0
+    bundleId: 0
+    rewardType: 1
+    limit: 2
+    profit: 0
+    saleOff: 0
+    timeReset: 86400
+  - productId: sr.event.midautumn.2
+    price: 0.99
+    rewards:
+    - id: 0
+      quantity: 6
+      itemType: 45
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 80
+      itemType: 0
+      branchType: 0
+      promote: 0
+    bundleId: 1
+    rewardType: 2
+    limit: 5
+    profit: 0
+    saleOff: 0
+    timeReset: 1209600
+  - productId: sr.event.midautumn.3
+    price: 4.99
+    rewards:
+    - id: 0
+      quantity: 15
+      itemType: 45
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    bundleId: 2
+    rewardType: 2
+    limit: 5
+    profit: 0
+    saleOff: 0
+    timeReset: 1209600
+  - productId: sr.event.midautumn.4
+    price: 29.99
+    rewards:
+    - id: 0
+      quantity: 60
+      itemType: 45
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 3800
+      itemType: 0
+      branchType: 0
+      promote: 0
+    bundleId: 3
+    rewardType: 2
+    limit: 5
+    profit: 0
+    saleOff: 0
+    timeReset: 1209600
+  - productId: sr.event.midautumn.5
+    price: 49.99
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 45
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 6500
+      itemType: 0
+      branchType: 0
+      promote: 0
+    bundleId: 4
+    rewardType: 2
+    limit: 5
+    profit: 0
+    saleOff: 0
+    timeReset: 1209600
+  - productId: sr.event.midautumn.6
+    price: 99.99
+    rewards:
+    - id: 0
+      quantity: 200
+      itemType: 45
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 14000
+      itemType: 0
+      branchType: 0
+      promote: 0
+    bundleId: 5
+    rewardType: 2
+    limit: 5
+    profit: 0
+    saleOff: 0
+    timeReset: 1209600
+  eventStar:
+  - Event: 0
+    Configs:
+      productId: sr.event.star.hero.pack.free
+      price: 0
+      rewards:
+      - id: 0
+        quantity: 20
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 500
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 0
+      rewardType: 0
+      limit: 1
+      profit: 0
+      saleOff: 0
+      timeReset: 86400
+  - Event: 0
+    Configs:
+      productId: sr.event.star.hero.pack.ad
+      price: 0
+      rewards:
+      - id: 0
+        quantity: 1
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 800
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 1
+      rewardType: 1
+      limit: 1
+      profit: 0
+      saleOff: 0
+      timeReset: 86400
+  - Event: 0
+    Configs:
+      productId: sr.event.star.hero.pack.gem
+      price: 3000
+      rewards:
+      - id: 0
+        quantity: 10
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 1000
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 2
+      rewardType: 3
+      limit: 1
+      profit: 0
+      saleOff: 0
+      timeReset: 86400
+  - Event: 0
+    Configs:
+      productId: sr.event.star.hero.pack.4.99
+      price: 4.99
+      rewards:
+      - id: 0
+        quantity: 8
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 1200
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 3
+      rewardType: 2
+      limit: 1
+      profit: 0
+      saleOff: 700
+      timeReset: 1209600
+  - Event: 0
+    Configs:
+      productId: sr.event.star.hero.pack.9.99
+      price: 9.99
+      rewards:
+      - id: 0
+        quantity: 16
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 2400
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 10
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 4
+      rewardType: 2
+      limit: 1
+      profit: 0
+      saleOff: 700
+      timeReset: 1209600
+  - Event: 0
+    Configs:
+      productId: sr.event.star.hero.pack.14.99
+      price: 14.99
+      rewards:
+      - id: 0
+        quantity: 24
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 3600
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 15
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 5
+      rewardType: 2
+      limit: 99
+      profit: 0
+      saleOff: 700
+      timeReset: 1209600
+  - Event: 0
+    Configs:
+      productId: sr.event.star.hero.pack.24.99
+      price: 24.99
+      rewards:
+      - id: 0
+        quantity: 35
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 6000
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 25
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 6
+      rewardType: 2
+      limit: 99
+      profit: 0
+      saleOff: 700
+      timeReset: 1209600
+  - Event: 0
+    Configs:
+      productId: sr.event.star.hero.pack.49.99
+      price: 49.99
+      rewards:
+      - id: 0
+        quantity: 50
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 2
+        quantity: 50
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 50
+        itemType: 13
+        branchType: 0
+        promote: 0
+      bundleId: 7
+      rewardType: 2
+      limit: 99
+      profit: 0
+      saleOff: 1000
+      timeReset: 1209600
+  - Event: 0
+    Configs:
+      productId: sr.event.star.hero.pack.99.99
+      price: 99.99
+      rewards:
+      - id: 0
+        quantity: 100
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: -1
+        quantity: 30
+        itemType: 12
+        branchType: 0
+        promote: 0
+      - id: -2
+        quantity: 50
+        itemType: 12
+        branchType: 0
+        promote: 0
+      bundleId: 8
+      rewardType: 2
+      limit: 99
+      profit: 0
+      saleOff: 1500
+      timeReset: 1209600
+  - Event: 1
+    Configs:
+      productId: sr.event.star.equipment.pack.free
+      price: 0
+      rewards:
+      - id: 0
+        quantity: 20
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 500
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 0
+      rewardType: 0
+      limit: 1
+      profit: 0
+      saleOff: 0
+      timeReset: 86400
+  - Event: 1
+    Configs:
+      productId: sr.event.star.equipment.pack.ad
+      price: 0
+      rewards:
+      - id: 0
+        quantity: 1
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 800
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 1
+      rewardType: 1
+      limit: 1
+      profit: 0
+      saleOff: 0
+      timeReset: 86400
+  - Event: 1
+    Configs:
+      productId: sr.event.star.equipment.pack.gem
+      price: 3000
+      rewards:
+      - id: 0
+        quantity: 10
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 1000
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 2
+      rewardType: 3
+      limit: 1
+      profit: 0
+      saleOff: 0
+      timeReset: 86400
+  - Event: 1
+    Configs:
+      productId: sr.event.star.equipment.pack.4.99
+      price: 4.99
+      rewards:
+      - id: 0
+        quantity: 8
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 1200
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 3
+      rewardType: 2
+      limit: 1
+      profit: 0
+      saleOff: 700
+      timeReset: 1209600
+  - Event: 1
+    Configs:
+      productId: sr.event.star.equipment.pack.9.99
+      price: 9.99
+      rewards:
+      - id: 0
+        quantity: 16
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 2400
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 10
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 4
+      rewardType: 2
+      limit: 1
+      profit: 0
+      saleOff: 700
+      timeReset: 1209600
+  - Event: 1
+    Configs:
+      productId: sr.event.star.equipment.pack.14.99
+      price: 14.99
+      rewards:
+      - id: 0
+        quantity: 24
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 3600
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 15
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 5
+      rewardType: 2
+      limit: 99
+      profit: 0
+      saleOff: 700
+      timeReset: 1209600
+  - Event: 1
+    Configs:
+      productId: sr.event.star.equipment.pack.24.99
+      price: 24.99
+      rewards:
+      - id: 0
+        quantity: 35
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 6000
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 25
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 6
+      rewardType: 2
+      limit: 99
+      profit: 0
+      saleOff: 700
+      timeReset: 1209600
+  - Event: 1
+    Configs:
+      productId: sr.event.star.equipment.pack.49.99
+      price: 49.99
+      rewards:
+      - id: 0
+        quantity: 50
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 2
+        quantity: 50
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 50
+        itemType: 13
+        branchType: 0
+        promote: 0
+      bundleId: 7
+      rewardType: 2
+      limit: 99
+      profit: 0
+      saleOff: 1000
+      timeReset: 1209600
+  - Event: 1
+    Configs:
+      productId: sr.event.star.equipment.pack.99.99
+      price: 99.99
+      rewards:
+      - id: 0
+        quantity: 100
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: -1
+        quantity: 30
+        itemType: 12
+        branchType: 0
+        promote: 0
+      - id: -2
+        quantity: 50
+        itemType: 12
+        branchType: 0
+        promote: 0
+      bundleId: 8
+      rewardType: 2
+      limit: 99
+      profit: 0
+      saleOff: 1500
+      timeReset: 1209600
+  - Event: 2
+    Configs:
+      productId: sr.event.star.rune.pack.free
+      price: 0
+      rewards:
+      - id: 0
+        quantity: 20
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 500
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 0
+      rewardType: 0
+      limit: 1
+      profit: 0
+      saleOff: 0
+      timeReset: 604800
+  - Event: 2
+    Configs:
+      productId: sr.event.star.rune.pack.ads
+      price: 0
+      rewards:
+      - id: 0
+        quantity: 1
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 800
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 1
+      rewardType: 1
+      limit: 1
+      profit: 0
+      saleOff: 0
+      timeReset: 604800
+  - Event: 2
+    Configs:
+      productId: sr.event.star.rune.pack.gem
+      price: 3000
+      rewards:
+      - id: 0
+        quantity: 10
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 1000
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 2
+      rewardType: 3
+      limit: 1
+      profit: 0
+      saleOff: 0
+      timeReset: 604800
+  - Event: 2
+    Configs:
+      productId: sr.event.star.rune.pack.4.99
+      price: 4.99
+      rewards:
+      - id: 0
+        quantity: 8
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 1200
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 3
+      rewardType: 2
+      limit: 1
+      profit: 0
+      saleOff: 700
+      timeReset: 604800
+  - Event: 2
+    Configs:
+      productId: sr.event.star.rune.pack.9.99
+      price: 9.99
+      rewards:
+      - id: 0
+        quantity: 16
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 2400
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 10
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 4
+      rewardType: 2
+      limit: 1
+      profit: 0
+      saleOff: 700
+      timeReset: 604800
+  - Event: 2
+    Configs:
+      productId: sr.event.star.rune.pack.14.99
+      price: 14.99
+      rewards:
+      - id: 0
+        quantity: 24
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 3600
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 15
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 5
+      rewardType: 2
+      limit: 99
+      profit: 0
+      saleOff: 700
+      timeReset: 604800
+  - Event: 2
+    Configs:
+      productId: sr.event.star.rune.pack.24.99
+      price: 24.99
+      rewards:
+      - id: 0
+        quantity: 35
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 6000
+        itemType: 1
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 25
+        itemType: 18
+        branchType: 0
+        promote: 0
+      bundleId: 6
+      rewardType: 2
+      limit: 99
+      profit: 0
+      saleOff: 700
+      timeReset: 604800
+  - Event: 2
+    Configs:
+      productId: sr.event.star.rune.pack.49.99
+      price: 49.99
+      rewards:
+      - id: 0
+        quantity: 50
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: 2
+        quantity: 50
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 50
+        itemType: 13
+        branchType: 0
+        promote: 0
+      bundleId: 7
+      rewardType: 2
+      limit: 99
+      profit: 0
+      saleOff: 1000
+      timeReset: 604800
+  - Event: 2
+    Configs:
+      productId: sr.event.star.rune.pack.99.99
+      price: 99.99
+      rewards:
+      - id: 0
+        quantity: 100
+        itemType: 31
+        branchType: 0
+        promote: 0
+      - id: -1
+        quantity: 30
+        itemType: 12
+        branchType: 0
+        promote: 0
+      - id: -2
+        quantity: 50
+        itemType: 12
+        branchType: 0
+        promote: 0
+      bundleId: 8
+      rewardType: 2
+      limit: 99
+      profit: 0
+      saleOff: 1500
+      timeReset: 604800
+  - Event: 3
+    Configs:
+      productId: sr.event.star.artifact.ads
+      price: 0
+      rewards:
+      - id: 9
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 3
+        quantity: 5
+        itemType: 41
+        branchType: 0
+        promote: 0
+      bundleId: 0
+      rewardType: 1
+      limit: 1
+      profit: 0
+      saleOff: 0
+      timeReset: 86400
+  - Event: 3
+    Configs:
+      productId: sr.event.star.artifact.gem.1
+      price: 1500
+      rewards:
+      - id: 0
+        quantity: 10
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 3
+        quantity: 5
+        itemType: 41
+        branchType: 0
+        promote: 0
+      bundleId: 1
+      rewardType: 3
+      limit: 1
+      profit: 0
+      saleOff: 200
+      timeReset: -1
+  - Event: 3
+    Configs:
+      productId: sr.event.star.artifact.gem.2
+      price: 2200
+      rewards:
+      - id: 0
+        quantity: 15
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 3
+        quantity: 10
+        itemType: 41
+        branchType: 0
+        promote: 0
+      bundleId: 2
+      rewardType: 3
+      limit: 1
+      profit: 0
+      saleOff: 200
+      timeReset: -1
+  - Event: 3
+    Configs:
+      productId: sr.event.star.artifact.pack.0.99.v1
+      price: 0.99
+      rewards:
+      - id: 9
+        quantity: 2
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 3
+        quantity: 20
+        itemType: 41
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 2000
+        itemType: 1
+        branchType: 0
+        promote: 0
+      bundleId: 3
+      rewardType: 2
+      limit: 1
+      profit: 0
+      saleOff: 1800
+      timeReset: -1
+  - Event: 3
+    Configs:
+      productId: sr.event.star.artifact.pack.4.99
+      price: 4.99
+      rewards:
+      - id: 7
+        quantity: 30
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 3
+        quantity: 65
+        itemType: 41
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 10000
+        itemType: 1
+        branchType: 0
+        promote: 0
+      bundleId: 4
+      rewardType: 2
+      limit: 1
+      profit: 0
+      saleOff: 1800
+      timeReset: -1
+  - Event: 3
+    Configs:
+      productId: sr.event.star.artifact.pack.9.99
+      price: 9.99
+      rewards:
+      - id: 0
+        quantity: 20
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 3
+        quantity: 80
+        itemType: 41
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 20000
+        itemType: 1
+        branchType: 0
+        promote: 0
+      bundleId: 5
+      rewardType: 2
+      limit: 1
+      profit: 0
+      saleOff: 1800
+      timeReset: -1
+  - Event: 3
+    Configs:
+      productId: sr.event.star.artifact.pack1.19.99
+      price: 19.99
+      rewards:
+      - id: 2
+        quantity: 30
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 3
+        quantity: 120
+        itemType: 41
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 40000
+        itemType: 1
+        branchType: 0
+        promote: 0
+      bundleId: 6
+      rewardType: 2
+      limit: 2
+      profit: 0
+      saleOff: 1600
+      timeReset: -1
+  - Event: 3
+    Configs:
+      productId: sr.event.star.artifact.pack2.19.99
+      price: 19.99
+      rewards:
+      - id: 3
+        quantity: 30
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 3
+        quantity: 120
+        itemType: 41
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 40000
+        itemType: 1
+        branchType: 0
+        promote: 0
+      bundleId: 7
+      rewardType: 2
+      limit: 2
+      profit: 0
+      saleOff: 1600
+      timeReset: -1
+  - Event: 3
+    Configs:
+      productId: sr.event.star.artifact.pack.49.99
+      price: 49.99
+      rewards:
+      - id: 4
+        quantity: 60
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 3
+        quantity: 240
+        itemType: 41
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 80000
+        itemType: 1
+        branchType: 0
+        promote: 0
+      bundleId: 8
+      rewardType: 2
+      limit: 2
+      profit: 0
+      saleOff: 1600
+      timeReset: -1
+  - Event: 3
+    Configs:
+      productId: sr.event.star.artifact.pack.99.99
+      price: 99.99
+      rewards:
+      - id: 43
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+      - id: 9
+        quantity: 60
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 3
+        quantity: 480
+        itemType: 41
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 160000
+        itemType: 1
+        branchType: 0
+        promote: 0
+      bundleId: 9
+      rewardType: 2
+      limit: 2
+      profit: 0
+      saleOff: 1600
+      timeReset: -1
+  monthly:
+  - productId: sr.monthlypass1
+    price: 0
+    profit: 600
+    max_buy: 3
+    duration: 2592000
+    icon:
+    priority: 19
+    time_show: 0
+    InstantRewards:
+    - id: 0
+      quantity: 1000
+      itemType: 0
+      branchType: 0
+      promote: 0
+      customIcon: big_gem
+    DailyRewards:
+    - id: 0
+      quantity: 300
+      itemType: 0
+      branchType: 0
+      promote: 0
+      customIcon:
+  - productId: sr.monthlypass2
+    price: 0
+    profit: 1400
+    max_buy: 3
+    duration: 2592000
+    icon:
+    priority: 19
+    time_show: 0
+    InstantRewards:
+    - id: 0
+      quantity: 2000
+      itemType: 0
+      branchType: 0
+      promote: 0
+      customIcon: big_gem
+    DailyRewards:
+    - id: 0
+      quantity: 600
+      itemType: 0
+      branchType: 0
+      promote: 0
+      customIcon:
+  - productId: sr.gem.month.ticket
+    price: 0
+    profit:
+    max_buy: 0
+    duration: 0
+    icon:
+    priority: 0
+    time_show: 0
+    InstantRewards:
+    - id: 0
+      quantity: 500
+      itemType: 0
+      branchType: 0
+      promote: 0
+      customIcon:
+    DailyRewards:
+    - id: 0
+      quantity: 400
+      itemType: 0
+      branchType: 0
+      promote: 0
+      customIcon:
+  - productId: sr.gem.forever.ticket
+    price: 0
+    profit:
+    max_buy: 0
+    duration: 0
+    icon:
+    priority: 0
+    time_show: 0
+    InstantRewards:
+    - id: 0
+      quantity: 3500
+      itemType: 0
+      branchType: 0
+      promote: 0
+      customIcon:
+    DailyRewards:
+    - id: 0
+      quantity: 800
+      itemType: 0
+      branchType: 0
+      promote: 0
+      customIcon:
+  starterPack:
+  - productId: sr.starterpack.new.1
+    price: 0.99
+    packId: 0
+    profit: 1200
+    dayRewards:
+    - day: 0
+      itemRewards:
+      - id: 42012
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      - id: 0
+        quantity: 80
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 10
+        itemType: 5
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 1000
+        itemType: 1
+        branchType: 0
+        promote: 0
+    - day: 1
+      itemRewards:
+      - id: 0
+        quantity: 10
+        itemType: 18
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 2000
+        itemType: 1
+        branchType: 0
+        promote: 0
+    - day: 2
+      itemRewards:
+      - id: 0
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+    priceVariants:
+    - productVariantId: sr.starterpack.new.1a
+      priceVariant: 1.99
+  - productId: sr.starterpack.new.2
+    price: 4.99
+    packId: 1
+    profit: 2000
+    dayRewards:
+    - day: 0
+      itemRewards:
+      - id: 40000
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      - id: 0
+        quantity: 500
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 30
+        itemType: 5
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 5000
+        itemType: 1
+        branchType: 0
+        promote: 0
+    - day: 1
+      itemRewards:
+      - id: 1
+        quantity: 5
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: -1
+        quantity: 20
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - day: 2
+      itemRewards:
+      - id: 0
+        quantity: 2
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 3
+        quantity: 2
+        itemType: 13
+        branchType: 0
+        promote: 0
+    priceVariants: []
+  - productId: sr.starterpack.new.3
+    price: 14.99
+    packId: 2
+    profit: 2700
+    dayRewards:
+    - day: 0
+      itemRewards:
+      - id: 40003
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      - id: 0
+        quantity: 1900
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 60
+        itemType: 5
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 15000
+        itemType: 1
+        branchType: 0
+        promote: 0
+    - day: 1
+      itemRewards:
+      - id: 41008
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      - id: 2
+        quantity: 5
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - day: 2
+      itemRewards:
+      - id: 1
+        quantity: 10
+        itemType: 12
+        branchType: 0
+        promote: 0
+      - id: 2
+        quantity: 5
+        itemType: 13
+        branchType: 0
+        promote: 0
+    priceVariants: []
+  - productId: sr.starterpack.new.4
+    price: 0.99
+    packId: 3
+    profit: 1200
+    dayRewards:
+    - day: 0
+      itemRewards:
+      - id: 42012
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      - id: 0
+        quantity: 80
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 2
+        quantity: 10
+        itemType: 5
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 1000
+        itemType: 1
+        branchType: 0
+        promote: 0
+    - day: 1
+      itemRewards:
+      - id: 0
+        quantity: 10
+        itemType: 18
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 2000
+        itemType: 1
+        branchType: 0
+        promote: 0
+    - day: 2
+      itemRewards:
+      - id: 0
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+    priceVariants: []
+  - productId: sr.starterpack.new.5
+    price: 9.99
+    packId: 4
+    profit: 2000
+    dayRewards:
+    - day: 0
+      itemRewards:
+      - id: 44023
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      - id: 0
+        quantity: 500
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 4
+        quantity: 30
+        itemType: 5
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 5000
+        itemType: 1
+        branchType: 0
+        promote: 0
+    - day: 1
+      itemRewards:
+      - id: 1
+        quantity: 5
+        itemType: 13
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 5
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - day: 2
+      itemRewards:
+      - id: 31
+        quantity: 10
+        itemType: 39
+        branchType: 0
+        promote: 0
+      - id: 9
+        quantity: 2
+        itemType: 13
+        branchType: 0
+        promote: 0
+    priceVariants: []
+  - productId: sr.starterpack.new.6
+    price: 14.99
+    packId: 5
+    profit: 2700
+    dayRewards:
+    - day: 0
+      itemRewards:
+      - id: 40003
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      - id: 0
+        quantity: 1900
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 60
+        itemType: 5
+        branchType: 0
+        promote: 0
+      - id: 0
+        quantity: 15000
+        itemType: 1
+        branchType: 0
+        promote: 0
+    - day: 1
+      itemRewards:
+      - id: 5
+        quantity: 1
+        itemType: 25
+        branchType: 3
+        promote: 0
+      - id: 2
+        quantity: 5
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - day: 2
+      itemRewards:
+      - id: 25
+        quantity: 10
+        itemType: 39
+        branchType: 0
+        promote: 0
+      - id: 2
+        quantity: 5
+        itemType: 13
+        branchType: 0
+        promote: 0
+    priceVariants: []
+  firstPurchase:
+  - abValue: 0
+    rewards:
+    - id: 0
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 15000
+      itemType: 1
+      branchType: 0
+      promote: 0
+  - abValue: 1
+    rewards:
+    - id: 0
+      quantity: 10
+      itemType: 13
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 10000
+      itemType: 1
+      branchType: 0
+      promote: 0

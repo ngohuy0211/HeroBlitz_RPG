@@ -1,0 +1,781 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefbf7414712dbfee45f3484a08ba15f, type: 3}
+  m_Name: Data-AccountPassScriptableObject
+  m_EditorClassIdentifier:
+  Config:
+    Groups:
+    - GroupId: 0
+      FromLevel: 1
+      ToLevel: 10
+      Datas:
+      - productId: free
+        Milestone:
+        - Level: 1
+          Reward:
+            id: 0
+            quantity: 50
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 2
+          Reward:
+            id: 0
+            quantity: 50
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 3
+          Reward:
+            id: 0
+            quantity: 50
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 4
+          Reward:
+            id: 0
+            quantity: 50
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 5
+          Reward:
+            id: 0
+            quantity: 50
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 6
+          Reward:
+            id: 0
+            quantity: 50
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 7
+          Reward:
+            id: 0
+            quantity: 50
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 8
+          Reward:
+            id: 0
+            quantity: 50
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 9
+          Reward:
+            id: 0
+            quantity: 50
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 10
+          Reward:
+            id: 0
+            quantity: 50
+            itemType: 0
+            branchType: 0
+            promote: 0
+      - productId: sr.accountpass.1
+        Milestone:
+        - Level: 1
+          Reward:
+            id: 0
+            quantity: 1000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 2
+          Reward:
+            id: 0
+            quantity: 1000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 3
+          Reward:
+            id: 0
+            quantity: 1000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 4
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 5
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 6
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 7
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 8
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 9
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 10
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+      - productId: sr.accountpass.2
+        Milestone:
+        - Level: 1
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 2
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 3
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 4
+          Reward:
+            id: 0
+            quantity: 2500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 5
+          Reward:
+            id: 0
+            quantity: 2500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 6
+          Reward:
+            id: 0
+            quantity: 2500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 7
+          Reward:
+            id: 0
+            quantity: 2500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 8
+          Reward:
+            id: 0
+            quantity: 3000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 9
+          Reward:
+            id: 0
+            quantity: 3000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 10
+          Reward:
+            id: 0
+            quantity: 4000
+            itemType: 0
+            branchType: 0
+            promote: 0
+    - GroupId: 1
+      FromLevel: 11
+      ToLevel: 20
+      Datas:
+      - productId: free
+        Milestone:
+        - Level: 11
+          Reward:
+            id: 0
+            quantity: 80
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 12
+          Reward:
+            id: 0
+            quantity: 80
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 13
+          Reward:
+            id: 0
+            quantity: 80
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 14
+          Reward:
+            id: 0
+            quantity: 80
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 15
+          Reward:
+            id: 0
+            quantity: 80
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 16
+          Reward:
+            id: 0
+            quantity: 80
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 17
+          Reward:
+            id: 0
+            quantity: 80
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 18
+          Reward:
+            id: 0
+            quantity: 80
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 19
+          Reward:
+            id: 0
+            quantity: 80
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 20
+          Reward:
+            id: 0
+            quantity: 80
+            itemType: 0
+            branchType: 0
+            promote: 0
+      - productId: sr.accountpass.3
+        Milestone:
+        - Level: 11
+          Reward:
+            id: 0
+            quantity: 1000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 12
+          Reward:
+            id: 0
+            quantity: 1000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 13
+          Reward:
+            id: 0
+            quantity: 1000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 14
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 15
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 16
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 17
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 18
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 19
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 20
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+      - productId: sr.accountpass.4
+        Milestone:
+        - Level: 11
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 12
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 13
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 14
+          Reward:
+            id: 0
+            quantity: 3000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 15
+          Reward:
+            id: 0
+            quantity: 3000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 16
+          Reward:
+            id: 0
+            quantity: 3000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 17
+          Reward:
+            id: 0
+            quantity: 3000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 18
+          Reward:
+            id: 0
+            quantity: 4000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 19
+          Reward:
+            id: 0
+            quantity: 4000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 20
+          Reward:
+            id: 0
+            quantity: 4000
+            itemType: 0
+            branchType: 0
+            promote: 0
+    - GroupId: 2
+      FromLevel: 21
+      ToLevel: 35
+      Datas:
+      - productId: free
+        Milestone:
+        - Level: 21
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 22
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 23
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 24
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 25
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 26
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 27
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 28
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 29
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 30
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 31
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 32
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 33
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 34
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 35
+          Reward:
+            id: 0
+            quantity: 100
+            itemType: 0
+            branchType: 0
+            promote: 0
+      - productId: sr.accountpass.5
+        Milestone:
+        - Level: 21
+          Reward:
+            id: 0
+            quantity: 1000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 22
+          Reward:
+            id: 0
+            quantity: 1000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 23
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 24
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 25
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 26
+          Reward:
+            id: 0
+            quantity: 1500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 27
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 28
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 29
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 30
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 31
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 32
+          Reward:
+            id: 0
+            quantity: 2500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 33
+          Reward:
+            id: 0
+            quantity: 2500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 34
+          Reward:
+            id: 0
+            quantity: 2500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 35
+          Reward:
+            id: 0
+            quantity: 2500
+            itemType: 0
+            branchType: 0
+            promote: 0
+      - productId: sr.accountpass.6
+        Milestone:
+        - Level: 21
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 22
+          Reward:
+            id: 0
+            quantity: 2000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 23
+          Reward:
+            id: 0
+            quantity: 2500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 24
+          Reward:
+            id: 0
+            quantity: 2500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 25
+          Reward:
+            id: 0
+            quantity: 2500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 26
+          Reward:
+            id: 0
+            quantity: 3000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 27
+          Reward:
+            id: 0
+            quantity: 3000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 28
+          Reward:
+            id: 0
+            quantity: 3000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 29
+          Reward:
+            id: 0
+            quantity: 3000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 30
+          Reward:
+            id: 0
+            quantity: 3500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 31
+          Reward:
+            id: 0
+            quantity: 3500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 32
+          Reward:
+            id: 0
+            quantity: 3500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 33
+          Reward:
+            id: 0
+            quantity: 3500
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 34
+          Reward:
+            id: 0
+            quantity: 4000
+            itemType: 0
+            branchType: 0
+            promote: 0
+        - Level: 35
+          Reward:
+            id: 0
+            quantity: 5000
+            itemType: 0
+            branchType: 0
+            promote: 0

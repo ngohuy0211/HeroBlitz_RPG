@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f7bed3a373d347e18182ad60840615c, type: 3}
+  m_Name: AI3014TeleportAction
+  m_EditorClassIdentifier:
+  guid: 4ad17887b9b3d2b4ca96b252cf89846e
+  Name: AI3014TeleportAction
+  context: {fileID: 1860960296573709, guid: 6443698c0f044b349a164e798f06b7cf, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: d97a6ef509955e348bacf00b88be8d7b, type: 2}
+  - {fileID: 11400000, guid: 78a9db21d2a02e641932c0c446938d00, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 0
+  runtimeAnimatorController: {fileID: 0}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 0
+  coolDown: 0.67
+  actionSequenceID: 0
+  distanceToWall: {x: 20, y: 18, z: 0}

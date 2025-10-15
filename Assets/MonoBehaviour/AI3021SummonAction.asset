@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c2d5fa7bfaad5c236223038796bd44c, type: 3}
+  m_Name: AI3021SummonAction
+  m_EditorClassIdentifier:
+  guid: 2cfe4f5ef204cb949a8737cd1e0671ff
+  Name: AI3021SummonAction
+  context: {fileID: 1164423381550473, guid: 373eeed8d10a38c4a8071e6a9ee7a09a, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 09317fa7ab46a6c4989576efe24b6b12, type: 2}
+  - {fileID: 11400000, guid: 27bf209d69041414ea6be5b79e3573f6, type: 2}
+  - {fileID: 11400000, guid: 39b86105acc5c2f4eaaf3993b0b1686f, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: d2d909e4f8c74664b96972507ae9dcb3, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 0.5
+  skillType: 1
+  chargeAnimation: 4
+  _chargeDuration: 0
+  skinPhase2: 2
+  totalTurn: 4
+  _isInitSummon: 0
+  enemy1203Position: 12
+  enemy2106Position: -12
+  delayBeforeSlam: 0.96666664
+  delayNextTurn: 0.5
+  slamDuration: 0.05
+  distanceToGround: 20
+  delayForPose: 1
+  summonProjectilePhase1:
+    totalProjectile: 0
+    spearPositions: []
+    projectileSpeed: 0
+  summonProjectilePhase2:
+    totalProjectile: 0
+    spearPositions: []
+    projectileSpeed: 0
+  delayAfterThrow: 0
+  delayBetweenSummon: 0
+  delaySummonSpear: 0.1
+  shockWaveSpeed: 0
+  delayBeforeSummon: 0
+  delayNextSummon: 0.4
+  delayForWarning: 0.6
+  chestUnitPositions:
+  - 0
+  - 0

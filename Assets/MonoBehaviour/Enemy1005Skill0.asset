@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18663a9179b3c9eb4842b32eb89826de, type: 3}
+  m_Name: Enemy1005Skill0
+  m_EditorClassIdentifier:
+  guid: 51b33bd7ab25cc04fa7dbfec0337f39b
+  Name: Enemy1005Skill0
+  context: {fileID: 1196216499473407, guid: beaf8360493fd1d45ba6d4b8aa2a89d2, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: e0622693e7e9b6b48b18fb4ecd0283fc, type: 2}
+  - {fileID: 11400000, guid: ee7176094b66e9b4eb0e2c53aead2e51, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: bc83d2763b442204c98e80032ae43f3b, type: 2}
+  skillId: 0
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  TimeIdleEndSkill: 0
+  IgnoreGetHurtCancelSkill: 0
+  attackParameter: Attack
+  endAttackParameter: EndAttack
+  _animationType: 4
+  rangeSkill: 100
+  timeFlip: 5

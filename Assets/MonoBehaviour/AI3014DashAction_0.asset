@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d86cb10170a523f2114b8feda4c5735d, type: 3}
+  m_Name: AI3014DashAction
+  m_EditorClassIdentifier:
+  guid: 40b30da6bddd7464b89e16a396832a03
+  Name: AI3014DashAction
+  context: {fileID: 1860960296573709, guid: 6443698c0f044b349a164e798f06b7cf, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: b010d60c62ab25541bf1f7133875cfd0, type: 2}
+  - {fileID: 11400000, guid: e801f4d8f644d804aab3b52fd317069e, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 7025320218fc0c043b085ff505bbe277, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 0
+  coolDown: 2
+  actionSequenceID: 7
+  selfCoolDown: 2
+  dashDistance: {x: 55, y: 7, z: 0}
+  dashDuration: 2
+  dashAccelerationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0.3725237
+    - serializedVersion: 3
+      time: 0.16547507
+      value: 0.0016479669
+      inSlope: 0.054361083
+      outSlope: 0.054361083
+      weightedMode: 3
+      inWeight: 0.29840896
+      outWeight: 0.38543475
+    - serializedVersion: 3
+      time: 0.40026855
+      value: 0.3218689
+      inSlope: 3.9858418
+      outSlope: 3.9858418
+      weightedMode: 3
+      inWeight: 0.2978013
+      outWeight: 0.31661484
+    - serializedVersion: 3
+      time: 0.5021205
+      value: 0.90198416
+      inSlope: 1.5641936
+      outSlope: 1.5641936
+      weightedMode: 3
+      inWeight: 0.35552898
+      outWeight: 0.3111241
+    - serializedVersion: 3
+      time: 0.6951268
+      value: 0.997203
+      inSlope: 0.06370157
+      outSlope: 0.06370157
+      weightedMode: 3
+      inWeight: 0.35855475
+      outWeight: 0.2983881
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.013942499
+      outSlope: 0.013942499
+      weightedMode: 3
+      inWeight: 0.37255043
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  delayAfterDash: 0
+  beforeJumpAnim: 27
+  dashAnim: 30
+  _beforeJumpAnimDuration: 0

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f042b0306568e9e7bb85f8ca8419183a, type: 3}
+  m_Name: AI3019AppearAction
+  m_EditorClassIdentifier:
+  guid: dbdb17f1cd1d9a443b98e4b1543649b6
+  Name: AI3019AppearAction
+  context: {fileID: 1728829775208259, guid: 534f8af33e9bd9342a42350b6f2371f9, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: e63d7a852f44d744da033b9d44f9ca1c, type: 2}
+  - {fileID: 11400000, guid: b25aa5d71a9b8cb4b8059a3b96232fbf, type: 2}
+  - {fileID: 11400000, guid: bb9a56af1eb351147be17250fa849cb6, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 0
+  runtimeAnimatorController: {fileID: 0}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 2
+  actionSequenceId: 1
+  skillType: 1
+  landingAnimation: 12
+  landAnimationDuration: 0

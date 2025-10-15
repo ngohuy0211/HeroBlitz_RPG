@@ -1,0 +1,4509 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb90e4ee7638e2f8548123562fc7f22, type: 3}
+  m_Name: Data-GachaScriptableObject-GachaConfig-GachaIngame
+  m_EditorClassIdentifier:
+  gachasIngame:
+  - id: 10001
+    wrapers:
+    - idBox: 1
+      countMax: 12
+      rate: 500
+    - idBox: 0
+      countMax: 1
+      rate: 100
+  - id: 10002
+    wrapers:
+    - idBox: 3
+      countMax: 12
+      rate: 800
+    - idBox: 6
+      countMax: 1
+      rate: 50
+  - id: 11000
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 1001
+      countMax: 1
+      rate: 50
+  - id: 11001
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 1011
+      countMax: 1
+      rate: 50
+  - id: 12000
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 1002
+      countMax: 1
+      rate: 50
+  - id: 12001
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 1012
+      countMax: 1
+      rate: 50
+  - id: 13000
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 1003
+      countMax: 1
+      rate: 50
+  - id: 13001
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 1013
+      countMax: 1
+      rate: 50
+  - id: 20000
+    wrapers:
+    - idBox: 2001
+      countMax: 1
+      rate: 10
+    - idBox: 2000
+      countMax: 1
+      rate: 30
+    - idBox: 200
+      countMax: 13
+      rate: 300
+  - id: 20001
+    wrapers:
+    - idBox: 2011
+      countMax: 1
+      rate: 20
+    - idBox: 2000
+      countMax: 1
+      rate: 40
+    - idBox: 200
+      countMax: 18
+      rate: 300
+  - id: 21000
+    wrapers:
+    - idBox: 2002
+      countMax: 1
+      rate: 10
+    - idBox: 2000
+      countMax: 1
+      rate: 30
+    - idBox: 200
+      countMax: 13
+      rate: 300
+  - id: 21001
+    wrapers:
+    - idBox: 2012
+      countMax: 1
+      rate: 20
+    - idBox: 2000
+      countMax: 1
+      rate: 40
+    - idBox: 200
+      countMax: 18
+      rate: 300
+  - id: 22000
+    wrapers:
+    - idBox: 2003
+      countMax: 1
+      rate: 10
+    - idBox: 2000
+      countMax: 1
+      rate: 30
+    - idBox: 200
+      countMax: 13
+      rate: 300
+  - id: 22001
+    wrapers:
+    - idBox: 2013
+      countMax: 1
+      rate: 20
+    - idBox: 2000
+      countMax: 1
+      rate: 40
+    - idBox: 200
+      countMax: 18
+      rate: 300
+  - id: 10003
+    wrapers:
+    - idBox: 5
+      countMax: 12
+      rate: 800
+    - idBox: 6
+      countMax: 1
+      rate: 50
+    - idBox: 10
+      countMax: 1
+      rate: 50
+  - id: 10004
+    wrapers:
+    - idBox: 3
+      countMax: 12
+      rate: 800
+    - idBox: 6
+      countMax: 1
+      rate: 50
+    - idBox: 10
+      countMax: 1
+      rate: 50
+  - id: 11002
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 11000
+      countMax: 1
+      rate: 20
+  - id: 11003
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 11001
+      countMax: 1
+      rate: 20
+  - id: 11004
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 11002
+      countMax: 1
+      rate: 10
+  - id: 11005
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 13000
+      countMax: 1
+      rate: 20
+  - id: 11006
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 13001
+      countMax: 1
+      rate: 20
+  - id: 11007
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 13002
+      countMax: 1
+      rate: 10
+  - id: 11008
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 15000
+      countMax: 1
+      rate: 20
+  - id: 11009
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 15001
+      countMax: 1
+      rate: 20
+  - id: 11010
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 15002
+      countMax: 1
+      rate: 10
+  - id: 11011
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 12000
+      countMax: 1
+      rate: 20
+  - id: 11012
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 12001
+      countMax: 1
+      rate: 20
+  - id: 11013
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 12002
+      countMax: 1
+      rate: 10
+  - id: 11014
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 16000
+      countMax: 1
+      rate: 20
+  - id: 11015
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 16001
+      countMax: 1
+      rate: 20
+  - id: 11016
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 16002
+      countMax: 1
+      rate: 10
+  - id: 11017
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 14000
+      countMax: 1
+      rate: 20
+  - id: 11018
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 14001
+      countMax: 1
+      rate: 20
+  - id: 11019
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 14002
+      countMax: 1
+      rate: 10
+  - id: 11020
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 11000
+      countMax: 1
+      rate: 20
+    - idBox: 12000
+      countMax: 1
+      rate: 20
+    - idBox: 13000
+      countMax: 1
+      rate: 20
+    - idBox: 14000
+      countMax: 1
+      rate: 20
+    - idBox: 15000
+      countMax: 1
+      rate: 20
+    - idBox: 16000
+      countMax: 1
+      rate: 20
+  - id: 11021
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 11001
+      countMax: 1
+      rate: 20
+    - idBox: 12001
+      countMax: 1
+      rate: 20
+    - idBox: 13001
+      countMax: 1
+      rate: 20
+    - idBox: 14001
+      countMax: 1
+      rate: 20
+    - idBox: 15001
+      countMax: 1
+      rate: 20
+    - idBox: 16001
+      countMax: 1
+      rate: 20
+  - id: 11022
+    wrapers:
+    - idBox: 100
+      countMax: 10
+      rate: 300
+    - idBox: 11002
+      countMax: 1
+      rate: 10
+    - idBox: 12002
+      countMax: 1
+      rate: 10
+    - idBox: 13002
+      countMax: 1
+      rate: 10
+    - idBox: 14002
+      countMax: 1
+      rate: 10
+    - idBox: 15002
+      countMax: 1
+      rate: 10
+    - idBox: 16002
+      countMax: 1
+      rate: 10
+  - id: 11023
+    wrapers:
+    - idBox: 2014
+      countMax: 1
+      rate: 10
+    - idBox: 2000
+      countMax: 1
+      rate: 30
+    - idBox: 200
+      countMax: 13
+      rate: 300
+  - id: 11024
+    wrapers:
+    - idBox: 2014
+      countMax: 1
+      rate: 20
+    - idBox: 2000
+      countMax: 1
+      rate: 40
+    - idBox: 200
+      countMax: 18
+      rate: 300
+  - id: 11025
+    wrapers:
+    - idBox: 2015
+      countMax: 1
+      rate: 10
+    - idBox: 2000
+      countMax: 1
+      rate: 30
+    - idBox: 200
+      countMax: 13
+      rate: 300
+  - id: 11026
+    wrapers:
+    - idBox: 2015
+      countMax: 1
+      rate: 20
+    - idBox: 2000
+      countMax: 1
+      rate: 40
+    - idBox: 200
+      countMax: 18
+      rate: 300
+  - id: 11027
+    wrapers:
+    - idBox: 2014
+      countMax: 1
+      rate: 10
+    - idBox: 2000
+      countMax: 1
+      rate: 30
+    - idBox: 200
+      countMax: 13
+      rate: 300
+  - id: 11028
+    wrapers:
+    - idBox: 2014
+      countMax: 1
+      rate: 20
+    - idBox: 2000
+      countMax: 1
+      rate: 40
+    - idBox: 200
+      countMax: 18
+      rate: 300
+  boxsIngame:
+  - idBox: 0
+    gachaTypes:
+    - gachaType: 0
+      rate: 0
+      minAmount: 0
+      maxAmount: 0
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 30
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41007
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 30
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40000
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+  - idBox: 1
+    gachaTypes:
+    - gachaType: 0
+      rate: 40
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 25
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 1
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+  - idBox: 2
+    gachaTypes:
+    - gachaType: 1
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 2
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 3
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 4
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 5
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 7
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+  - idBox: 100
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 1
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 2
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 3
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 4
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 5
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+  - idBox: 1001
+    gachaTypes:
+    - gachaType: 0
+      rate: 30
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40000
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+  - idBox: 1002
+    gachaTypes:
+    - gachaType: 0
+      rate: 30
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40001
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+  - idBox: 1003
+    gachaTypes:
+    - gachaType: 0
+      rate: 30
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40002
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+  - idBox: 1011
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40000
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+  - idBox: 1012
+    gachaTypes:
+    - gachaType: 0
+      rate: 30
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40001
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+  - idBox: 1013
+    gachaTypes:
+    - gachaType: 0
+      rate: 30
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40002
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+  - idBox: 200
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 1
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 2
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 3
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 4
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 5
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+  - idBox: 2001
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 12
+        branchType: 0
+        promote: 0
+  - idBox: 2000
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 11
+        branchType: 0
+        promote: 0
+  - idBox: 2002
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 1
+        quantity: 0
+        itemType: 12
+        branchType: 0
+        promote: 0
+  - idBox: 2003
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 2
+        quantity: 0
+        itemType: 12
+        branchType: 0
+        promote: 0
+  - idBox: 2011
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 12
+        branchType: 0
+        promote: 0
+  - idBox: 2012
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 1
+        quantity: 0
+        itemType: 12
+        branchType: 0
+        promote: 0
+  - idBox: 2013
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 2
+        quantity: 0
+        itemType: 12
+        branchType: 0
+        promote: 0
+  - idBox: 2014
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 3
+        quantity: 0
+        itemType: 12
+        branchType: 0
+        promote: 0
+  - idBox: 2015
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 4
+        quantity: 0
+        itemType: 12
+        branchType: 0
+        promote: 0
+  - idBox: 3
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 1
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 2
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 3
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 4
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 5
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+  - idBox: 4
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 700
+      maxAmount: 1500
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 1
+        branchType: 0
+        promote: 0
+  - idBox: 5
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 1
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 2
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 3
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 4
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 5
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+  - idBox: 6
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40000
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40001
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40002
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 0
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40003
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 0
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40004
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 0
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40005
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41007
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41008
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41009
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41010
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42011
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42012
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42013
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42014
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43015
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43016
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43017
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43018
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 44019
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 44020
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 0
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 44021
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 0
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 44022
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45000
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45001
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45002
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45003
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+  - idBox: 7
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 3
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 3
+      reward:
+        id: 1
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 3
+      reward:
+        id: 2
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 3
+      reward:
+        id: 3
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 3
+      reward:
+        id: 4
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 3
+      reward:
+        id: 5
+        quantity: 0
+        itemType: 5
+        branchType: 0
+        promote: 0
+  - idBox: 10
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 1
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 2
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 3
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 4
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 5
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 6
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 7
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 8
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 9
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 10
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 11
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 12
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 13
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 14
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 15
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 16
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 17
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 18
+        quantity: 0
+        itemType: 25
+        branchType: 0
+        promote: 0
+  - idBox: 11000
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40000
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40001
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40002
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+  - idBox: 11001
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40000
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40001
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40002
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+  - idBox: 11002
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40000
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40001
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40002
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+  - idBox: 12000
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41007
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41008
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41009
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41010
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+  - idBox: 12001
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41007
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41008
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41009
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41010
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+  - idBox: 12002
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41007
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41008
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41009
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41010
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+  - idBox: 13000
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42011
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42012
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42013
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42014
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+  - idBox: 13001
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42011
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42012
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42013
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42014
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+  - idBox: 13002
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42011
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42012
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42013
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42014
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+  - idBox: 14000
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43015
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43016
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43017
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43018
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+  - idBox: 14001
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43015
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43016
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43017
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43018
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+  - idBox: 14002
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43015
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43016
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43017
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43018
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+  - idBox: 15000
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 44019
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 44020
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+  - idBox: 15001
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 44019
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 44020
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+  - idBox: 15002
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 44019
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 44020
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+  - idBox: 16000
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45000
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45001
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45002
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45003
+        quantity: 0
+        itemType: 4
+        branchType: 0
+        promote: 0
+  - idBox: 16001
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45000
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45001
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45002
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45003
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+  - idBox: 16002
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45000
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45001
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45002
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 45003
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+  gachaMenu:
+  - id: 20000
+    idBox: 0200000003000000
+  - id: 20001
+    idBox: 0200000004000000
+  - id: 20002
+    idBox: 0200000006000000
+  - id: 0
+    idBox: e9030000
+  - id: 1
+    idBox: f2030000
+  - id: 2
+    idBox: 06040000
+  - id: 3
+    idBox: fc030000fd030000fe030000
+  - id: 6
+    idBox: 10040000
+  - id: 7
+    idBox: 1a040000
+  - id: 4
+    idBox: 240400002e04000038040000
+  - id: 8
+    idBox: 240400002e04000038040000
+  boxsMenu:
+  - idBox: 1
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 10
+      maxAmount: 10
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 2
+        branchType: 0
+        promote: 0
+  - idBox: 2
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 100
+      maxAmount: 100
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+  - idBox: 3
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40001
+        quantity: 0
+        itemType: 4
+        branchType: 1
+        promote: 0
+  - idBox: 4
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40002
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+  - idBox: 5
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 600
+      maxAmount: 1000
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 1
+        branchType: 0
+        promote: 0
+  - idBox: 0
+    gachaTypes:
+    - gachaType: 0
+      rate: 0
+      minAmount: 0
+      maxAmount: 0
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+  - idBox: 1001
+    gachaTypes:
+    - gachaType: 1
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 2
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 3
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 4
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 5
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 7
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+  - idBox: 1010
+    gachaTypes:
+    - gachaType: 1
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 2
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 3
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 4
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 5
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 7
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+  - idBox: 1020
+    gachaTypes:
+    - gachaType: 0
+      rate: 4
+      minAmount: 1500
+      maxAmount: 2500
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 1
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 2
+      minAmount: 2
+      maxAmount: 4
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 14
+        branchType: 0
+        promote: 0
+  - idBox: 1021
+    gachaTypes:
+    - gachaType: 6
+      rate: 70
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 6
+      rate: 15
+      minAmount: 3
+      maxAmount: 3
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 6
+      rate: 12
+      minAmount: 5
+      maxAmount: 5
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 6
+      rate: 3
+      minAmount: 10
+      maxAmount: 10
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+  - idBox: 1022
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 11
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 7
+      minAmount: 3
+      maxAmount: 5
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 7
+      minAmount: 3
+      maxAmount: 5
+      reward:
+        id: 1
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 7
+      minAmount: 3
+      maxAmount: 5
+      reward:
+        id: 2
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 7
+      minAmount: 3
+      maxAmount: 5
+      reward:
+        id: 3
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 7
+      minAmount: 3
+      maxAmount: 5
+      reward:
+        id: 4
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 7
+      minAmount: 3
+      maxAmount: 5
+      reward:
+        id: 5
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+  - idBox: 6
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40000
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40001
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 40002
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41007
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41008
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41009
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 41010
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42011
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42012
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42013
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 42014
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43015
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43016
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43017
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 43018
+        quantity: 0
+        itemType: 4
+        branchType: 2
+        promote: 0
+  - idBox: 1030
+    gachaTypes:
+    - gachaType: 1
+      rate: 147
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 2
+      rate: 130
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 3
+      rate: 130
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 4
+      rate: 130
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 5
+      rate: 130
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 7
+      rate: 120
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+  - idBox: 1040
+    gachaTypes:
+    - gachaType: 1
+      rate: 147
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 2
+      rate: 130
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 3
+      rate: 130
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 4
+      rate: 130
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 5
+      rate: 130
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 7
+      rate: 120
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+  - idBox: 1050
+    gachaTypes:
+    - gachaType: 8
+      rate: 40
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 8
+      rate: 20
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 1
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 8
+      rate: 40
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 2
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+  - idBox: 1060
+    gachaTypes:
+    - gachaType: 0
+      rate: 4
+      minAmount: 1000
+      maxAmount: 2000
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 1
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 2
+      minAmount: 2
+      maxAmount: 4
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 14
+        branchType: 0
+        promote: 0
+  - idBox: 1070
+    gachaTypes:
+    - gachaType: 6
+      rate: 70
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 6
+      rate: 15
+      minAmount: 3
+      maxAmount: 3
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 6
+      rate: 12
+      minAmount: 5
+      maxAmount: 5
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 6
+      rate: 3
+      minAmount: 10
+      maxAmount: 10
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 0
+        branchType: 0
+        promote: 0
+  - idBox: 1080
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 2
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 11
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 7
+      minAmount: 3
+      maxAmount: 5
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 7
+      minAmount: 3
+      maxAmount: 5
+      reward:
+        id: 1
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 7
+      minAmount: 3
+      maxAmount: 5
+      reward:
+        id: 2
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 7
+      minAmount: 3
+      maxAmount: 5
+      reward:
+        id: 3
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 7
+      minAmount: 3
+      maxAmount: 5
+      reward:
+        id: 4
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 7
+      minAmount: 3
+      maxAmount: 5
+      reward:
+        id: 5
+        quantity: 0
+        itemType: 10
+        branchType: 0
+        promote: 0
+  - idBox: 2001
+    gachaTypes:
+    - gachaType: 0
+      rate: 0
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 0
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 1
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 2
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 3
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 0
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 4
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 5
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 6
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 7
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 0
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 8
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 0
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 9
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+  - idBox: 2002
+    gachaTypes:
+    - gachaType: 0
+      rate: 0
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 10
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 11
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 12
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 13
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 14
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 15
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 16
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 17
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 18
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 19
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+  - idBox: 2003
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 20
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 21
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 22
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 23
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 24
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 25
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 26
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+  - idBox: 2004
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 27
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 28
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 29
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 30
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 31
+        quantity: 0
+        itemType: 38
+        branchType: 0
+        promote: 0
+  - idBox: 2005
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 20
+        quantity: 0
+        itemType: 39
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 21
+        quantity: 0
+        itemType: 39
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 22
+        quantity: 0
+        itemType: 39
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 23
+        quantity: 0
+        itemType: 39
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 24
+        quantity: 0
+        itemType: 39
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 25
+        quantity: 0
+        itemType: 39
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 26
+        quantity: 0
+        itemType: 39
+        branchType: 0
+        promote: 0
+  - idBox: 2006
+    gachaTypes:
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 27
+        quantity: 0
+        itemType: 39
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 28
+        quantity: 0
+        itemType: 39
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 29
+        quantity: 0
+        itemType: 39
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 30
+        quantity: 0
+        itemType: 39
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 1
+      minAmount: 2
+      maxAmount: 2
+      reward:
+        id: 31
+        quantity: 0
+        itemType: 39
+        branchType: 0
+        promote: 0
+  - idBox: 2007
+    gachaTypes:
+    - gachaType: 0
+      rate: 0.1
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 6
+        itemType: 46
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 7
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 50
+        itemType: 0
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 3
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 3
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 12
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 1
+        quantity: 20
+        itemType: 18
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 15
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 1
+        quantity: 10
+        itemType: 18
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 4
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 7
+        quantity: 4
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 4
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 9
+        quantity: 2
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 12
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 40
+        itemType: 18
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 15
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 20
+        itemType: 18
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 12
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 5000
+        itemType: 1
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 15
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 0
+        quantity: 2000
+        itemType: 1
+        branchType: 0
+        promote: 0
+    - gachaType: 0
+      rate: 0.9
+      minAmount: 1
+      maxAmount: 1
+      reward:
+        id: 11
+        quantity: 10
+        itemType: 12
+        branchType: 0
+        promote: 0
+  boxEquipmentRaritys:
+  - idBox: 0
+    raritys:
+    - itemRarity: 0
+      itemTier: -1
+      rate: 1
+    - itemRarity: 1
+      itemTier: -1
+      rate: 1
+  - idBox: 1
+    raritys:
+    - itemRarity: 1
+      itemTier: -1
+      rate: 1
+    - itemRarity: 2
+      itemTier: -1
+      rate: 1
+    - itemRarity: 3
+      itemTier: -1
+      rate: 1
+  - idBox: 2
+    raritys:
+    - itemRarity: 0
+      itemTier: -1
+      rate: 1
+  - idBox: 3
+    raritys:
+    - itemRarity: 0
+      itemTier: -1
+      rate: 1
+  - idBox: 4
+    raritys:
+    - itemRarity: 0
+      itemTier: -1
+      rate: 1
+  - idBox: 1030
+    raritys:
+    - itemRarity: 1
+      itemTier: -1
+      rate: 58
+    - itemRarity: 2
+      itemTier: -1
+      rate: 38
+    - itemRarity: 3
+      itemTier: -1
+      rate: 3
+    - itemRarity: 3
+      itemTier: 1
+      rate: 1
+  - idBox: 1001
+    raritys:
+    - itemRarity: 1
+      itemTier: -1
+      rate: 56
+    - itemRarity: 2
+      itemTier: -1
+      rate: 40
+    - itemRarity: 3
+      itemTier: -1
+      rate: 4
+  - idBox: 1010
+    raritys:
+    - itemRarity: 0
+      itemTier: -1
+      rate: 8
+    - itemRarity: 1
+      itemTier: -1
+      rate: 2
+  - idBox: 1020
+    raritys:
+    - itemRarity: 0
+      itemTier: -1
+      rate: 1
+  - idBox: 1021
+    raritys:
+    - itemRarity: 0
+      itemTier: -1
+      rate: 100
+  - idBox: 1022
+    raritys:
+    - itemRarity: 0
+      itemTier: -1
+      rate: 1
+  - idBox: 1040
+    raritys:
+    - itemRarity: 1
+      itemTier: -1
+      rate: 58
+    - itemRarity: 2
+      itemTier: -1
+      rate: 38
+    - itemRarity: 3
+      itemTier: -1
+      rate: 3
+    - itemRarity: 3
+      itemTier: 1
+      rate: 1
+  - idBox: 1050
+    raritys:
+    - itemRarity: 0
+      itemTier: -1
+      rate: 288
+    - itemRarity: 1
+      itemTier: -1
+      rate: 472
+    - itemRarity: 2
+      itemTier: -1
+      rate: 212
+    - itemRarity: 3
+      itemTier: -1
+      rate: 28
+  - idBox: 1060
+    raritys:
+    - itemRarity: 0
+      itemTier: -1
+      rate: 1
+  - idBox: 1070
+    raritys:
+    - itemRarity: 0
+      itemTier: -1
+      rate: 80.6
+    - itemRarity: 1
+      itemTier: -1
+      rate: 13
+    - itemRarity: 2
+      itemTier: -1
+      rate: 6.4
+  - idBox: 1080
+    raritys:
+    - itemRarity: 0
+      itemTier: -1
+      rate: 1
+  costs:
+  - gachaBoxType: 0
+    quantity: 300
+  - gachaBoxType: 1
+    quantity: 80
+  - gachaBoxType: 2
+    quantity: 400
+  - gachaBoxType: 3
+    quantity: 400
+  - gachaBoxType: 4
+    quantity: 500
+  - gachaBoxType: 6
+    quantity: 400
+  - gachaBoxType: 7
+    quantity: 200
+  - gachaBoxType: 9
+    quantity: 400
+  - gachaBoxType: 5
+    quantity: 500
+  seasonEquipmentBanner:
+  - seasonId: 0
+    rewardIds:
+    - itemId: 40000
+      rate: 1
+    - itemId: 40001
+      rate: 1
+    - itemId: 40002
+      rate: 1
+    - itemId: 40003
+      rate: 1
+    - itemId: 41007
+      rate: 1
+    - itemId: 41008
+      rate: 1
+    - itemId: 41009
+      rate: 1
+    - itemId: 41010
+      rate: 1
+    - itemId: 42011
+      rate: 1
+    - itemId: 42012
+      rate: 1
+    - itemId: 42013
+      rate: 1
+    - itemId: 42014
+      rate: 1
+    - itemId: 43015
+      rate: 1
+    - itemId: 43016
+      rate: 1
+    - itemId: 43017
+      rate: 1
+    - itemId: 43018
+      rate: 1
+    - itemId: 44019
+      rate: 1
+    - itemId: 44020
+      rate: 1
+    - itemId: 45000
+      rate: 1
+    - itemId: 45001
+      rate: 1
+    - itemId: 45002
+      rate: 1
+    - itemId: 45003
+      rate: 1
+    - itemId: 41011
+      rate: 1
+    - itemId: 42018
+      rate: 1
+    - itemId: 43019
+      rate: 1
+    - itemId: 44023
+      rate: 1
+    - itemId: 45005
+      rate: 1
+  - seasonId: 1
+    rewardIds:
+    - itemId: 40000
+      rate: 1
+    - itemId: 40001
+      rate: 1
+    - itemId: 40002
+      rate: 1
+    - itemId: 40005
+      rate: 1
+    - itemId: 41007
+      rate: 1
+    - itemId: 41008
+      rate: 1
+    - itemId: 41009
+      rate: 1
+    - itemId: 41010
+      rate: 1
+    - itemId: 42011
+      rate: 1
+    - itemId: 42012
+      rate: 1
+    - itemId: 42013
+      rate: 1
+    - itemId: 42014
+      rate: 1
+    - itemId: 43015
+      rate: 1
+    - itemId: 43016
+      rate: 1
+    - itemId: 43017
+      rate: 1
+    - itemId: 43018
+      rate: 1
+    - itemId: 44019
+      rate: 1
+    - itemId: 44020
+      rate: 1
+    - itemId: 45000
+      rate: 1
+    - itemId: 45001
+      rate: 1
+    - itemId: 45002
+      rate: 1
+    - itemId: 45003
+      rate: 1
+    - itemId: 41023
+      rate: 1
+    - itemId: 42024
+      rate: 1
+    - itemId: 43025
+      rate: 1
+    - itemId: 44026
+      rate: 1
+    - itemId: 45004
+      rate: 1
+  poolEquipmentGacha:
+  - boxId: 1030
+    equipments:
+    - equipmentId: 40000
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40001
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40002
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40003
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 41011
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 42018
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 43019
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 44023
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 45005
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 40005
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 41023
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 42024
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 43025
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 44026
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 45004
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 40004
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40006
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40007
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 44021
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 44022
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 41007
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 41008
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 41009
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 41010
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 42011
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 42012
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 42013
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 42014
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 43015
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 43016
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 43017
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 43018
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 44019
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 44020
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 45000
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 45001
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 45002
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 45003
+      baseRate: 1
+      equipmentType: 5
+  - boxId: 1040
+    equipments:
+    - equipmentId: 40000
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40001
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40002
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40003
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40004
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40005
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 41007
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 41008
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 41009
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 41010
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 41023
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 42011
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 42012
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 42013
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 42014
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 42024
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 43015
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 43016
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 43017
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 43018
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 43025
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 44019
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 44020
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 44021
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 44022
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 44026
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 45000
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 45001
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 45002
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 45003
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 45004
+      baseRate: 1
+      equipmentType: 5
+  - boxId: 1001
+    equipments:
+    - equipmentId: 40000
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40001
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40002
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40003
+      baseRate: 0
+      equipmentType: 0
+    - equipmentId: 40004
+      baseRate: 0
+      equipmentType: 0
+    - equipmentId: 40005
+      baseRate: 0
+      equipmentType: 0
+    - equipmentId: 41007
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 41008
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 41009
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 41010
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 42011
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 42012
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 42013
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 42014
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 43015
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 43016
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 43017
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 43018
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 44019
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 44020
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 44021
+      baseRate: 0
+      equipmentType: 4
+    - equipmentId: 44022
+      baseRate: 0
+      equipmentType: 4
+    - equipmentId: 45000
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 45001
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 45002
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 45003
+      baseRate: 1
+      equipmentType: 5
+  - boxId: 1010
+    equipments:
+    - equipmentId: 40000
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40001
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40002
+      baseRate: 1
+      equipmentType: 0
+    - equipmentId: 40003
+      baseRate: 0
+      equipmentType: 0
+    - equipmentId: 40004
+      baseRate: 0
+      equipmentType: 0
+    - equipmentId: 40005
+      baseRate: 0
+      equipmentType: 0
+    - equipmentId: 41007
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 41008
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 41009
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 41010
+      baseRate: 1
+      equipmentType: 1
+    - equipmentId: 42011
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 42012
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 42013
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 42014
+      baseRate: 1
+      equipmentType: 2
+    - equipmentId: 43015
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 43016
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 43017
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 43018
+      baseRate: 1
+      equipmentType: 3
+    - equipmentId: 44019
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 44020
+      baseRate: 1
+      equipmentType: 4
+    - equipmentId: 44021
+      baseRate: 0
+      equipmentType: 4
+    - equipmentId: 44022
+      baseRate: 0
+      equipmentType: 4
+    - equipmentId: 45000
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 45001
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 45002
+      baseRate: 1
+      equipmentType: 5
+    - equipmentId: 45003
+      baseRate: 1
+      equipmentType: 5
+  seasonHeroBanner:
+  - seasonId: 0
+    rewardIds:
+    - itemId: 0
+      rate: 1
+    - itemId: 1
+      rate: 1
+    - itemId: 2
+      rate: 1
+  - seasonId: 1
+    rewardIds:
+    - itemId: 0
+      rate: 1
+  heroSummonBanners:
+  - heroId: 0
+    isBanner: 0
+    rate: 2
+  - heroId: 1
+    isBanner: 0
+    rate: 2
+  - heroId: 2
+    isBanner: 0
+    rate: 2
+  - heroId: 3
+    isBanner: 0
+    rate: 2
+  - heroId: 4
+    isBanner: 0
+    rate: 2
+  - heroId: 5
+    isBanner: 0
+    rate: 2
+  - heroId: 7
+    isBanner: 0
+    rate: 2
+  - heroId: 6
+    isBanner: 1
+    rate: 1
+  - heroId: 9
+    isBanner: 2
+    rate: 1
+  - heroId: 8
+    isBanner: 1
+    rate: 1
+  - heroId: 10
+    isBanner: 1
+    rate: 1
+  - heroId: 11
+    isBanner: 1
+    rate: 1
+  scenarioOpen:
+  - poolId: 1010
+    rewards:
+    - openTime: 1
+      reward:
+        id: 45002
+        quantity: 1
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - openTime: 2
+      reward:
+        id: 44019
+        quantity: 1
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - openTime: 3
+      reward:
+        id: 42013
+        quantity: 1
+        itemType: 4
+        branchType: 1
+        promote: 0
+    - openTime: 4
+      reward:
+        id: 43015
+        quantity: 1
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - openTime: 5
+      reward:
+        id: 41007
+        quantity: 1
+        itemType: 4
+        branchType: 0
+        promote: 0
+    - openTime: 9
+      reward:
+        id: 41007
+        quantity: 1
+        itemType: 4
+        branchType: 0
+        promote: 0
+  - poolId: 1001
+    rewards:
+    - openTime: 3
+      reward:
+        id: 42012
+        quantity: 1
+        itemType: 4
+        branchType: 2
+        promote: 0
+  artifactTypePool:
+  - pool: 2001
+    name: Mythic Artifact
+    rarity: 5
+    rate: 1
+  - pool: 2002
+    name: Legendary Artifact
+    rarity: 4
+    rate: 10
+  - pool: 2003
+    name: Epic Artifact
+    rarity: 3
+    rate: 90
+  - pool: 2004
+    name: Rare Artifact
+    rarity: 2
+    rate: 180
+  - pool: 2005
+    name: Epic Artifact Shard
+    rarity: 3
+    rate: 240
+  - pool: 2006
+    name: Rare Artifact Shard
+    rarity: 2
+    rate: 479
+  gachaWishlistPool:
+  - gachaType: 2
+    gachaId: 0
+    milestone: 200
+    useCategory: 1
+    selectItem:
+    - id: 40003
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 40004
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 40005
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 40006
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 40007
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 41023
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 42024
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 43025
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 44026
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 45004
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 41011
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 42018
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 43019
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 44023
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 45005
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - gachaType: 6
+    gachaId: 0
+    milestone: 200
+    useCategory: 0
+    selectItem:
+    - id: 40003
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 41011
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 42018
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 43019
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 44023
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 45005
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  - gachaType: 6
+    gachaId: 1
+    milestone: 200
+    useCategory: 0
+    selectItem:
+    - id: 40005
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 41023
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 42024
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 43025
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 44026
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+    - id: 45004
+      quantity: 1
+      itemType: 4
+      branchType: 3
+      promote: 0
+  gachaPityRarity:
+  - pityCount: 10
+    configs:
+    - boxId: 1030
+      configs:
+      - rarity: 3
+        tier: -1
+        rate: 45
+      - rarity: 3
+        tier: 1
+        rate: 10
+    - boxId: 1001
+      configs:
+      - rarity: 3
+        tier: -1
+        rate: 1
+    - boxId: 1040
+      configs:
+      - rarity: 3
+        tier: -1
+        rate: 45
+      - rarity: 3
+        tier: 1
+        rate: 10
+  - pityCount: 50
+    configs:
+    - boxId: 1030
+      configs:
+      - rarity: 3
+        tier: -1
+        rate: 0
+    - boxId: 1001
+      configs:
+      - rarity: 3
+        tier: -1
+        rate: 0
+    - boxId: 1040
+      configs:
+      - rarity: 3
+        tier: -1
+        rate: 0
+      - rarity: 3
+        tier: 1
+        rate: 1

@@ -1,0 +1,365 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7181ce46ef5bf5212e5364135f69b6dc, type: 3}
+  m_Name: Data-AnalyticsScriptableObject-AnalyticsConfig-TrackingResources
+  m_EditorClassIdentifier:
+  nameCurrencies:
+  - itemType: 0
+    analytics:
+    - id: 0
+      name: gem
+  - itemType: 1
+    analytics:
+    - id: 0
+      name: coin
+  - itemType: 2
+    analytics:
+    - id: 0
+      name: energy
+  - itemType: 3
+    analytics:
+    - id: 0
+      name: hero
+  - itemType: 4
+    analytics:
+    - id: 0
+      name: equipment
+  - itemType: 5
+    analytics:
+    - id: 0
+      name: equipment_shard_weapon
+    - id: 1
+      name: equipment_shard_armor
+    - id: 2
+      name: equipment_shard_glove
+    - id: 3
+      name: equipment_shard_earrings
+    - id: 4
+      name: equipment_shard_orb
+    - id: 5
+      name: equipment_shard_shoe
+    - id: -1
+      name: equipment_shard_rainbow
+  - itemType: 6
+    analytics:
+    - id: 0
+      name: exp_account
+  - itemType: 7
+    analytics:
+    - id: 0
+      name: battle_pass_exp
+  - itemType: 8
+    analytics:
+    - id: 0
+      name: itemselect
+  - itemType: 9
+    analytics:
+    - id: 0
+      name: gacha_key_equipment_normal
+    - id: 1
+      name: gacha_key_equipment_silver
+    - id: 2
+      name: gacha_key_equipment_S_banner
+    - id: 3
+      name: gacha_key_hero_noraml
+    - id: 4
+      name: gacha_key_hero_banner
+    - id: 5
+      name: gacha_key_pet_normal
+    - id: 6
+      name: gacha_key_equipment_limited
+    - id: 7
+      name: gacha_key_rune_normal
+  - itemType: 10
+    analytics:
+    - id: -1
+      name: hero_element_rainbow
+    - id: 0
+      name: hero_element_iron
+    - id: 1
+      name: hero_element_fire
+    - id: 2
+      name: hero_element_poison
+    - id: 3
+      name: hero_element_lightning
+    - id: 4
+      name: hero_element_ice
+    - id: 5
+      name: hero_element_mystic
+  - itemType: 11
+    analytics:
+    - id: 0
+      name: hero_medal
+  - itemType: 12
+    analytics:
+    - id: 0
+      name: hero_shard_0
+    - id: 1
+      name: hero_shard_1
+    - id: 2
+      name: hero_shard_2
+    - id: 3
+      name: hero_shard_3
+    - id: 4
+      name: hero_shard_4
+    - id: 5
+      name: hero_shard_5
+    - id: 6
+      name: hero_shard_6
+    - id: 7
+      name: hero_shard_7
+    - id: 8
+      name: hero_shard_8
+    - id: 9
+      name: hero_shard_9
+    - id: -1
+      name: hero_shard_rainbow
+    - id: -2
+      name: hero_shard_upgrade_star_all
+  - itemType: 13
+    analytics:
+    - id: 0
+      name: gacha_key_equipment_normal
+    - id: 1
+      name: gacha_key_equipment_silver
+    - id: 2
+      name: gacha_key_equipment_banner
+    - id: 3
+      name: gacha_key_hero_normal
+    - id: 4
+      name: gacha_key_hero_banner
+    - id: 5
+      name: gacha_key_pet_normal
+    - id: 6
+      name: gacha_key_equipment_limited
+    - id: 7
+      name: gacha_key_rune_normal
+    - id: 9
+      name: gacha_key_artifact_normal
+  - itemType: 14
+    analytics:
+    - id: 0
+      name: dragon_scale
+  - itemType: 15
+    analytics:
+    - id: 0
+      name: life
+  - itemType: 16
+    analytics:
+    - id: 0
+      name: skipads
+  - itemType: 17
+    analytics:
+    - id: 0
+      name: runtimeitem
+  - itemType: 18
+    analytics:
+    - id: 0
+      name: random
+  - itemType: 19
+    analytics:
+    - id: 0
+      name: battle_pass_premium
+  - itemType: 20
+    analytics:
+    - id: 0
+      name: attribute_type
+  - itemType: 21
+    analytics:
+    - id: 0
+      name: sevenday_point
+  - itemType: 22
+    analytics:
+    - id: 0
+      name: weapon_kit
+    - id: 1
+      name: accessory_kit
+    - id: 2
+      name: armor_kit
+    - id: 3
+      name: glove_kit
+    - id: 4
+      name: earrings_kit
+    - id: 5
+      name: orb_kit
+    - id: 6
+      name: shoe_kit
+  - itemType: 23
+    analytics:
+    - id: 0
+      name: daily_quest_point
+  - itemType: 24
+    analytics:
+    - id: 0
+      name: weekly_quest_point
+  - itemType: 25
+    analytics:
+    - id: 0
+      name: rune
+  - itemType: 26
+    analytics:
+    - id: 0
+      name: ticket_tower
+    - id: 1
+      name: ticket_bossraid
+    - id: 2
+      name: ticket_goldmine
+    - id: 3
+      name: ticket_arena
+    - id: 4
+      name: ticket_survival
+    - id: 5
+      name: ticket_arena
+  - itemType: 27
+    analytics:
+    - id: 0
+      name: Redletter
+  - itemType: 28
+    analytics:
+    - id: 0
+      name: EventDiceCurrencyReward
+  - itemType: 29
+    analytics:
+    - id: 0
+      name: EventDiceCurrency
+  - itemType: 38
+    analytics:
+    - id: 0
+      name: cupid_arrow
+    - id: 1
+      name: demon_king_eye
+    - id: 2
+      name: golden_finger
+    - id: 3
+      name: golden_fleece
+    - id: 4
+      name: ravenous_chain
+    - id: 5
+      name: pan_flute
+    - id: 6
+      name: tidal_conch
+    - id: 7
+      name: golden_mask
+    - id: 8
+      name: demon_blood
+    - id: 9
+      name: swiftwind_jade
+    - id: 10
+      name: cupid_bow
+    - id: 11
+      name: brisingamen
+    - id: 12
+      name: dragon_heart
+    - id: 13
+      name: attack_horn
+    - id: 14
+      name: healing_grail
+    - id: 15
+      name: damocles_sword
+    - id: 16
+      name: gargoyle
+    - id: 17
+      name: bull_skull
+    - id: 18
+      name: fire_phoenix_feather
+    - id: 19
+      name: magic_harp
+    - id: 20
+      name: magic_lamp
+    - id: 21
+      name: magic_carpet
+    - id: 22
+      name: poison_apple
+    - id: 23
+      name: laurel_wreath
+    - id: 24
+      name: four_leaf_clover
+    - id: 25
+      name: crystal_shoe
+    - id: 26
+      name: red_hood
+    - id: 27
+      name: gladiator_helm
+    - id: 28
+      name: pumpkin_latern
+    - id: 29
+      name: supreme_staff
+    - id: 30
+      name: iron_throne
+    - id: 31
+      name: sword_in_the_stone
+  - itemType: 39
+    analytics:
+    - id: 0
+      name: cupid_arrow_shard
+    - id: 1
+      name: demon_king_eye_shard
+    - id: 2
+      name: golden_finger_shard
+    - id: 3
+      name: golden_fleece_shard
+    - id: 4
+      name: ravenous_chain_shard
+    - id: 5
+      name: pan_flute_shard
+    - id: 6
+      name: tidal_conch_shard
+    - id: 7
+      name: golden_mask_shard
+    - id: 8
+      name: demon_blood_shard
+    - id: 9
+      name: swiftwind_jade_shard
+    - id: 10
+      name: cupid_bow_shard
+    - id: 11
+      name: brisingamen_shard
+    - id: 12
+      name: dragon_heart_shard
+    - id: 13
+      name: attack_horn_shard
+    - id: 14
+      name: healing_grail_shard
+    - id: 15
+      name: damocles_sword_shard
+    - id: 16
+      name: gargoyle_shard
+    - id: 17
+      name: bull_skull_shard
+    - id: 18
+      name: fire_phoenix_feather_shard
+    - id: 19
+      name: magic_harp_shard
+    - id: 20
+      name: magic_lamp_shard
+    - id: 21
+      name: magic_carpet_shard
+    - id: 22
+      name: poison_apple_shard
+    - id: 23
+      name: laurel_wreath_shard
+    - id: 24
+      name: four_leaf_clover_shard
+    - id: 25
+      name: crystal_shoe_shard
+    - id: 26
+      name: red_hood_shard
+    - id: 27
+      name: gladiator_helm_shard
+    - id: 28
+      name: pumpkin_latern_shard
+    - id: 29
+      name: supreme_staff_shard
+    - id: 30
+      name: iron_throne_shard
+    - id: 31
+      name: sword_in_the_stone_shard

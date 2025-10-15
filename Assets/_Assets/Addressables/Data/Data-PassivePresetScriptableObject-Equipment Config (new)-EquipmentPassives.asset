@@ -1,0 +1,1404 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa62fec2167c25c0f0210e4aef692178, type: 3}
+  m_Name: Data-PassivePresetScriptableObject-Equipment Config (new)-EquipmentPassives
+  m_EditorClassIdentifier:
+  passivePreset:
+  - id: 40000
+    prefab_path: Passive/Equipment_40000.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: chance_explode
+        config_value: 30
+        is_localized_param: 1
+      - config_name: damage_explode
+        config_value: 100
+        is_localized_param: 1
+      localized_desc: passive_40000_desc_epic
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: chance_explode
+        config_value: 30
+        is_localized_param: 0
+      - config_name: damage_explode
+        config_value: 200
+        is_localized_param: 1
+      localized_desc: passive_40000_desc_legendary
+      localized_title:
+    title: equipment passive 40000
+    name: Flash Strike
+  - id: 40001
+    prefab_path: Passive/Equipment_40001.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_bonus
+        config_value: 5
+        is_localized_param: 1
+      - config_name: move_speed_bonus
+        config_value: 2
+        is_localized_param: 0
+      - config_name: duration
+        config_value: 2
+        is_localized_param: 0
+      - config_name: max_stack
+        config_value: 5
+        is_localized_param: 1
+      localized_desc: passive_40001_desc_epic
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: damage_bonus
+        config_value: 10
+        is_localized_param: 1
+      - config_name: move_speed_bonus
+        config_value: 2
+        is_localized_param: 0
+      - config_name: duration
+        config_value: 2
+        is_localized_param: 0
+      - config_name: max_stack
+        config_value: 5
+        is_localized_param: 0
+      localized_desc: passive_40001_desc_legendary
+      localized_title:
+    title: equipment passive 40001
+    name: Dancing Dagger
+  - id: 40002
+    prefab_path: Passive/Equipment_40002.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: bonus_attack
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_40002_desc_epic
+      localized_title: passive_40002_title
+    - rarity: 4
+      config:
+      - config_name: bonus_attack
+        config_value: 40
+        is_localized_param: 1
+      localized_desc: passive_40002_desc_legendary
+      localized_title: passive_40002_title
+    title: equipment passive 40002
+    name: Overwhelming
+  - id: 40003
+    prefab_path: Passive/Equipment_40003.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: cirt_chance_bonus
+        config_value: 50
+        is_localized_param: 1
+      localized_desc: passive_40003_desc_epic
+      localized_title: passive_40003_title
+    - rarity: 4
+      config:
+      - config_name: cirt_chance_bonus
+        config_value: 100
+        is_localized_param: 1
+      localized_desc: passive_40003_desc_legendary
+      localized_title: passive_40003_title
+    title: equipment passive 40003
+    name: Final Strike
+  - id: 40004
+    prefab_path: Passive/Equipment_40004.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_bonus
+        config_value: 50
+        is_localized_param: 1
+      localized_desc: passive_40004_desc_epic
+      localized_title: passive_40004_title
+    - rarity: 4
+      config:
+      - config_name: damage_bonus
+        config_value: 100
+        is_localized_param: 1
+      localized_desc: passive_40004_desc_legendary
+      localized_title: passive_40004_title
+    title: equipment passive 40004
+    name: Sharp spear tip
+  - id: 40005
+    prefab_path: Passive/Equipment_40005.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_bonus
+        config_value: 100
+        is_localized_param: 1
+      localized_desc: passive_40005_desc
+      localized_title: passive_40005_title
+    - rarity: 4
+      config:
+      - config_name: damage_bonus
+        config_value: 200
+        is_localized_param: 1
+      localized_desc: passive_40005_desc_legendary
+      localized_title: passive_40005_title
+    title: equipment passive 40005
+    name: Twin Upper Cut
+  - id: 41009
+    prefab_path: Passive/Equipment_41009.prefab
+    config:
+    - rarity: 4
+      config:
+      - config_name: boon_id
+        config_value: 102
+        is_localized_param: 0
+      localized_desc: passive_41009_desc
+      localized_title: passive_41009_title
+    title: equipment passive 41009
+    name: Holy Shield
+  - id: 41008
+    prefab_path: Passive/Equipment_41008.prefab
+    config:
+    - rarity: 4
+      config:
+      - config_name: boon_id
+        config_value: 101
+        is_localized_param: 0
+      localized_desc: passive_41008_desc
+      localized_title: passive_41008_title
+    title: equipment passive 41008
+    name: Run away
+  - id: 41010
+    prefab_path: Passive/Equipment_41010.prefab
+    config:
+    - rarity: 4
+      config:
+      - config_name: duration
+        config_value: 5
+        is_localized_param: 1
+      localized_desc: passive_41010_desc
+      localized_title: passive_41010_title
+    title: equipment passive 41010
+    name: Last Breath
+  - id: 44021
+    prefab_path: Passive/Equipment_44021.prefab
+    config:
+    - rarity: 4
+      config:
+      - config_name: boon_id
+        config_value: 25
+        is_localized_param: 1
+      localized_desc: passive_44021_desc
+      localized_title: passive_44021_title
+    title: equipment passive 44021
+    name: Tempest
+  - id: 43016
+    prefab_path: Passive/Equipment_43016.prefab
+    config:
+    - rarity: 4
+      config:
+      - config_name: damage_increase
+        config_value: 20
+        is_localized_param: 1
+      - config_name: effect_duration
+        config_value: 8
+        is_localized_param: 1
+      localized_desc: passive_43016_desc
+      localized_title:
+    title: equipment passive 43016
+    name: Triumph
+  - id: 45002
+    prefab_path: Passive/Equipment_45002.prefab
+    config:
+    - rarity: 4
+      config:
+      - config_name: damage_increase
+        config_value: 30
+        is_localized_param: 1
+      localized_desc: passive_45002_desc
+      localized_title: passive_45002_title
+    title: equipment passive 45002
+    name: Kick Back
+  - id: 41023
+    prefab_path: Passive/Equipment_41023.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: number_block
+        config_value: 1
+        is_localized_param: 1
+      - config_name: damage_increase
+        config_value: 20
+        is_localized_param: 1
+      - config_name: move_speed_bonus
+        config_value: 10
+        is_localized_param: 0
+      - config_name: duration
+        config_value: 8
+        is_localized_param: 1
+      localized_desc: passive_41023_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: number_block
+        config_value: 1
+        is_localized_param: 1
+      - config_name: damage_increase
+        config_value: 30
+        is_localized_param: 1
+      - config_name: move_speed_bonus
+        config_value: 10
+        is_localized_param: 0
+      - config_name: duration
+        config_value: 10
+        is_localized_param: 1
+      localized_desc: passive_41023_desc_legendary
+      localized_title:
+    title: equipment passive 41023
+    name: Blitz Shield
+  - id: 42024
+    prefab_path: Passive/Equipment_42024.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: number_hit
+        config_value: 5
+        is_localized_param: 1
+      - config_name: damage_increase
+        config_value: 30
+        is_localized_param: 1
+      localized_desc: passive_42024_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: number_hit
+        config_value: 5
+        is_localized_param: 1
+      - config_name: damage_increase
+        config_value: 60
+        is_localized_param: 1
+      localized_desc: passive_42024_desc
+      localized_title:
+    title: equipment passive 42024
+    name: Follow up
+  - id: 44026
+    prefab_path: Passive/Equipment_44026.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_increase
+        config_value: 15
+        is_localized_param: 1
+      - config_name: number_hit
+        config_value: 5
+        is_localized_param: 1
+      - config_name: duration
+        config_value: 5
+        is_localized_param: 1
+      localized_desc: passive_44026_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: damage_increase
+        config_value: 30
+        is_localized_param: 1
+      - config_name: number_hit
+        config_value: 5
+        is_localized_param: 1
+      - config_name: duration
+        config_value: 5
+        is_localized_param: 1
+      localized_desc: passive_44026_desc
+      localized_title:
+    title: equipment passive 44026
+    name: Awakening
+  - id: 45004
+    prefab_path: Passive/Equipment_45004.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage
+        config_value: 5
+        is_localized_param: 1
+      - config_name: damage_interval
+        config_value: 0.2
+        is_localized_param: 1
+      - config_name: number_hit
+        config_value: 5
+        is_localized_param: 1
+      - config_name: radius
+        config_value: 8
+        is_localized_param: 0
+      localized_desc: passive_45004_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: damage
+        config_value: 10
+        is_localized_param: 1
+      - config_name: damage_interval
+        config_value: 0.2
+        is_localized_param: 1
+      - config_name: number_hit
+        config_value: 5
+        is_localized_param: 1
+      - config_name: radius
+        config_value: 8
+        is_localized_param: 0
+      localized_desc: passive_45004_desc
+      localized_title:
+    title: equipment passive 45004
+    name: Static Field
+  - id: 43025
+    prefab_path: Passive/Equipment_43025.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: rate
+        config_value: 50
+        is_localized_param: 1
+      - config_name: damage_increase
+        config_value: 80
+        is_localized_param: 1
+      localized_desc: passive_43025_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: rate
+        config_value: 50
+        is_localized_param: 1
+      - config_name: damage_increase
+        config_value: 160
+        is_localized_param: 1
+      localized_desc: passive_43025_desc
+      localized_title:
+    title: equipment passive 43025
+    name: Ultimate
+  - id: 41011
+    prefab_path: Passive/Equipment_41011.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: duration
+        config_value: 5
+        is_localized_param: 1
+      - config_name: health
+        config_value: 0
+        is_localized_param: 1
+      localized_desc: passive_41010_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: duration
+        config_value: 5
+        is_localized_param: 0
+      - config_name: health
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_41010_desc_legendary
+      localized_title:
+    title: equipment passive 41011
+    name: Lá Chắn Vinh Quang
+  - id: 42018
+    prefab_path: Passive/Equipment_42018.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_crit
+        config_value: 50
+        is_localized_param: 1
+      - config_name: hp_thresold
+        config_value: 50
+        is_localized_param: 1
+      localized_desc: passive_42018_desc
+      localized_title: passive_42018_title
+    - rarity: 4
+      config:
+      - config_name: damage_crit
+        config_value: 100
+        is_localized_param: 1
+      - config_name: hp_thresold
+        config_value: 50
+        is_localized_param: 1
+      localized_desc: passive_42018_desc
+      localized_title:
+    title: equipment passive 42018
+    name: Sudden Strike
+  - id: 43019
+    prefab_path: Passive/Equipment_43019.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: rage_increase
+        config_value: 50
+        is_localized_param: 1
+      localized_desc: passive_43019_desc
+      localized_title: passive_43019_title
+    - rarity: 4
+      config:
+      - config_name: rage_increase
+        config_value: 80
+        is_localized_param: 1
+      localized_desc: passive_43019_desc
+      localized_title:
+    title: equipment passive 43019
+    name: Overdrive
+  - id: 44023
+    prefab_path: Passive/Equipment_44023.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: boon_id
+        config_value: 25
+        is_localized_param: 1
+      localized_desc: passive_44021_desc
+      localized_title: passive_44021_title
+    title: equipment passive 44023
+    name: Tempest (boon)
+  - id: 45005
+    prefab_path: Passive/Equipment_45005.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: increase_crit_rate_1
+        config_value: 10
+        is_localized_param: 1
+      - config_name: increase_crit_rate_2
+        config_value: 10
+        is_localized_param: 1
+      - config_name: hp_thresold
+        config_value: 50
+        is_localized_param: 1
+      localized_desc: passive_45005_desc
+      localized_title: passive_45005_title
+    - rarity: 4
+      config:
+      - config_name: increase_crit_rate_1
+        config_value: 15
+        is_localized_param: 1
+      - config_name: increase_crit_rate_2
+        config_value: 15
+        is_localized_param: 1
+      - config_name: hp_thresold
+        config_value: 50
+        is_localized_param: 1
+      localized_desc: passive_45005_desc
+      localized_title:
+    title: equipment passive 45005
+    name: Last Stand
+  - id: 41012
+    prefab_path: Passive/Equipment_41012.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: max_stack
+        config_value: 5
+        is_localized_param: 1
+      - config_name: damage
+        config_value: 10
+        is_localized_param: 1
+      localized_desc: passive_41012_desc
+      localized_title: passive_41012_title
+    - rarity: 4
+      config:
+      - config_name: max_stack
+        config_value: 5
+        is_localized_param: 1
+      - config_name: damage
+        config_value: 15
+        is_localized_param: 1
+      localized_desc: passive_41012_desc
+      localized_title:
+    title: equipment passive 41012
+    name: Flawless Victory
+  - id: 42019
+    prefab_path: Passive/Equipment_42019.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage
+        config_value: 10
+        is_localized_param: 1
+      localized_desc: passive_42019_desc
+      localized_title: passive_42019_title
+    - rarity: 4
+      config:
+      - config_name: damage
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_42019_desc
+      localized_title: passive_42019_title
+    title: equipment passive 42019
+    name: Shattering Strike
+  - id: 43020
+    prefab_path: Passive/Equipment_43020.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage
+        config_value: 10
+        is_localized_param: 1
+      - config_name: hero_level
+        config_value: 8
+        is_localized_param: 1
+      localized_desc: passive_43020_desc
+      localized_title: passive_43020_title
+    - rarity: 4
+      config:
+      - config_name: damage
+        config_value: 20
+        is_localized_param: 1
+      - config_name: hero_level
+        config_value: 8
+        is_localized_param: 1
+      localized_desc: passive_43020_desc
+      localized_title:
+    title: equipment passive 43020
+    name: Rank Up
+  - id: 44024
+    prefab_path: Passive/Equipment_44024.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: dmg_melee
+        config_value: 10
+        is_localized_param: 1
+      - config_name: dmg_boss
+        config_value: 10
+        is_localized_param: 1
+      localized_desc: passive_44024_desc
+      localized_title: passive_44024_title
+    - rarity: 4
+      config:
+      - config_name: dmg_melee
+        config_value: 15
+        is_localized_param: 1
+      - config_name: dmg_boss
+        config_value: 15
+        is_localized_param: 1
+      localized_desc: passive_44024_desc
+      localized_title:
+    title: equipment passive 44024
+    name: Boss Slayer
+  - id: 45006
+    prefab_path: Passive/Equipment_45006.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: duration
+        config_value: 5
+        is_localized_param: 1
+      localized_desc: passive_45006_desc
+      localized_title: passive_45006_title
+    - rarity: 4
+      config:
+      - config_name: duration
+        config_value: 8
+        is_localized_param: 1
+      localized_desc: passive_45006_desc
+      localized_title: passive_45006_title
+    title: equipment passive 45006
+    name: Reversal Lance
+  - id: 40006
+    prefab_path: Passive/Equipment_40006.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_bonus
+        config_value: 4
+        is_localized_param: 1
+      - config_name: time_bleed_per_second
+        config_value: 0.2
+        is_localized_param: 1
+      - config_name: bleed_duration
+        config_value: 2
+        is_localized_param: 1
+      - config_name: total_shuriken_hit
+        config_value: 3
+        is_localized_param: 1
+      localized_desc: passive_40006_desc_epic
+      localized_title: passive_40006_title
+    - rarity: 4
+      config:
+      - config_name: damage_bonus
+        config_value: 8
+        is_localized_param: 1
+      localized_desc: passive_40006_desc_legendary
+      localized_title: passive_40006_title
+    title: equipment passive 40006
+    name: Clean Cut
+  - id: 40007
+    prefab_path: Passive/Equipment_40007.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage
+        config_value: 25
+        is_localized_param: 1
+      - config_name: duration
+        config_value: 4
+        is_localized_param: 1
+      localized_desc: passive_40007_desc
+      localized_title: passive_40007_title
+    - rarity: 4
+      config:
+      - config_name: damage
+        config_value: 50
+        is_localized_param: 1
+      - config_name: duration
+        config_value: 4
+        is_localized_param: 1
+      localized_desc: passive_40007_desc
+      localized_title: passive_40007_title
+    title: equipment passive 40007
+    name: Tracer bullet
+  - id: 44022
+    prefab_path: Passive/Equipment_44022.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: elementalbonus
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_44022_desc
+      localized_title: passive_40007_title
+    - rarity: 4
+      config:
+      - config_name: elementalbonus
+        config_value: 40
+        is_localized_param: 1
+      localized_desc: passive_44022_desc
+      localized_title: passive_40007_title
+    title: equipment passive 44022
+    name: Add Element bonus
+  runePreset:
+  - id: 1
+    prefab_path: Rune/Rune_1.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: rate
+        config_value: 6
+        is_localized_param: 1
+      localized_desc: passive_rune_1_desc
+      localized_title: passive_rune_1_title
+    - rarity: 4
+      config:
+      - config_name: rate
+        config_value: 10
+        is_localized_param: 1
+      localized_desc: passive_rune_1_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: rate
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_rune_1_desc
+      localized_title:
+    title: rune passive 1
+    name: Clone Shadow
+  - id: 2
+    prefab_path: Rune/Rune_2.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_increase
+        config_value: 12
+        is_localized_param: 1
+      localized_desc: passive_rune_2_desc
+      localized_title: passive_rune_2_title
+    - rarity: 4
+      config:
+      - config_name: damage_increase
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_rune_2_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: damage_increase
+        config_value: 40
+        is_localized_param: 1
+      localized_desc: passive_rune_2_desc
+      localized_title:
+    title: rune passive 2
+    name:
+  - id: 3
+    prefab_path: Rune/Rune_3.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: lightning_damage
+        config_value: 20
+        is_localized_param: 1
+      - config_name: freeze
+        config_value: 5
+        is_localized_param: 1
+      localized_desc: passive_rune_3_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: lightning_damage
+        config_value: 30
+        is_localized_param: 1
+      - config_name: freeze
+        config_value: 10
+        is_localized_param: 1
+      localized_desc: passive_rune_3_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: lightning_damage
+        config_value: 60
+        is_localized_param: 1
+      - config_name: freeze
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_rune_3_desc
+      localized_title:
+    title: rune passive 3
+    name:
+  - id: 4
+    prefab_path: Rune/Rune_4.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: rate
+        config_value: 25
+        is_localized_param: 1
+      - config_name: damage_increase
+        config_value: 150
+        is_localized_param: 1
+      localized_desc: passive_rune_4_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: rate
+        config_value: 40
+        is_localized_param: 1
+      - config_name: damage_increase
+        config_value: 150
+        is_localized_param: 1
+      localized_desc: passive_rune_4_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: rate
+        config_value: 40
+        is_localized_param: 1
+      - config_name: damage_increase
+        config_value: 180
+        is_localized_param: 1
+      localized_desc: passive_rune_4_desc
+      localized_title:
+    title: rune passive 4
+    name:
+  - id: 5
+    prefab_path: Rune/Rune_5.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_bonus
+        config_value: 12
+        is_localized_param: 1
+      localized_desc: passive_rune_5_desc
+      localized_title: passive_rune_5_title
+    - rarity: 4
+      config:
+      - config_name: damage_bonus
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_rune_5_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: damage_bonus
+        config_value: 40
+        is_localized_param: 1
+      localized_desc: passive_rune_5_desc
+      localized_title:
+    title: rune passive 5
+    name:
+  - id: 6
+    prefab_path: Rune/Rune_6.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: number
+        config_value: 2
+        is_localized_param: 1
+      - config_name: damage
+        config_value: 80
+        is_localized_param: 1
+      - config_name: time_cooldown
+        config_value: 3
+        is_localized_param: 0
+      localized_desc: passive_rune_6_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: number
+        config_value: 2
+        is_localized_param: 1
+      - config_name: damage
+        config_value: 120
+        is_localized_param: 1
+      - config_name: time_cooldown
+        config_value: 3
+        is_localized_param: 0
+      localized_desc: passive_rune_6_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: number
+        config_value: 2
+        is_localized_param: 1
+      - config_name: damage
+        config_value: 200
+        is_localized_param: 1
+      - config_name: time_cooldown
+        config_value: 3
+        is_localized_param: 0
+      localized_desc: passive_rune_6_desc
+      localized_title:
+    title: rune passive 6
+    name:
+  - id: 7
+    prefab_path: Rune/Rune_7.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: rate
+        config_value: 30
+        is_localized_param: 1
+      - config_name: damage_bonus
+        config_value: 40
+        is_localized_param: 1
+      localized_desc: passive_rune_7_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: rate
+        config_value: 40
+        is_localized_param: 1
+      - config_name: damage_bonus
+        config_value: 50
+        is_localized_param: 1
+      localized_desc: passive_rune_7_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: rate
+        config_value: 50
+        is_localized_param: 1
+      - config_name: damage_bonus
+        config_value: 80
+        is_localized_param: 1
+      localized_desc: passive_rune_7_desc
+      localized_title:
+    title: rune passive 7
+    name:
+  - id: 8
+    prefab_path: Rune/Rune_8.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_bonus
+        config_value: 10
+        is_localized_param: 1
+      - config_name: duration
+        config_value: 5
+        is_localized_param: 1
+      localized_desc: passive_rune_8_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: damage_bonus
+        config_value: 18
+        is_localized_param: 1
+      - config_name: duration
+        config_value: 5
+        is_localized_param: 1
+      localized_desc: passive_rune_8_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: damage_bonus
+        config_value: 30
+        is_localized_param: 1
+      - config_name: duration
+        config_value: 5
+        is_localized_param: 1
+      localized_desc: passive_rune_8_desc
+      localized_title:
+    title: rune passive 8
+    name:
+  - id: 9
+    prefab_path: Rune/Rune_9.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_bonus
+        config_value: 15
+        is_localized_param: 1
+      - config_name: level
+        config_value: 8
+        is_localized_param: 1
+      localized_desc: passive_rune_9_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: damage_bonus
+        config_value: 25
+        is_localized_param: 1
+      - config_name: level
+        config_value: 8
+        is_localized_param: 1
+      localized_desc: passive_rune_9_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: damage_bonus
+        config_value: 45
+        is_localized_param: 1
+      - config_name: level
+        config_value: 8
+        is_localized_param: 1
+      localized_desc: passive_rune_9_desc
+      localized_title:
+    title: rune passive 9
+    name:
+  - id: 10
+    prefab_path: Rune/Rune_10.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: crit_dmg
+        config_value: 10
+        is_localized_param: 1
+      localized_desc: passive_rune_10_desc
+      localized_title: passive_rune_10_title
+    - rarity: 4
+      config:
+      - config_name: crit_dmg
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_rune_10_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: crit_dmg
+        config_value: 40
+        is_localized_param: 1
+      localized_desc: passive_rune_10_desc
+      localized_title:
+    title: rune passive 10
+    name:
+  - id: 11
+    prefab_path: Rune/Rune_11.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: hit_threshold
+        config_value: 6
+        is_localized_param: 1
+      - config_name: damage
+        config_value: 80
+        is_localized_param: 1
+      localized_desc: passive_rune_11_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: hit_threshold
+        config_value: 6
+        is_localized_param: 1
+      - config_name: damage
+        config_value: 120
+        is_localized_param: 1
+      localized_desc: passive_rune_11_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: hit_threshold
+        config_value: 5
+        is_localized_param: 1
+      - config_name: damage
+        config_value: 180
+        is_localized_param: 1
+      localized_desc: passive_rune_11_desc
+      localized_title:
+    title: rune passive 11
+    name:
+  - id: 12
+    prefab_path: Rune/Rune_12.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_bonus
+        config_value: 30
+        is_localized_param: 1
+      localized_desc: passive_rune_12_desc
+      localized_title: passive_rune_12_title
+    - rarity: 4
+      config:
+      - config_name: damage_bonus
+        config_value: 50
+        is_localized_param: 1
+      localized_desc: passive_rune_12_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: damage_bonus
+        config_value: 100
+        is_localized_param: 1
+      localized_desc: passive_rune_12_desc
+      localized_title:
+    title: rune passive 12
+    name:
+  - id: 13
+    prefab_path: Rune/Rune_13.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_bonus
+        config_value: 30
+        is_localized_param: 1
+      localized_desc: passive_rune_13_desc
+      localized_title: passive_rune_13_title
+    - rarity: 4
+      config:
+      - config_name: damage_bonus
+        config_value: 50
+        is_localized_param: 1
+      localized_desc: passive_rune_13_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: damage_bonus
+        config_value: 100
+        is_localized_param: 1
+      localized_desc: passive_rune_13_desc
+      localized_title:
+    title: rune passive 13
+    name:
+  - id: 14
+    prefab_path: Rune/Rune_14.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: rate
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_rune_14_desc
+      localized_title: passive_rune_14_title
+    - rarity: 4
+      config:
+      - config_name: rate
+        config_value: 30
+        is_localized_param: 1
+      localized_desc: passive_rune_14_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: rate
+        config_value: 40
+        is_localized_param: 1
+      localized_desc: passive_rune_14_desc
+      localized_title:
+    title: rune passive 14
+    name:
+  - id: 15
+    prefab_path: Rune/Rune_15.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_bonus
+        config_value: 12
+        is_localized_param: 1
+      localized_desc: passive_rune_15_desc
+      localized_title: passive_rune_15_title
+    - rarity: 4
+      config:
+      - config_name: damage_bonus
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_rune_15_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: damage_bonus
+        config_value: 40
+        is_localized_param: 1
+      localized_desc: passive_rune_15_desc
+      localized_title:
+    title: rune passive 15
+    name:
+  - id: 16
+    prefab_path: Rune/Rune_16.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: move_speed
+        config_value: 10
+        is_localized_param: 0
+      - config_name: scale
+        config_value: 10
+        is_localized_param: 1
+      - config_name: damage_bonus
+        config_value: 8
+        is_localized_param: 1
+      localized_desc: passive_rune_16_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: move_speed
+        config_value: 10
+        is_localized_param: 0
+      - config_name: scale
+        config_value: 10
+        is_localized_param: 1
+      - config_name: damage_bonus
+        config_value: 15
+        is_localized_param: 1
+      localized_desc: passive_rune_16_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: move_speed
+        config_value: 10
+        is_localized_param: 0
+      - config_name: scale
+        config_value: 10
+        is_localized_param: 1
+      - config_name: damage_bonus
+        config_value: 25
+        is_localized_param: 1
+      localized_desc: passive_rune_16_desc
+      localized_title:
+    title: rune passive 16
+    name:
+  - id: 17
+    prefab_path: Rune/Rune_17.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_bonus
+        config_value: 2
+        is_localized_param: 1
+      localized_desc: passive_rune_17_desc
+      localized_title: passive_rune_17_title
+    - rarity: 4
+      config:
+      - config_name: damage_bonus
+        config_value: 3
+        is_localized_param: 1
+      localized_desc: passive_rune_17_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: damage_bonus
+        config_value: 6
+        is_localized_param: 1
+      localized_desc: passive_rune_17_desc
+      localized_title:
+    title: rune passive 17
+    name:
+  - id: 18
+    prefab_path: Rune/Rune_18.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_bonus
+        config_value: 2
+        is_localized_param: 1
+      localized_desc: passive_rune_18_desc
+      localized_title: passive_rune_18_title
+    - rarity: 4
+      config:
+      - config_name: damage_bonus
+        config_value: 3
+        is_localized_param: 1
+      localized_desc: passive_rune_18_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: damage_bonus
+        config_value: 6
+        is_localized_param: 1
+      localized_desc: passive_rune_18_desc
+      localized_title:
+    title: rune passive 18
+    name:
+  - id: 19
+    prefab_path: Rune/Rune_19.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: dodge_rate
+        config_value: 2
+        is_localized_param: 1
+      localized_desc: passive_rune_19_desc
+      localized_title: passive_rune_19_title
+    - rarity: 4
+      config:
+      - config_name: dodge_rate
+        config_value: 4
+        is_localized_param: 1
+      localized_desc: passive_rune_19_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: dodge_rate
+        config_value: 8
+        is_localized_param: 1
+      localized_desc: passive_rune_19_desc
+      localized_title:
+    title: rune passive 19
+    name:
+  - id: 20
+    prefab_path: Rune/Rune_20.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: def_percent
+        config_value: 2
+        is_localized_param: 1
+      localized_desc: passive_rune_20_desc
+      localized_title: passive_rune_20_title
+    - rarity: 4
+      config:
+      - config_name: def_percent
+        config_value: 4
+        is_localized_param: 1
+      localized_desc: passive_rune_20_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: def_percent
+        config_value: 8
+        is_localized_param: 1
+      localized_desc: passive_rune_20_desc
+      localized_title:
+    title: rune passive 20
+    name:
+  - id: 21
+    prefab_path: Rune/Rune_21.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: heal_percent
+        config_value: 10
+        is_localized_param: 1
+      localized_desc: passive_rune_21_desc
+      localized_title: passive_rune_21_title
+    - rarity: 4
+      config:
+      - config_name: heal_percent
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_rune_21_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: heal_percent
+        config_value: 40
+        is_localized_param: 1
+      localized_desc: passive_rune_21_desc
+      localized_title:
+    title: rune passive 21
+    name:
+  - id: 22
+    prefab_path: Rune/Rune_22.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: damage_boss
+        config_value: 10
+        is_localized_param: 1
+      localized_desc: passive_rune_22_desc
+      localized_title: passive_rune_22_title
+    - rarity: 4
+      config:
+      - config_name: damage_boss
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_rune_22_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: damage_boss
+        config_value: 40
+        is_localized_param: 1
+      localized_desc: passive_rune_22_desc
+      localized_title:
+    title: rune passive 22
+    name:
+  - id: 23
+    prefab_path: Rune/Rune_23.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: hp_thresold
+        config_value: 50
+        is_localized_param: 1
+      - config_name: damage_bonus
+        config_value: 10
+        is_localized_param: 1
+      localized_desc: passive_rune_23_desc
+      localized_title:
+    - rarity: 4
+      config:
+      - config_name: hp_thresold
+        config_value: 50
+        is_localized_param: 1
+      - config_name: damage_bonus
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_rune_23_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: hp_thresold
+        config_value: 50
+        is_localized_param: 1
+      - config_name: damage_bonus
+        config_value: 40
+        is_localized_param: 1
+      localized_desc: passive_rune_23_desc
+      localized_title:
+    title: rune passive 23
+    name:
+  - id: 24
+    prefab_path: Rune/Rune_24.prefab
+    config:
+    - rarity: 3
+      config:
+      - config_name: exp_bonus
+        config_value: 5
+        is_localized_param: 1
+      localized_desc: passive_rune_24_desc
+      localized_title: passive_rune_24_title
+    - rarity: 4
+      config:
+      - config_name: exp_bonus
+        config_value: 10
+        is_localized_param: 1
+      localized_desc: passive_rune_24_desc
+      localized_title:
+    - rarity: 5
+      config:
+      - config_name: exp_bonus
+        config_value: 20
+        is_localized_param: 1
+      localized_desc: passive_rune_24_desc
+      localized_title:
+    title: rune passive 24
+    name:

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2b1b02e5428ac71840d12e0621e427, type: 3}
+  m_Name: AIExplodeAction
+  m_EditorClassIdentifier:
+  guid: 23e24ee19e460b24b9811c434d41eaa8
+  Name: AIExplodeAction
+  context: {fileID: 1585905006215489, guid: b33724927001d2d4380b109507d5c9dd, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: ac96f79d9c2b8a740bc1d2fa3cc3a044, type: 2}
+  - {fileID: 11400000, guid: bbc897b71ebc7b74fb621d7fa86acd69, type: 2}
+  - {fileID: 11400000, guid: 112b3b40ca2350a4fb808bff542a1253, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 2e8ed245394924f489219f9566f5d3b5, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 0.5
+  explodeAnimationType: 4
+  _explodeDuration: 0

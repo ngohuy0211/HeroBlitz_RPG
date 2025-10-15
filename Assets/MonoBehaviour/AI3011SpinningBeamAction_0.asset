@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98eb8c6b23a64b1358afa2d93e351e, type: 3}
+  m_Name: AI3011SpinningBeamAction
+  m_EditorClassIdentifier:
+  guid: fc8d5369080313947a2a90d8797ddaa3
+  Name: AI3011SpinningBeamAction
+  context: {fileID: 1338231702950471, guid: ec77e8ab6d41cfb49a64d0fcc79d0cb6, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: aa39ac19df0f5e344a59194f55394c87, type: 2}
+  - {fileID: 11400000, guid: ac07d702ac5d9384b860551d414fe58f, type: 2}
+  - {fileID: 11400000, guid: 63d46ceed3ec1e74595c3d3aa710d8c7, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 203339ed13c9dc145b464401906ee32f, type: 2}
+  faceTarget: 0
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 3
+  sequenceID: 0
+  totalBeam: 4
+  chargeTime: 1
+  delaySpinTime: 1
+  spinningTime: 6
+  spinSpeed: 8.5

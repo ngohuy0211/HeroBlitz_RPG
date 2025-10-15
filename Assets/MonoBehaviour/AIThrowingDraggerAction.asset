@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522c01dc0b81bbcbe77a492d75cfefa3, type: 3}
+  m_Name: AIThrowingDraggerAction
+  m_EditorClassIdentifier:
+  guid: 173cc116d458cea4b9db20cfcea4d731
+  Name: AIThrowing3DraggerAction
+  context: {fileID: 1450538191671771, guid: c34b0413dbc399045b9c87ec231321ca, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 99c4b71adab20dd49b39887bb4523783, type: 2}
+  - {fileID: 11400000, guid: 2cb5bfcb62ca3314bbd501ad0dff8e67, type: 2}
+  - {fileID: 11400000, guid: 2bf86d93733864c4f868183ad2873735, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 06593ef107c34e143bfc594074631e96, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 1
+  actionSequenceID: 3
+  totalDragger: 3
+  draggerSpeed: 50
+  throwType: 1
+  throwAngle: 0c00000014000000
+  throwInTurn: 4
+  throwSimultaneous: 19
+  delayFallTime: 0.34
+  _throwInTurnDuration: 0
+  _throwSimultaneousDuration: 0

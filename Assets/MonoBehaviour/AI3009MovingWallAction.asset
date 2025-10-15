@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09255df28038e8dccf164efee3e730fc, type: 3}
+  m_Name: AI3009MovingWallAction
+  m_EditorClassIdentifier:
+  guid: 20830e9fc83d6a34aaf3a3d01c3ff15e
+  Name: AI3009MovingWallAction
+  context: {fileID: 1014859432381864, guid: 318213d2eff163041b84c46c0b650679, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 6d7db9184002f1046bf0ab3e4785a534, type: 2}
+  - {fileID: 11400000, guid: e6a8b1cc6ca30a04bb122c6ee4bdd96b, type: 2}
+  - {fileID: 11400000, guid: c178fc9d55b5ab8469cc22ad9960380d, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 312f19e3b178ae34db96db6780f0fd60, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  coolDown: 0
+  animDigDown: 6
+  animDigUp: 25
+  _digUpAnimDuration: 0
+  _digDownAnimDuration: 0

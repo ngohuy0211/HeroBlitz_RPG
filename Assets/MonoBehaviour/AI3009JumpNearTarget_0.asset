@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9df69a05456874481224ec0e15c6d8c, type: 3}
+  m_Name: AI3009JumpNearTarget
+  m_EditorClassIdentifier:
+  guid: 69cb78d3d81bd4642a1b96f1d9122d20
+  Name: AI3009JumpNearTarget
+  context: {fileID: 1014859432381864, guid: 318213d2eff163041b84c46c0b650679, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 3e176bc33f938bb48b6a60bf41cd9269, type: 2}
+  - {fileID: 11400000, guid: 1331bb111ffa3304a9eb4e9991a48bde, type: 2}
+  - {fileID: 11400000, guid: bf602b2f8c2234644b7033f5ca6765a7, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 56aba184bd82f3f43bd0944f3493168a, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  delayTimeAttack: 0.35

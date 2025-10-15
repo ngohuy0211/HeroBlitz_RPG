@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd7bc42efab21ff162863fd3b8c27cf0, type: 3}
+  m_Name: Data-SkinScriptableObject-SkinConfig-Skin
+  m_EditorClassIdentifier:
+  skinConfigDatas:
+  - skinId: 1
+    skinKey: katana_MA
+    lclName: katana_MA_name
+    skinType: 1
+    itemId: 40003
+    buffConfig:
+    - attributeType: 7
+      operation: 0
+      value: 20
+  - skinId: 2
+    skinKey: spear_MA
+    lclName: spear_MA_name
+    skinType: 1
+    itemId: 40004
+    buffConfig:
+    - attributeType: 10
+      operation: 0
+      value: 5
+  - skinId: 3
+    skinKey: knuckle_MA
+    lclName: knuckle_MA_name
+    skinType: 1
+    itemId: 40005
+    buffConfig:
+    - attributeType: 44
+      operation: 0
+      value: 5

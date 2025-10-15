@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1131232383043316
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4108041770487670}
+  - component: {fileID: 114713932659469813}
+  - component: {fileID: 114330259404611603}
+  m_Layer: 0
+  m_Name: BossRaidGameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4108041770487670
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131232383043316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114713932659469813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131232383043316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bbc5bdee82a56562ee4862d14ff69ea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  TeamManager: {}
+  RewardExpAccount:
+    DbKey: 0
+    quantity:
+      currentCryptoKey: 3282197630093505886
+      hiddenValue: 3282197630093505886
+      fakeValue: 0
+      fakeValueActive: 1
+      inited: 1
+    ItemType: 6
+    BranchType: 0
+    uniqueKey: 0
+    promote: 0
+  RewardCoin:
+    DbKey: 0
+    quantity:
+      currentCryptoKey: 8316926970147966041
+      hiddenValue: 8316926970147966041
+      fakeValue: 0
+      fakeValueActive: 1
+      inited: 1
+    ItemType: 1
+    BranchType: 0
+    uniqueKey: 0
+    promote: 0
+  _rewardBonusBattle: []
+  isFirstLoadmap: 1
+  _enemyDropItem: 0
+  forceDropItem: 0
+--- !u!114 &114330259404611603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131232383043316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7ad0e9c0fe3980b026ea2c5f9a2ef6b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _defaultMusic: 12
+  timeFade: 2

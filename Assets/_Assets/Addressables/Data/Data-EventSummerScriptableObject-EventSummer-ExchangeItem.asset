@@ -1,0 +1,2013 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c966498cc0fe1c25fd013093666467f, type: 3}
+  m_Name: Data-EventSummerScriptableObject-EventSummer-ExchangeItem
+  m_EditorClassIdentifier:
+  exchangeItem:
+  - require: 0
+    exchanges:
+    - exchangeItemId: 0
+      limit: 10
+      spentAmount: 1
+      rewards:
+      - id: 0
+        quantity: 1
+        itemType: 33
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 36
+    - exchangeItemId: 1
+      limit: 5
+      spentAmount: 200
+      rewards:
+      - id: 0
+        quantity: 5
+        itemType: 33
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 2
+      limit: 50
+      spentAmount: 1
+      rewards:
+      - id: 0
+        quantity: 300
+        itemType: 1
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 3
+      limit: 5
+      spentAmount: 1000
+      rewards:
+      - id: 1
+        quantity: 5
+        itemType: 13
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 4
+      limit: 5
+      spentAmount: 1200
+      rewards:
+      - id: 0
+        quantity: 3
+        itemType: 13
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+  - require: 75
+    exchanges:
+    - exchangeItemId: 5
+      limit: 10
+      spentAmount: 1
+      rewards:
+      - id: 0
+        quantity: 1
+        itemType: 33
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 36
+    - exchangeItemId: 6
+      limit: 5
+      spentAmount: 400
+      rewards:
+      - id: 0
+        quantity: 5
+        itemType: 33
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 7
+      limit: 5
+      spentAmount: 2700
+      rewards:
+      - id: 0
+        quantity: 10
+        itemType: 11
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 8
+      limit: 5
+      spentAmount: 2700
+      rewards:
+      - id: 0
+        quantity: 20
+        itemType: 14
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 9
+      limit: 5
+      spentAmount: 2500
+      rewards:
+      - id: 7
+        quantity: 5
+        itemType: 13
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+  - require: 230
+    exchanges:
+    - exchangeItemId: 10
+      limit: 10
+      spentAmount: 1
+      rewards:
+      - id: 0
+        quantity: 1
+        itemType: 33
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 36
+    - exchangeItemId: 11
+      limit: 5
+      spentAmount: 800
+      rewards:
+      - id: 0
+        quantity: 5
+        itemType: 33
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 12
+      limit: 2
+      spentAmount: 5000
+      rewards:
+      - id: 4
+        quantity: 5
+        itemType: 13
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 13
+      limit: 5
+      spentAmount: 8700
+      rewards:
+      - id: 18
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 14
+      limit: 5
+      spentAmount: 5900
+      rewards:
+      - id: 16
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 15
+      limit: 5
+      spentAmount: 5900
+      rewards:
+      - id: 17
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+  - require: 500
+    exchanges:
+    - exchangeItemId: 16
+      limit: 10
+      spentAmount: 1
+      rewards:
+      - id: 0
+        quantity: 1
+        itemType: 33
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 36
+    - exchangeItemId: 17
+      limit: 5
+      spentAmount: 1500
+      rewards:
+      - id: 0
+        quantity: 10
+        itemType: 33
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 18
+      limit: 2
+      spentAmount: 60000
+      rewards:
+      - id: 40003
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 19
+      limit: 2
+      spentAmount: 60000
+      rewards:
+      - id: 40004
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 20
+      limit: 2
+      spentAmount: 60000
+      rewards:
+      - id: 40005
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 21
+      limit: 2
+      spentAmount: 60000
+      rewards:
+      - id: 40006
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 22
+      limit: 2
+      spentAmount: 42000
+      rewards:
+      - id: 24
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+  exchangeItem1:
+  - require: 0
+    exchanges:
+    - exchangeItemId: 0
+      limit: 50
+      spentAmount: 900
+      rewards:
+      - id: 5
+        quantity: 3
+        itemType: 31
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 1
+      limit: 50
+      spentAmount: 900
+      rewards:
+      - id: 6
+        quantity: 3
+        itemType: 12
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 2
+      limit: 1
+      spentAmount: 12000
+      rewards:
+      - id: 40003
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 3
+      limit: 1
+      spentAmount: 8000
+      rewards:
+      - id: 41011
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 4
+      limit: 1
+      spentAmount: 8000
+      rewards:
+      - id: 42018
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 5
+      limit: 1
+      spentAmount: 8000
+      rewards:
+      - id: 43019
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 6
+      limit: 1
+      spentAmount: 8000
+      rewards:
+      - id: 44023
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 7
+      limit: 1
+      spentAmount: 8000
+      rewards:
+      - id: 45005
+        quantity: 1
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 34
+    - exchangeItemId: 8
+      limit: 10
+      spentAmount: 1200
+      rewards:
+      - id: 2
+        quantity: 10
+        itemType: 13
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 34
+  ExchangeItemGold:
+  - require: 0
+    exchanges:
+    - exchangeItemId: 100
+      limit: 2
+      spentAmount: 50
+      rewards:
+      - id: 9
+        quantity: 60
+        itemType: 12
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 101
+      limit: 2
+      spentAmount: 50
+      rewards:
+      - id: 6
+        quantity: 60
+        itemType: 12
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 102
+      limit: 2
+      spentAmount: 50
+      rewards:
+      - id: 8
+        quantity: 60
+        itemType: 12
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 103
+      limit: 10
+      spentAmount: 4
+      rewards:
+      - id: 2
+        quantity: 10
+        itemType: 13
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 104
+      limit: 10
+      spentAmount: 5
+      rewards:
+      - id: 4
+        quantity: 10
+        itemType: 13
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 105
+      limit: 2
+      spentAmount: 8
+      rewards:
+      - id: 1
+        quantity: 1
+        itemType: 22
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 106
+      limit: 2
+      spentAmount: 20
+      rewards:
+      - id: 7
+        quantity: 15
+        itemType: 12
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 35
+  ExchangeItemGold1:
+  - require: 0
+    exchanges:
+    - exchangeItemId: 100
+      limit: 50
+      spentAmount: 900
+      rewards:
+      - id: 5
+        quantity: 10
+        itemType: 12
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 101
+      limit: 50
+      spentAmount: 900
+      rewards:
+      - id: 7
+        quantity: 11
+        itemType: 12
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 102
+      limit: 1
+      spentAmount: 12000
+      rewards:
+      - id: 40005
+        quantity: 12
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 103
+      limit: 1
+      spentAmount: 8000
+      rewards:
+      - id: 41023
+        quantity: 13
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 104
+      limit: 1
+      spentAmount: 8000
+      rewards:
+      - id: 42024
+        quantity: 14
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 105
+      limit: 1
+      spentAmount: 8000
+      rewards:
+      - id: 43025
+        quantity: 15
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 106
+      limit: 1
+      spentAmount: 8000
+      rewards:
+      - id: 44026
+        quantity: 16
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 107
+      limit: 1
+      spentAmount: 8000
+      rewards:
+      - id: 45004
+        quantity: 17
+        itemType: 4
+        branchType: 3
+        promote: 0
+      spentId: 0
+      spentType: 35
+    - exchangeItemId: 108
+      limit: 99
+      spentAmount: 1200
+      rewards:
+      - id: 2
+        quantity: 18
+        itemType: 13
+        branchType: 0
+        promote: 0
+      spentId: 0
+      spentType: 35
+  rods:
+  - rarityRod: 0
+    weightFinish: 500
+    autoCatchDuration: 2.5
+    catchBarSize: 3
+  - rarityRod: 1
+    weightFinish: 1000
+    autoCatchDuration: 3
+    catchBarSize: 3
+  - rarityRod: 2
+    weightFinish: 9999999
+    autoCatchDuration: 3.5
+    catchBarSize: 3
+  maps:
+  - mapId: 0
+    weightRequirement: 0
+    rarityFishes:
+    - rarityFish: 0
+      fishes: 000000000100000002000000
+    - rarityFish: 1
+      fishes: 0c0000000d000000
+    - rarityFish: 2
+      fishes: 14000000
+    reward:
+      DbKey: 0
+      quantity:
+        currentCryptoKey: 8903730356729135484
+        hiddenValue: 8903730356729136288
+        fakeValue: 1500
+        fakeValueActive: 1
+        inited: 1
+      ItemType: 0
+      BranchType: 0
+      uniqueKey: 0
+      promote: 0
+  - mapId: 1
+    weightRequirement: 120
+    rarityFishes:
+    - rarityFish: 0
+      fishes: 030000000400000005000000
+    - rarityFish: 1
+      fishes: 0e0000000f000000
+    - rarityFish: 2
+      fishes: 15000000
+    reward:
+      DbKey: 7
+      quantity:
+        currentCryptoKey: 3889886205179253046
+        hiddenValue: 3889886205179253052
+        fakeValue: 10
+        fakeValueActive: 1
+        inited: 1
+      ItemType: 13
+      BranchType: 0
+      uniqueKey: 0
+      promote: 0
+  - mapId: 2
+    weightRequirement: 230
+    rarityFishes:
+    - rarityFish: 0
+      fishes: 060000000700000008000000
+    - rarityFish: 1
+      fishes: 1000000011000000
+    - rarityFish: 2
+      fishes: 16000000
+    reward:
+      DbKey: 3
+      quantity:
+        currentCryptoKey: 2758306770157613892
+        hiddenValue: 2758306770157613902
+        fakeValue: 10
+        fakeValueActive: 1
+        inited: 1
+      ItemType: 13
+      BranchType: 0
+      uniqueKey: 0
+      promote: 0
+  - mapId: 3
+    weightRequirement: 500
+    rarityFishes:
+    - rarityFish: 0
+      fishes: 090000000a0000000b000000
+    - rarityFish: 1
+      fishes: 1200000013000000
+    - rarityFish: 2
+      fishes: 17000000
+    reward:
+      DbKey: 2
+      quantity:
+        currentCryptoKey: 1805959105618351975
+        hiddenValue: 1805959105618351981
+        fakeValue: 10
+        fakeValueActive: 1
+        inited: 1
+      ItemType: 13
+      BranchType: 0
+      uniqueKey: 0
+      promote: 0
+  gachaTiers:
+  - gachaTier: 0
+    intervalTime: 1
+    progessionBarIncreaseSpeed: 0.12
+    progessionBarDecreaseSpeed: 0.05
+    rarity:
+    - 5
+    - 35
+    - 60
+  - gachaTier: 1
+    intervalTime: 1.5
+    progessionBarIncreaseSpeed: 0.12
+    progessionBarDecreaseSpeed: 0.03
+    rarity:
+    - 5
+    - 60
+    - 35
+  - gachaTier: 2
+    intervalTime: 2
+    progessionBarIncreaseSpeed: 0.12
+    progessionBarDecreaseSpeed: 0.03
+    rarity:
+    - 50
+    - 50
+    - 0
+  - gachaTier: 3
+    intervalTime: 3
+    progessionBarIncreaseSpeed: 0.12
+    progessionBarDecreaseSpeed: 0.01
+    rarity:
+    - 80
+    - 20
+    - 0
+  rewardRaritys:
+  - mapId: 0
+    rarityFish: 0
+    rewardRaritys:
+    - groupId: 0
+      rewards:
+      - id: 28
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 90
+        quantityMax: 1
+      - id: 32
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 10
+        quantityMax: 1
+      - id: 36
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+    - groupId: 2
+      rewards:
+      - id: 0
+        quantity: 2500
+        itemType: 1
+        branchType: 0
+        promote: 0
+        rate: 25
+        quantityMax: 2500
+      - id: 0
+        quantity: 20
+        itemType: 0
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 20
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 7
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 3
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 42
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 23
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 0
+        quantity: 1
+        itemType: 11
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 1
+      - id: 0
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 25
+        quantityMax: 2
+      - id: 1
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 25
+        quantityMax: 2
+  - mapId: 0
+    rarityFish: 1
+    rewardRaritys:
+    - groupId: 0
+      rewards:
+      - id: 28
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 45.45
+        quantityMax: 1
+      - id: 32
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 45.45
+        quantityMax: 1
+      - id: 36
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 9.09
+        quantityMax: 1
+    - groupId: 2
+      rewards:
+      - id: 0
+        quantity: 2500
+        itemType: 1
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 5000
+      - id: 0
+        quantity: 30
+        itemType: 0
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 30
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 7
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 3
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 1
+      - id: 42
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 23
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 1
+      - id: 0
+        quantity: 1
+        itemType: 11
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 0
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 5
+      - id: 1
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 5
+  - mapId: 0
+    rarityFish: 2
+    rewardRaritys:
+    - groupId: 0
+      rewards:
+      - id: 28
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 30
+        quantityMax: 1
+      - id: 32
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 50
+        quantityMax: 1
+      - id: 36
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 20
+        quantityMax: 1
+    - groupId: 2
+      rewards:
+      - id: 0
+        quantity: 5000
+        itemType: 1
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 7500
+      - id: 0
+        quantity: 50
+        itemType: 0
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 50
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 5.88
+        quantityMax: 2
+      - id: 7
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 5.88
+        quantityMax: 2
+      - id: 3
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 1
+      - id: 42
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 5.88
+        quantityMax: 1
+      - id: 23
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 2
+      - id: 0
+        quantity: 1
+        itemType: 11
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 2
+      - id: 0
+        quantity: 8
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 8
+      - id: 1
+        quantity: 8
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 8
+  - mapId: 1
+    rarityFish: 0
+    rewardRaritys:
+    - groupId: 0
+      rewards:
+      - id: 29
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 90
+        quantityMax: 1
+      - id: 33
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 10
+        quantityMax: 1
+      - id: 37
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+    - groupId: 2
+      rewards:
+      - id: 0
+        quantity: 2500
+        itemType: 1
+        branchType: 0
+        promote: 0
+        rate: 25
+        quantityMax: 2500
+      - id: 0
+        quantity: 20
+        itemType: 0
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 20
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 7
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 3
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 42
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 23
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 0
+        quantity: 1
+        itemType: 11
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 1
+      - id: 0
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 25
+        quantityMax: 2
+      - id: 1
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 25
+        quantityMax: 2
+  - mapId: 1
+    rarityFish: 1
+    rewardRaritys:
+    - groupId: 0
+      rewards:
+      - id: 29
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 45.45
+        quantityMax: 1
+      - id: 33
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 45.45
+        quantityMax: 1
+      - id: 37
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 9.09
+        quantityMax: 1
+    - groupId: 2
+      rewards:
+      - id: 0
+        quantity: 2500
+        itemType: 1
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 5000
+      - id: 0
+        quantity: 30
+        itemType: 0
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 30
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 7
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 3
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 1
+      - id: 42
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 23
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 1
+      - id: 0
+        quantity: 1
+        itemType: 11
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 0
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 5
+      - id: 1
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 5
+  - mapId: 1
+    rarityFish: 2
+    rewardRaritys:
+    - groupId: 0
+      rewards:
+      - id: 29
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 30
+        quantityMax: 1
+      - id: 33
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 50
+        quantityMax: 1
+      - id: 37
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 20
+        quantityMax: 1
+    - groupId: 2
+      rewards:
+      - id: 0
+        quantity: 5000
+        itemType: 1
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 7500
+      - id: 0
+        quantity: 50
+        itemType: 0
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 50
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 5.88
+        quantityMax: 2
+      - id: 7
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 5.88
+        quantityMax: 2
+      - id: 3
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 1
+      - id: 42
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 5.88
+        quantityMax: 1
+      - id: 23
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 2
+      - id: 0
+        quantity: 1
+        itemType: 11
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 2
+      - id: 0
+        quantity: 8
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 8
+      - id: 1
+        quantity: 8
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 8
+  - mapId: 2
+    rarityFish: 0
+    rewardRaritys:
+    - groupId: 0
+      rewards:
+      - id: 30
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 90
+        quantityMax: 1
+      - id: 34
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 10
+        quantityMax: 1
+      - id: 38
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+    - groupId: 2
+      rewards:
+      - id: 0
+        quantity: 2500
+        itemType: 1
+        branchType: 0
+        promote: 0
+        rate: 25
+        quantityMax: 2500
+      - id: 0
+        quantity: 20
+        itemType: 0
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 20
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 7
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 3
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 42
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 23
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 0
+        quantity: 1
+        itemType: 11
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 1
+      - id: 0
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 25
+        quantityMax: 2
+      - id: 1
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 25
+        quantityMax: 2
+  - mapId: 2
+    rarityFish: 1
+    rewardRaritys:
+    - groupId: 0
+      rewards:
+      - id: 30
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 45.45
+        quantityMax: 1
+      - id: 34
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 45.45
+        quantityMax: 1
+      - id: 38
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 9.09
+        quantityMax: 1
+    - groupId: 2
+      rewards:
+      - id: 0
+        quantity: 2500
+        itemType: 1
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 5000
+      - id: 0
+        quantity: 30
+        itemType: 0
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 30
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 7
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 3
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 1
+      - id: 42
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 23
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 1
+      - id: 0
+        quantity: 1
+        itemType: 11
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 0
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 5
+      - id: 1
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 5
+  - mapId: 2
+    rarityFish: 2
+    rewardRaritys:
+    - groupId: 0
+      rewards:
+      - id: 30
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 30
+        quantityMax: 1
+      - id: 34
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 50
+        quantityMax: 1
+      - id: 38
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 20
+        quantityMax: 1
+    - groupId: 2
+      rewards:
+      - id: 0
+        quantity: 5000
+        itemType: 1
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 7500
+      - id: 0
+        quantity: 50
+        itemType: 0
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 50
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 5.88
+        quantityMax: 2
+      - id: 7
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 5.88
+        quantityMax: 2
+      - id: 3
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 1
+      - id: 42
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 5.88
+        quantityMax: 1
+      - id: 23
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 2
+      - id: 0
+        quantity: 1
+        itemType: 11
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 2
+      - id: 0
+        quantity: 8
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 8
+      - id: 1
+        quantity: 8
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 8
+  - mapId: 3
+    rarityFish: 0
+    rewardRaritys:
+    - groupId: 0
+      rewards:
+      - id: 31
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 90
+        quantityMax: 1
+      - id: 35
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 10
+        quantityMax: 1
+      - id: 39
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+    - groupId: 2
+      rewards:
+      - id: 0
+        quantity: 2500
+        itemType: 1
+        branchType: 0
+        promote: 0
+        rate: 25
+        quantityMax: 2500
+      - id: 0
+        quantity: 20
+        itemType: 0
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 20
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 7
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 3
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 42
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 23
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 0
+        quantityMax: 1
+      - id: 0
+        quantity: 1
+        itemType: 11
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 1
+      - id: 0
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 25
+        quantityMax: 2
+      - id: 1
+        quantity: 2
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 25
+        quantityMax: 2
+  - mapId: 3
+    rarityFish: 1
+    rewardRaritys:
+    - groupId: 0
+      rewards:
+      - id: 31
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 45.45
+        quantityMax: 1
+      - id: 35
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 45.45
+        quantityMax: 1
+      - id: 39
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 9.09
+        quantityMax: 1
+    - groupId: 2
+      rewards:
+      - id: 0
+        quantity: 2500
+        itemType: 1
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 5000
+      - id: 0
+        quantity: 30
+        itemType: 0
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 30
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 7
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 3
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 1
+      - id: 42
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 23
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 1
+      - id: 0
+        quantity: 1
+        itemType: 11
+        branchType: 0
+        promote: 0
+        rate: 6.25
+        quantityMax: 1
+      - id: 0
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 5
+      - id: 1
+        quantity: 5
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 12.5
+        quantityMax: 5
+  - mapId: 3
+    rarityFish: 2
+    rewardRaritys:
+    - groupId: 0
+      rewards:
+      - id: 31
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 30
+        quantityMax: 1
+      - id: 35
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 50
+        quantityMax: 1
+      - id: 39
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 20
+        quantityMax: 1
+    - groupId: 2
+      rewards:
+      - id: 0
+        quantity: 5000
+        itemType: 1
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 7500
+      - id: 0
+        quantity: 50
+        itemType: 0
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 50
+      - id: 1
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 5.88
+        quantityMax: 2
+      - id: 7
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 5.88
+        quantityMax: 2
+      - id: 3
+        quantity: 1
+        itemType: 13
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 1
+      - id: 42
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 5.88
+        quantityMax: 1
+      - id: 23
+        quantity: 1
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 2
+      - id: 0
+        quantity: 1
+        itemType: 11
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 2
+      - id: 0
+        quantity: 8
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 8
+      - id: 1
+        quantity: 8
+        itemType: 18
+        branchType: 0
+        promote: 0
+        rate: 11.76
+        quantityMax: 8
+  weightFishes:
+  - fish: 0
+    rarity: 0
+    weightMin: 0.2
+    weightMax: 0.8
+    exchangeFishShopMin: 40
+    exchangeFishShopMax: 60
+  - fish: 1
+    rarity: 0
+    weightMin: 0.4
+    weightMax: 0.6
+    exchangeFishShopMin: 50
+    exchangeFishShopMax: 50
+  - fish: 2
+    rarity: 0
+    weightMin: 0.5
+    weightMax: 0.5
+    exchangeFishShopMin: 30
+    exchangeFishShopMax: 70
+  - fish: 3
+    rarity: 0
+    weightMin: 0.75
+    weightMax: 1.25
+    exchangeFishShopMin: 50
+    exchangeFishShopMax: 100
+  - fish: 4
+    rarity: 0
+    weightMin: 1
+    weightMax: 1
+    exchangeFishShopMin: 75
+    exchangeFishShopMax: 75
+  - fish: 5
+    rarity: 0
+    weightMin: 0.5
+    weightMax: 1.5
+    exchangeFishShopMin: 70
+    exchangeFishShopMax: 80
+  - fish: 6
+    rarity: 0
+    weightMin: 1.5
+    weightMax: 1.5
+    exchangeFishShopMin: 100
+    exchangeFishShopMax: 150
+  - fish: 7
+    rarity: 0
+    weightMin: 1
+    weightMax: 2
+    exchangeFishShopMin: 120
+    exchangeFishShopMax: 130
+  - fish: 8
+    rarity: 0
+    weightMin: 1.25
+    weightMax: 1.75
+    exchangeFishShopMin: 50
+    exchangeFishShopMax: 200
+  - fish: 9
+    rarity: 0
+    weightMin: 1
+    weightMax: 3
+    exchangeFishShopMin: 100
+    exchangeFishShopMax: 200
+  - fish: 10
+    rarity: 0
+    weightMin: 1.5
+    weightMax: 2.5
+    exchangeFishShopMin: 120
+    exchangeFishShopMax: 180
+  - fish: 11
+    rarity: 0
+    weightMin: 2
+    weightMax: 2
+    exchangeFishShopMin: 150
+    exchangeFishShopMax: 150
+  - fish: 12
+    rarity: 1
+    weightMin: 1.7
+    weightMax: 3.3
+    exchangeFishShopMin: 100
+    exchangeFishShopMax: 200
+  - fish: 13
+    rarity: 1
+    weightMin: 2
+    weightMax: 3
+    exchangeFishShopMin: 120
+    exchangeFishShopMax: 180
+  - fish: 14
+    rarity: 1
+    weightMin: 2.5
+    weightMax: 4.5
+    exchangeFishShopMin: 150
+    exchangeFishShopMax: 250
+  - fish: 15
+    rarity: 1
+    weightMin: 3
+    weightMax: 4
+    exchangeFishShopMin: 170
+    exchangeFishShopMax: 230
+  - fish: 16
+    rarity: 1
+    weightMin: 4
+    weightMax: 5
+    exchangeFishShopMin: 200
+    exchangeFishShopMax: 350
+  - fish: 17
+    rarity: 1
+    weightMin: 3
+    weightMax: 6
+    exchangeFishShopMin: 150
+    exchangeFishShopMax: 400
+  - fish: 18
+    rarity: 1
+    weightMin: 3.5
+    weightMax: 6.5
+    exchangeFishShopMin: 250
+    exchangeFishShopMax: 450
+  - fish: 19
+    rarity: 1
+    weightMin: 4
+    weightMax: 6
+    exchangeFishShopMin: 300
+    exchangeFishShopMax: 400
+  - fish: 20
+    rarity: 2
+    weightMin: 4
+    weightMax: 6
+    exchangeFishShopMin: 200
+    exchangeFishShopMax: 300
+  - fish: 21
+    rarity: 2
+    weightMin: 6
+    weightMax: 7
+    exchangeFishShopMin: 200
+    exchangeFishShopMax: 400
+  - fish: 22
+    rarity: 2
+    weightMin: 7
+    weightMax: 10
+    exchangeFishShopMin: 300
+    exchangeFishShopMax: 600
+  - fish: 23
+    rarity: 2
+    weightMin: 9
+    weightMax: 11
+    exchangeFishShopMin: 500
+    exchangeFishShopMax: 700

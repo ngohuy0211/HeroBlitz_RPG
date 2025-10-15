@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 296bc28eead7245681317e3bdda2db98, type: 3}
+  m_Name: Data-MapModifierScriptableObject-MapModifier-MapBuff_Attribute
+  m_EditorClassIdentifier:
+  AttributeBuff:
+  - id: tower_buff_attribute_1
+    iconPath: enemy_buff
+    buffConfig:
+      attribute: 74
+      value: 30
+      operation: 0
+  - id: tower_buff_attribute_2
+    iconPath: enemy_buff
+    buffConfig:
+      attribute: 74
+      value: 50
+      operation: 0
+  - id: tower_buff_attribute_3
+    iconPath: enemy_buff
+    buffConfig:
+      attribute: 74
+      value: 75
+      operation: 0
+  - id: tower_buff_attribute_4
+    iconPath: heal_decrease
+    buffConfig:
+      attribute: 66
+      value: -30
+      operation: 0
+  - id: tower_buff_attribute_5
+    iconPath: heal_decrease
+    buffConfig:
+      attribute: 66
+      value: -20
+      operation: 0
+  - id: tower_buff_attribute_6
+    iconPath: trap_damage
+    buffConfig:
+      attribute: 72
+      value: 75
+      operation: 0
+  - id: tower_buff_attribute_7
+    iconPath: trap_damage
+    buffConfig:
+      attribute: 72
+      value: 50
+      operation: 0
+  - id: tower_buff_attribute_8
+    iconPath: trap_damage
+    buffConfig:
+      attribute: 72
+      value: 30
+      operation: 0
+  - id: tower_buff_attribute_9
+    iconPath: heal_decrease
+    buffConfig:
+      attribute: 66
+      value: -10
+      operation: 0
+  - id: boss_raid_attribute_full_health
+    iconPath:
+    buffConfig:
+      attribute: 1
+      value: 100000
+      operation: 3
+  - id: survival_buff_basic_attack
+    iconPath:
+    buffConfig:
+      attribute: 62
+      value: 20
+      operation: 0
+  - id: survival_buff_spirit_attack
+    iconPath:
+    buffConfig:
+      attribute: 69
+      value: 20
+      operation: 0
+  - id: survival_buff_fire_attack
+    iconPath:
+    buffConfig:
+      attribute: 28
+      value: 20
+      operation: 0
+  - id: survival_buff_lightning_attack
+    iconPath:
+    buffConfig:
+      attribute: 30
+      value: 20
+      operation: 0
+  - id: survival_buff_cold_attack
+    iconPath:
+    buffConfig:
+      attribute: 31
+      value: 20
+      operation: 0
+  - id: survival_buff_poison_attack
+    iconPath:
+    buffConfig:
+      attribute: 29
+      value: 20
+      operation: 0
+  ModBuff:
+  - id: tower_buff_mod_virtual_health_1
+    iconPath: enemy_shield
+    buffConfig:
+    - config_name: hp_percent
+      config_value: 50
+      is_localized_param: 0
+    localize: tower_buff_mod_virtual_health
+    prefabPath: tower_buff_mod_virtual_health
+  - id: tower_buff_mod_block_shield_1
+    iconPath: enemy_block_damage
+    buffConfig:
+    - config_name: block
+      config_value: 1
+      is_localized_param: 0
+    localize: tower_buff_mod_block_shield
+    prefabPath: tower_buff_mod_block_shield
+  - id: tower_buff_mod_block_shield_2
+    iconPath: enemy_block_damage
+    buffConfig:
+    - config_name: block
+      config_value: 1
+      is_localized_param: 0
+    localize: tower_buff_mod_block_shield
+    prefabPath: tower_buff_mod_block_shield
+  - id: tower_buff_mod_block_shield_3
+    iconPath: enemy_block_damage
+    buffConfig:
+    - config_name: block
+      config_value: 2
+      is_localized_param: 0
+    localize: tower_buff_mod_block_shield
+    prefabPath: tower_buff_mod_block_shield
+  - id: tower_buff_mod_virtual_health_shield_not_stun_1
+    iconPath: enemy_shield
+    buffConfig:
+    - config_name: hp_percent
+      config_value: 30
+      is_localized_param: 0
+    localize: tower_buff_mod_virtual_health_shield_not_stun
+    prefabPath: tower_buff_mod_virtual_health_shield_not_stun
+  - id: tower_buff_mod_virtual_health_shield_not_stun_2
+    iconPath: enemy_shield
+    buffConfig:
+    - config_name: hp_percent
+      config_value: 50
+      is_localized_param: 0
+    localize: tower_buff_mod_virtual_health_shield_not_stun
+    prefabPath: tower_buff_mod_virtual_health_shield_not_stun
+  - id: tower_buff_mod_virtual_health_shield_not_stun_3
+    iconPath: enemy_shield
+    buffConfig:
+    - config_name: hp_percent
+      config_value: 70
+      is_localized_param: 0
+    localize: tower_buff_mod_virtual_health_shield_not_stun
+    prefabPath: tower_buff_mod_virtual_health_shield_not_stun
+  - id: survival_debuff_sighted_out
+    iconPath:
+    buffConfig:
+    - config_name: radius
+      config_value: 8
+      is_localized_param: 1
+    localize: survival_debuff_sighted_out
+    prefabPath: survival_debuff_sighted_out
+  - id: survival_debuff_giant
+    iconPath:
+    buffConfig:
+    - config_name: scale
+      config_value: 1.8
+      is_localized_param: 0
+    - config_name: speed
+      config_value: 20
+      is_localized_param: 0
+    localize: survival_debuff_giant
+    prefabPath: survival_debuff_giant
+  - id: survival_debuff_thunder
+    iconPath:
+    buffConfig:
+    - config_name: cooldown
+      config_value: 5
+      is_localized_param: 1
+    - config_name: indicator
+      config_value: 3
+      is_localized_param: 0
+    - config_name: count
+      config_value: 3
+      is_localized_param: 0
+    - config_name: damage
+      config_value: 50
+      is_localized_param: 0
+    localize: survival_debuff_thunder
+    prefabPath: survival_debuff_thunder
+  - id: survival_debuff_injury
+    iconPath:
+    buffConfig:
+    - config_name: hp_percent
+      config_value: 50
+      is_localized_param: 1
+    localize: survival_debuff_injury
+    prefabPath: survival_debuff_injury
+  - id: survival_debuff_clock_bomb
+    iconPath:
+    buffConfig:
+    - config_name: cooldown
+      config_value: 5
+      is_localized_param: 1
+    - config_name: radius
+      config_value: 3
+      is_localized_param: 0
+    - config_name: lifetime
+      config_value: 3
+      is_localized_param: 1
+    localize: survival_debuff_clock_bomb
+    prefabPath: survival_debuff_clock_bomb
+  - id: survival_debuff_light_out
+    iconPath:
+    buffConfig:
+    - config_name: cooldown
+      config_value: 2
+      is_localized_param: 1
+    - config_name: duration
+      config_value: 3
+      is_localized_param: 1
+    - config_name: radius
+      config_value: 4
+      is_localized_param: 0
+    localize: survival_debuff_light_out
+    prefabPath: survival_debuff_light_out

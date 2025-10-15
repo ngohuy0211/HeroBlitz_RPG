@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 875d6beb2a09d11fb558a95517ef04b9, type: 3}
+  m_Name: AI1203DashAction
+  m_EditorClassIdentifier:
+  guid: 087c3bde7f6a0cc45b64dbe4d6a6e5ab
+  Name: AI1203DashAction
+  context: {fileID: 1492810818936448, guid: 26afb3ca1b89aa4488a02b93428c9275, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 910144637be6a1a4abdd6f7501e8e7e6, type: 2}
+  - {fileID: 11400000, guid: e8635aa128e640c499933a76e8349aa2, type: 2}
+  - {fileID: 11400000, guid: e5940b7ce47c60047bc827a7bd1796eb, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: ecb11507787ff294183e80b3b4aa7002, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 3
+  chargeAnimationType: 4
+  attack02AnimationType: 20
+  distanceToPhase2: 10
+  delayStartPhase2: 0.16
+  _chargeAnimDuration: 0
+  _attack02AnimDuration: 0

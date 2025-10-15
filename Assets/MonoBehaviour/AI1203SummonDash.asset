@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f957219c5fd94b1380f5238fc48bd910, type: 3}
+  m_Name: AI1203SummonDash
+  m_EditorClassIdentifier:
+  guid: c639e4817a3ecbc45996dfe7c14100f2
+  Name: AI1203SummonDash
+  context: {fileID: 1756875144683949, guid: ec49dc8509366f944bf6ab7ba37ff85f, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 60e6f1370c7ce544cbdc3c82ce8ab52b, type: 2}
+  - {fileID: 11400000, guid: cd57bca5553ad094db5162f07823b343, type: 2}
+  - {fileID: 11400000, guid: 8ebde02b5befedf4d816fd7edb56d463, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 0f4eaf875c0ec0240aa468e7bdca6a6e, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 1
+  coolDown: 5
+  skillType: 2
+  chargeAnimation: 4
+  _chargeDuration: 0
+  dashSpeed: 100
+  totalFakeOut: 2
+  fakeOutPercent: 0
+  slamProcess: 0
+  delaySpawnWave: 0
+  shockWaveSpeed: 10
+  fakeOutThreshold: 7
+  slamDuration: 0.5
+  distanceFromTarget: {x: 0, y: 0}
+  moveSpeed: 0
+  moveDistance: 0
+  distanceToStrike: 7
+  energySpeed: 10
+  thirdAnimation: 30
+  thirdHitChange: 60
+  _fakeOutCount: 0
+  _isActiveFakeOut: 0
+  endAttackAnimation: 4
+  _endAttackDuration: 0

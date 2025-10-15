@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1336ea7991403592f5641058a7a80a1a, type: 3}
+  m_Name: AIDeathConsideration
+  m_EditorClassIdentifier:
+  guid: f0a8d4ab8b0243c4baedb6063f430ecd
+  Name: AIDeathConsideration
+  context: {fileID: 1029051130686515, guid: 0179898f1a0ee0944949523592679f96, type: 2}
+  instantiatePerAgent: 1
+  NeedTarget: 0
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  inverse: 1

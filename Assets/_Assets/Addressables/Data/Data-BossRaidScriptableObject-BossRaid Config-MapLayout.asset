@@ -1,0 +1,1120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25e2708e0f50d8b0ec6aee48154ae49c, type: 3}
+  m_Name: Data-BossRaidScriptableObject-BossRaid Config-MapLayout
+  m_EditorClassIdentifier:
+  RoomConfigs:
+  - roomName: BR_Start
+    roomId: 0
+    layoutId: 0
+    roomType: 4
+    roomLayouts:
+      roomLayout: 0
+      waves:
+      - waveId: 0
+        enemies:
+        - enemyPoolId: -1
+          identity: 0
+          spawnId: 0
+          delay: 2
+          isPatrol: 1
+          spawnType: 0
+          param:
+          loopPoint: 0
+  - roomName: BR_0
+    roomId: 1
+    layoutId: 0
+    roomType: 0
+    roomLayouts:
+      roomLayout: 0
+      waves:
+      - waveId: 0
+        enemies:
+        - enemyPoolId: 1
+          identity: 0
+          spawnId: 0
+          delay: 2
+          isPatrol: 1
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 1
+          spawnId: 1
+          delay: 30
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 2
+          spawnId: 2
+          delay: 60
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 3
+          spawnId: 3
+          delay: 90
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+  - roomName: BR_1
+    roomId: 2
+    layoutId: 0
+    roomType: 0
+    roomLayouts:
+      roomLayout: 0
+      waves:
+      - waveId: 0
+        enemies:
+        - enemyPoolId: 2
+          identity: 0
+          spawnId: 0
+          delay: 2
+          isPatrol: 1
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 1
+          spawnId: 1
+          delay: 30
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 2
+          spawnId: 2
+          delay: 60
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 3
+          spawnId: 3
+          delay: 90
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+  - roomName: BR_2
+    roomId: 3
+    layoutId: 0
+    roomType: 0
+    roomLayouts:
+      roomLayout: 0
+      waves:
+      - waveId: 0
+        enemies:
+        - enemyPoolId: 3
+          identity: 0
+          spawnId: 0
+          delay: 2
+          isPatrol: 1
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 1
+          spawnId: 1
+          delay: 30
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 2
+          spawnId: 2
+          delay: 60
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 3
+          spawnId: 3
+          delay: 90
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+  - roomName: BR_3
+    roomId: 4
+    layoutId: 0
+    roomType: 0
+    roomLayouts:
+      roomLayout: 0
+      waves:
+      - waveId: 0
+        enemies:
+        - enemyPoolId: 4
+          identity: 0
+          spawnId: 0
+          delay: 2
+          isPatrol: 1
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 1
+          spawnId: 1
+          delay: 30
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 2
+          spawnId: 2
+          delay: 60
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 3
+          spawnId: 3
+          delay: 90
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+  - roomName: BR_4
+    roomId: 5
+    layoutId: 0
+    roomType: 0
+    roomLayouts:
+      roomLayout: 0
+      waves:
+      - waveId: 0
+        enemies:
+        - enemyPoolId: 5
+          identity: 0
+          spawnId: 0
+          delay: 2
+          isPatrol: 1
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 1
+          spawnId: 1
+          delay: 30
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 2
+          spawnId: 2
+          delay: 60
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+        - enemyPoolId: 1000
+          identity: 3
+          spawnId: 3
+          delay: 90
+          isPatrol: 0
+          spawnType: 0
+          param:
+          loopPoint: 0
+  EnemyPool:
+  - enemyPoolId: 1000
+    enemies:
+    - 1000
+  - enemyPoolId: 1
+    enemies:
+    - 3005
+  - enemyPoolId: 2
+    enemies:
+    - 3007
+  - enemyPoolId: 3
+    enemies:
+    - 3014
+  - enemyPoolId: 4
+    enemies:
+    - 3012
+  - enemyPoolId: 5
+    enemies:
+    - 3011
+  Worlds:
+  - worldId: 0
+    rooms:
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: BR_0
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+      room_id: 1
+  - worldId: 1
+    rooms:
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: BR_1
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+      room_id: 2
+  - worldId: 2
+    rooms:
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: BR_2
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+      room_id: 3
+  - worldId: 3
+    rooms:
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: BR_3
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+      room_id: 4
+  - worldId: 4
+    rooms:
+    - roomType: 0
+      roomDifficulty: 2
+      worldName: BR_4
+      rewardExp: 0
+      enemyHpIncreaseRate: 0
+      enemyDamageIncreaseRate: 0
+      accountExp: 0
+      coinMin: 0
+      coinMax: 0
+      canGachaBox: 0
+      gemMax: 0
+      room_id: 5
+  SurvivalTreasures:
+  - time: 30
+    reward:
+      id: 0
+      quantity: 100
+      itemType: 1
+      branchType: 0
+      promote: 0
+      rate: 0
+  - time: 60
+    reward:
+      id: 1
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+      rate: 0
+  - time: 90
+    reward:
+      id: 0
+      quantity: 1
+      itemType: 11
+      branchType: 0
+      promote: 0
+      rate: 0
+  - time: 120
+    reward:
+      id: 23
+      quantity: 1
+      itemType: 18
+      branchType: 0
+      promote: 0
+      rate: 0
+  SeasonConfig:
+  - season: 0
+    enemy:
+    - 3005
+    - 3007
+  - season: 1
+    enemy:
+    - 3014
+    - 3012
+  TreasurePlay:
+  - idPlay: 0
+    playTimes: 1
+    rewards:
+    - id: 0
+      quantity: 80
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 1
+    playTimes: 3
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 3
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 2
+    playTimes: 5
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 1
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 3
+    playTimes: 7
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 4
+    playTimes: 9
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 3
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 5
+    playTimes: 11
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 1
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 6
+    playTimes: 13
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 7
+    playTimes: 15
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 3
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 8
+    playTimes: 17
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 1
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 9
+    playTimes: 19
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 10
+    playTimes: 21
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 3
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 11
+    playTimes: 23
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 1
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 12
+    playTimes: 25
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 0
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 13
+    playTimes: 27
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 3
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  - idPlay: 14
+    playTimes: 28
+    rewards:
+    - id: 0
+      quantity: 100
+      itemType: 0
+      branchType: 0
+      promote: 0
+    - id: 1
+      quantity: 1
+      itemType: 13
+      branchType: 0
+      promote: 0
+  EnemyPower:
+  - enemyId: 3005
+    mapId: 0
+    damageBase: 2
+    damageIncrease: 8
+    timeIncrease: 20
+  - enemyId: 3007
+    mapId: 1
+    damageBase: 2
+    damageIncrease: 8
+    timeIncrease: 20
+  - enemyId: 3014
+    mapId: 2
+    damageBase: 2
+    damageIncrease: 6
+    timeIncrease: 20
+  - enemyId: 3012
+    mapId: 3
+    damageBase: 2
+    damageIncrease: 6
+    timeIncrease: 20
+  - enemyId: 3011
+    mapId: 4
+    damageBase: 2
+    damageIncrease: 6
+    timeIncrease: 20
+  RankSeasonRewards:
+  - rank: 3
+    rewards:
+    - rankFrom: 1
+      rankTo: 1
+      rewards:
+      - id: 0
+        quantity: 3000
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 28
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 2
+      rankTo: 2
+      rewards:
+      - id: 0
+        quantity: 2800
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 27
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 3
+      rankTo: 3
+      rewards:
+      - id: 0
+        quantity: 2600
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 26
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 4
+      rankTo: 4
+      rewards:
+      - id: 0
+        quantity: 2400
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 25
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 5
+      rankTo: 5
+      rewards:
+      - id: 0
+        quantity: 2200
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 24
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 6
+      rankTo: 10
+      rewards:
+      - id: 0
+        quantity: 2000
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 23
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 11
+      rankTo: 20
+      rewards:
+      - id: 0
+        quantity: 1800
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 22
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 21
+      rankTo: 40
+      rewards:
+      - id: 0
+        quantity: 1600
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 21
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 41
+      rankTo: 60
+      rewards:
+      - id: 0
+        quantity: 1500
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 20
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 61
+      rankTo: 80
+      rewards:
+      - id: 0
+        quantity: 1300
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 19
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 81
+      rankTo: 100
+      rewards:
+      - id: 0
+        quantity: 1200
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 18
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 101
+      rankTo: 120
+      rewards:
+      - id: 0
+        quantity: 1100
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 17
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 121
+      rankTo: 99999
+      rewards:
+      - id: 0
+        quantity: 1000
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 16
+        itemType: 13
+        branchType: 0
+        promote: 0
+  - rank: 2
+    rewards:
+    - rankFrom: 1
+      rankTo: 1
+      rewards:
+      - id: 0
+        quantity: 1800
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 20
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 2
+      rankTo: 2
+      rewards:
+      - id: 0
+        quantity: 1500
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 19
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 3
+      rankTo: 3
+      rewards:
+      - id: 0
+        quantity: 1200
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 18
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 4
+      rankTo: 4
+      rewards:
+      - id: 0
+        quantity: 900
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 17
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 5
+      rankTo: 5
+      rewards:
+      - id: 0
+        quantity: 700
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 16
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 6
+      rankTo: 10
+      rewards:
+      - id: 0
+        quantity: 600
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 15
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 11
+      rankTo: 30
+      rewards:
+      - id: 0
+        quantity: 500
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 14
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 31
+      rankTo: 60
+      rewards:
+      - id: 0
+        quantity: 400
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 13
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 61
+      rankTo: 120
+      rewards:
+      - id: 0
+        quantity: 300
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 12
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 121
+      rankTo: 200
+      rewards:
+      - id: 0
+        quantity: 200
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 11
+        itemType: 13
+        branchType: 0
+        promote: 0
+  - rank: 1
+    rewards:
+    - rankFrom: 1
+      rankTo: 1
+      rewards:
+      - id: 0
+        quantity: 1000
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 15
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 2
+      rankTo: 2
+      rewards:
+      - id: 0
+        quantity: 800
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 14
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 3
+      rankTo: 3
+      rewards:
+      - id: 0
+        quantity: 600
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 13
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 4
+      rankTo: 4
+      rewards:
+      - id: 0
+        quantity: 500
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 12
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 5
+      rankTo: 5
+      rewards:
+      - id: 0
+        quantity: 200
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 11
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 6
+      rankTo: 10
+      rewards:
+      - id: 0
+        quantity: 150
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 10
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 11
+      rankTo: 30
+      rewards:
+      - id: 0
+        quantity: 150
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 9
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 31
+      rankTo: 60
+      rewards:
+      - id: 0
+        quantity: 100
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 8
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 61
+      rankTo: 100
+      rewards:
+      - id: 0
+        quantity: 100
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 7
+        itemType: 13
+        branchType: 0
+        promote: 0
+  - rank: 0
+    rewards:
+    - rankFrom: 1
+      rankTo: 1
+      rewards:
+      - id: 0
+        quantity: 300
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 12
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 2
+      rankTo: 2
+      rewards:
+      - id: 0
+        quantity: 200
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 11
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 3
+      rankTo: 3
+      rewards:
+      - id: 0
+        quantity: 150
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 10
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 4
+      rankTo: 4
+      rewards:
+      - id: 0
+        quantity: 100
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 9
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 5
+      rankTo: 5
+      rewards:
+      - id: 0
+        quantity: 50
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 8
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 6
+      rankTo: 15
+      rewards:
+      - id: 0
+        quantity: 50
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 7
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 16
+      rankTo: 30
+      rewards:
+      - id: 0
+        quantity: 50
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 6
+        itemType: 13
+        branchType: 0
+        promote: 0
+    - rankFrom: 31
+      rankTo: 50
+      rewards:
+      - id: 0
+        quantity: 50
+        itemType: 0
+        branchType: 0
+        promote: 0
+      - id: 7
+        quantity: 5
+        itemType: 13
+        branchType: 0
+        promote: 0

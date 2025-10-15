@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d41abd2dd3691c6fb44081f5de78e3, type: 3}
+  m_Name: AIMachineGunAction
+  m_EditorClassIdentifier:
+  guid: 6791ce866bc654b78b2d2a440957aca0
+  Name: AIMachineGunAction
+  context: {fileID: 1428802159002768, guid: 4e56884a876412746a70aca0bb945e9c, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: b4ecc25915ff2884c9662d27bb6467fb, type: 2}
+  - {fileID: 11400000, guid: bcfa6f28ccdce74459f7652874bd100e, type: 2}
+  - {fileID: 11400000, guid: 1023df9ddaaa37940aef40f5bac9eea4, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: ab2fe7afcc10d3945a693e9bf2cec258, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  cooldown: 1.5

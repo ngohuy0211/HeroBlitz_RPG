@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aecae2a74e033ea0f3031a0758bd00be, type: 3}
+  m_Name: hero_spear_SkeletonData
+  m_EditorClassIdentifier:
+  atlasAssets:
+  - {fileID: 11400000, guid: 20aa94b80de341b4888b79a1ad1c1540, type: 2}
+  scale: 0.01
+  skeletonJSON: {fileID: 4900000, guid: 460c93a17b7467541ba2bf2f2bc259d0, type: 3}
+  isUpgradingBlendModeMaterials: 0
+  blendModeMaterials:
+    requiresBlendModeMaterials: 0
+    applyAdditiveMaterial: 0
+    additiveMaterials: []
+    multiplyMaterials: []
+    screenMaterials: []
+  skeletonDataModifiers: []
+  fromAnimation:
+  - move
+  - jump_start_double
+  - jump_start
+  - dash_air
+  - jump_end
+  - jump_middle
+  - dash
+  - dash
+  - dash
+  toAnimation:
+  - jump_middle
+  - jump_middle
+  - jump_start_double
+  - jump_middle
+  - move
+  - move
+  - jump_middle
+  - jump_start
+  - jump_start_double
+  duration:
+  - 0.1
+  - 0.1
+  - 0
+  - 0
+  - 0.2
+  - 0.1
+  - 0
+  - 0.1
+  - 0.1
+  defaultMix: 0
+  controller: {fileID: 0}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4406b4dd7db9d520645806f47c92c559, type: 3}
+  m_Name: AI3014TeleportCenterAction
+  m_EditorClassIdentifier:
+  guid: 8a5dbc7f8b6086b40b96fff9e98fe42d
+  Name: AI3014TeleportCenterAction
+  context: {fileID: 1737566686449841, guid: b5c60485804ac124a89dbf3c4befa540, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 350020d4a885f5444bb5124b6e08188c, type: 2}
+  - {fileID: 11400000, guid: d6fe9a40bf63b8a42b997d6491e95801, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: fb033990c7e83474eac69297cbd02e64, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  isUsingCooldown: 0
+  coolDown: 2
+  actionSequenceID: 4

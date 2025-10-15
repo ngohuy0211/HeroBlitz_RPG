@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5bc0259b0cb7514b7fd2209a90ab34c, type: 3}
+  m_Name: AIEnemy3002InRangeConsideration
+  m_EditorClassIdentifier:
+  guid: 1d6ebb82bc587e443b484daabbc5e8db
+  Name: AIEnemy3002InRangeConsideration
+  context: {fileID: 1721971451619617, guid: 1b544789976b87745b8d365901f5726c, type: 2}
+  instantiatePerAgent: 1
+  NeedTarget: 0
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  targetDetected: {fileID: 0}
+  ignoreYAxis: 0
+  inverse: 0
+  DetectMethod: 1
+  DetectionDirection: 2
+  RayWidth: 20
+  MaxDetectionDistance: 20
+  MinDetectionDistance: 0
+  CheckOutOfRange: 1
+  resultType: 1
+  DetectionOriginOffset: {x: 0, y: 7, z: 0}
+  TargetLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  ObstaclesLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  drawGizmos: 1
+  gizmosColor: {r: 0.045873933, g: 1, b: 0.015686274, a: 0.30588236}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3998ef785006da35f669cd794e0994ff, type: 3}
+  m_Name: AIMoveTowardsTargetAction
+  m_EditorClassIdentifier:
+  guid: f4ba30a9f7ebe224da77ed871a817990
+  Name: AIMoveTowardsTargetAction
+  context: {fileID: 1876155244183457, guid: 64d21632d57d94345ba857a6be46b535, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 8e97ccd235db5ba48b6687015879fb2c, type: 2}
+  - {fileID: 11400000, guid: 78a0b62fff64f354d938658022faeec7, type: 2}
+  - {fileID: 11400000, guid: 3753e2565f0cf48479e82f5aa85f66d1, type: 2}
+  - {fileID: 11400000, guid: 5191c22d021c4834e840830162fe1c05, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 771477fc840390944b4905da4f9e3b73, type: 2}
+  minimumDistance: 1
+  avoidFalling: 1
+  gameObjectKeyName:
+    Value: 0
+  boostSpeedPercent: 0
+  chaseParameter: IsChasing
+  groundedParameter: Grounded
+  planarSpeedParameter: PlanarSpeed

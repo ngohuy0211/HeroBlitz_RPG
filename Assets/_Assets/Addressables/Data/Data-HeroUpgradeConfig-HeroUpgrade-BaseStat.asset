@@ -1,0 +1,2331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea48836b518247e8b9d91dcfc44648a7, type: 3}
+  m_Name: Data-HeroUpgradeConfig-HeroUpgrade-BaseStat
+  m_EditorClassIdentifier:
+  baseStats:
+  - heroId: 0
+    attack: 64000000690000006e00000073000000780000007d000000
+    hp: f4010000080200001c020000300200004402000058020000
+  - heroId: 1
+    attack: 840000008b00000091000000980000009e000000a5000000
+    hp: e0010000f3010000060200001a0200002d02000040020000
+  - heroId: 2
+    attack: 64000000690000006e00000073000000780000007d000000
+    hp: 90010000a0010000b0010000c0010000d0010000e0010000
+  - heroId: 3
+    attack: 5000000054000000580000005c0000006000000064000000
+    hp: 080200001d02000032020000460200005b02000070020000
+  - heroId: 4
+    attack: 5e00000063000000670000006c0000007100000076000000
+    hp: ef01000003020000170200002a0200003e02000052020000
+  - heroId: 5
+    attack: 9c000000a4000000ac000000b3000000bb000000c3000000
+    hp: c8010000da010000ec010000ff0100001102000023020000
+  - heroId: 6
+    attack: b4000000bd000000c6000000cf000000d8000000e1000000
+    hp: 1c02000032020000470200005d0200007102000088020000
+  - heroId: 7
+    attack: 8f000000960000009d000000a4000000ac000000b3000000
+    hp: 4902000060020000780200008f020000a7020000be020000
+  - heroId: 8
+    attack: c3000000cd000000d7000000e0000000ea000000f4000000
+    hp: 150200002a02000040020000550200006a02000080020000
+  - heroId: 9
+    attack: bc000000c5000000cf000000d8000000e2000000eb000000
+    hp: 2b02000041020000570200006e020000840200009a020000
+  - heroId: 10
+    attack: af000000b8000000c1000000c9000000d2000000db000000
+    hp: f80100000c0200002002000034020000490200005d020000
+  - heroId: 11
+    attack: cb000000d5000000df000000e9000000f4000000fe000000
+    hp: 0d02000022020000370200004c0200006102000076020000
+  - heroId: 12
+    attack: cb000000d5000000df000000e9000000f4000000fe000000
+    hp: 0d02000022020000370200004c0200006102000076020000
+  statPerLevel:
+  - heroId: 0
+    attack: 0700000008000000090000000b0000000e00000013000000
+    hp: 0d0000000e0000000f000000100000001100000012000000
+  - heroId: 1
+    attack: 0f0000001100000013000000180000001e00000029000000
+    hp: 1500000017000000190000001a0000001b0000001c000000
+  - heroId: 2
+    attack: 0b0000000d0000000f00000012000000170000001f000000
+    hp: 120000001300000014000000150000001600000017000000
+  - heroId: 3
+    attack: 090000000a0000000c0000000e0000001200000019000000
+    hp: 17000000190000001b0000001c0000001d0000001e000000
+  - heroId: 4
+    attack: 0b0000000c0000000e00000011000000160000001d000000
+    hp: 1600000018000000190000001b0000001c0000001d000000
+  - heroId: 5
+    attack: 1200000014000000170000001c0000002400000030000000
+    hp: 140000001600000017000000180000001a0000001b000000
+  - heroId: 6
+    attack: 15000000170000001b000000200000002a00000037000000
+    hp: 180000001a0000001c0000001d0000001e00000020000000
+  - heroId: 7
+    attack: 1000000012000000150000001a000000210000002c000000
+    hp: 1a0000001d0000001e0000001f0000002100000022000000
+  - heroId: 8
+    attack: 16000000190000001d000000230000002d0000003c000000
+    hp: 1500000018000000190000001a0000001b0000001c000000
+  - heroId: 9
+    attack: 15000000180000001c000000220000002b0000003a000000
+    hp: 16000000180000001a0000001b0000001c0000001d000000
+  - heroId: 10
+    attack: 14000000160000001a000000200000002800000036000000
+    hp: 14000000160000001700000018000000190000001a000000
+  - heroId: 11
+    attack: 170000001a0000001e000000250000002f0000003e000000
+    hp: 150000001700000018000000190000001a0000001b000000
+  cost:
+  - level: 0
+    coin: 500
+    elementalShard: 10
+    medal: 0
+  - level: 1
+    coin: 1000
+    elementalShard: 12
+    medal: 0
+  - level: 2
+    coin: 1500
+    elementalShard: 14
+    medal: 0
+  - level: 3
+    coin: 2000
+    elementalShard: 16
+    medal: 0
+  - level: 4
+    coin: 2500
+    elementalShard: 18
+    medal: 0
+  - level: 5
+    coin: 3000
+    elementalShard: 20
+    medal: 0
+  - level: 6
+    coin: 3500
+    elementalShard: 22
+    medal: 0
+  - level: 7
+    coin: 4000
+    elementalShard: 24
+    medal: 0
+  - level: 8
+    coin: 500
+    elementalShard: 0
+    medal: 10
+  - level: 9
+    coin: 5000
+    elementalShard: 30
+    medal: 0
+  - level: 10
+    coin: 5500
+    elementalShard: 32
+    medal: 0
+  - level: 11
+    coin: 6000
+    elementalShard: 34
+    medal: 0
+  - level: 12
+    coin: 6500
+    elementalShard: 36
+    medal: 0
+  - level: 13
+    coin: 7000
+    elementalShard: 38
+    medal: 0
+  - level: 14
+    coin: 7500
+    elementalShard: 40
+    medal: 0
+  - level: 15
+    coin: 8000
+    elementalShard: 42
+    medal: 0
+  - level: 16
+    coin: 8500
+    elementalShard: 44
+    medal: 0
+  - level: 17
+    coin: 9000
+    elementalShard: 46
+    medal: 0
+  - level: 18
+    coin: 500
+    elementalShard: 0
+    medal: 20
+  - level: 19
+    coin: 10500
+    elementalShard: 52
+    medal: 0
+  - level: 20
+    coin: 11500
+    elementalShard: 54
+    medal: 0
+  - level: 21
+    coin: 12500
+    elementalShard: 56
+    medal: 0
+  - level: 22
+    coin: 13500
+    elementalShard: 58
+    medal: 0
+  - level: 23
+    coin: 14500
+    elementalShard: 60
+    medal: 0
+  - level: 24
+    coin: 15500
+    elementalShard: 62
+    medal: 0
+  - level: 25
+    coin: 16500
+    elementalShard: 64
+    medal: 0
+  - level: 26
+    coin: 17500
+    elementalShard: 66
+    medal: 0
+  - level: 27
+    coin: 18500
+    elementalShard: 68
+    medal: 0
+  - level: 28
+    coin: 1000
+    elementalShard: 0
+    medal: 30
+  - level: 29
+    coin: 20500
+    elementalShard: 74
+    medal: 0
+  - level: 30
+    coin: 21500
+    elementalShard: 76
+    medal: 0
+  - level: 31
+    coin: 22500
+    elementalShard: 78
+    medal: 0
+  - level: 32
+    coin: 23500
+    elementalShard: 80
+    medal: 0
+  - level: 33
+    coin: 24500
+    elementalShard: 82
+    medal: 0
+  - level: 34
+    coin: 25500
+    elementalShard: 84
+    medal: 0
+  - level: 35
+    coin: 26500
+    elementalShard: 86
+    medal: 0
+  - level: 36
+    coin: 27500
+    elementalShard: 88
+    medal: 0
+  - level: 37
+    coin: 28500
+    elementalShard: 90
+    medal: 0
+  - level: 38
+    coin: 1000
+    elementalShard: 0
+    medal: 40
+  - level: 39
+    coin: 32000
+    elementalShard: 96
+    medal: 0
+  - level: 40
+    coin: 34500
+    elementalShard: 98
+    medal: 0
+  - level: 41
+    coin: 37000
+    elementalShard: 100
+    medal: 0
+  - level: 42
+    coin: 39500
+    elementalShard: 102
+    medal: 0
+  - level: 43
+    coin: 42000
+    elementalShard: 104
+    medal: 0
+  - level: 44
+    coin: 44500
+    elementalShard: 106
+    medal: 0
+  - level: 45
+    coin: 47000
+    elementalShard: 108
+    medal: 0
+  - level: 46
+    coin: 49500
+    elementalShard: 110
+    medal: 0
+  - level: 47
+    coin: 52000
+    elementalShard: 112
+    medal: 0
+  - level: 48
+    coin: 2500
+    elementalShard: 0
+    medal: 50
+  - level: 49
+    coin: 57000
+    elementalShard: 118
+    medal: 0
+  - level: 50
+    coin: 59500
+    elementalShard: 120
+    medal: 0
+  - level: 51
+    coin: 69500
+    elementalShard: 122
+    medal: 0
+  - level: 52
+    coin: 79500
+    elementalShard: 124
+    medal: 0
+  - level: 53
+    coin: 89500
+    elementalShard: 126
+    medal: 0
+  - level: 54
+    coin: 99500
+    elementalShard: 128
+    medal: 0
+  - level: 55
+    coin: 109500
+    elementalShard: 130
+    medal: 0
+  - level: 56
+    coin: 119500
+    elementalShard: 132
+    medal: 0
+  - level: 57
+    coin: 129500
+    elementalShard: 134
+    medal: 0
+  - level: 58
+    coin: 10000
+    elementalShard: 0
+    medal: 60
+  - level: 59
+    coin: 149500
+    elementalShard: 140
+    medal: 0
+  - level: 60
+    coin: 159500
+    elementalShard: 142
+    medal: 0
+  - level: 61
+    coin: 169500
+    elementalShard: 144
+    medal: 0
+  - level: 62
+    coin: 179500
+    elementalShard: 146
+    medal: 0
+  - level: 63
+    coin: 189500
+    elementalShard: 148
+    medal: 0
+  - level: 64
+    coin: 199500
+    elementalShard: 150
+    medal: 0
+  - level: 65
+    coin: 219500
+    elementalShard: 152
+    medal: 0
+  - level: 66
+    coin: 239500
+    elementalShard: 154
+    medal: 0
+  - level: 67
+    coin: 259500
+    elementalShard: 156
+    medal: 0
+  - level: 68
+    coin: 20000
+    elementalShard: 0
+    medal: 70
+  - level: 69
+    coin: 299500
+    elementalShard: 162
+    medal: 0
+  - level: 70
+    coin: 319500
+    elementalShard: 164
+    medal: 0
+  - level: 71
+    coin: 339500
+    elementalShard: 166
+    medal: 0
+  - level: 72
+    coin: 359500
+    elementalShard: 168
+    medal: 0
+  - level: 73
+    coin: 379500
+    elementalShard: 170
+    medal: 0
+  - level: 74
+    coin: 399500
+    elementalShard: 172
+    medal: 0
+  - level: 75
+    coin: 419500
+    elementalShard: 174
+    medal: 0
+  - level: 76
+    coin: 439500
+    elementalShard: 176
+    medal: 0
+  - level: 77
+    coin: 459500
+    elementalShard: 178
+    medal: 0
+  - level: 78
+    coin: 20000
+    elementalShard: 0
+    medal: 80
+  - level: 79
+    coin: 0
+    elementalShard: 0
+    medal: 0
+  promoteBonusStats:
+  - heroId: 0
+    HeroPromoteBonusStatItem:
+    - attributeType: 1
+      operation: 3
+      value: 3
+      isAllHero: 0
+    - attributeType: 3
+      operation: 3
+      value: 5
+      isAllHero: 1
+    - attributeType: 54
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 1
+      operation: 3
+      value: 3
+      isAllHero: 0
+    - attributeType: 1
+      operation: 3
+      value: 3
+      isAllHero: 1
+    - attributeType: 3
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 44
+      operation: 0
+      value: 5
+      isAllHero: 0
+    - attributeType: 3
+      operation: 3
+      value: 5
+      isAllHero: 0
+  - heroId: 1
+    HeroPromoteBonusStatItem:
+    - attributeType: 3
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 43
+      operation: 0
+      value: 10
+      isAllHero: 1
+    - attributeType: 1
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 3
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 43
+      operation: 0
+      value: 10
+      isAllHero: 1
+    - attributeType: 1
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 54
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 53
+      operation: 0
+      value: 10
+      isAllHero: 0
+  - heroId: 2
+    HeroPromoteBonusStatItem:
+    - attributeType: 1
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 10
+      operation: 0
+      value: 5
+      isAllHero: 1
+    - attributeType: 45
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 3
+      operation: 0
+      value: 25
+      isAllHero: 0
+    - attributeType: 6
+      operation: 0
+      value: 5
+      isAllHero: 1
+    - attributeType: 3
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 46
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 10
+      operation: 0
+      value: 5
+      isAllHero: 0
+  - heroId: 3
+    HeroPromoteBonusStatItem:
+    - attributeType: 3
+      operation: 0
+      value: 100
+      isAllHero: 0
+    - attributeType: 51
+      operation: 0
+      value: 10
+      isAllHero: 1
+    - attributeType: 7
+      operation: 0
+      value: 3
+      isAllHero: 0
+    - attributeType: 1
+      operation: 0
+      value: 50
+      isAllHero: 0
+    - attributeType: 6
+      operation: 0
+      value: 3
+      isAllHero: 1
+    - attributeType: 7
+      operation: 0
+      value: 3
+      isAllHero: 0
+    - attributeType: 54
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 53
+      operation: 0
+      value: 10
+      isAllHero: 0
+  - heroId: 4
+    HeroPromoteBonusStatItem:
+    - attributeType: 43
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 54
+      operation: 0
+      value: 10
+      isAllHero: 1
+    - attributeType: 1
+      operation: 0
+      value: 120
+      isAllHero: 0
+    - attributeType: 6
+      operation: 0
+      value: 3
+      isAllHero: 0
+    - attributeType: 54
+      operation: 0
+      value: 10
+      isAllHero: 1
+    - attributeType: 45
+      operation: 0
+      value: 5
+      isAllHero: 0
+    - attributeType: 44
+      operation: 0
+      value: 5
+      isAllHero: 0
+    - attributeType: 3
+      operation: 3
+      value: 5
+      isAllHero: 0
+  - heroId: 5
+    HeroPromoteBonusStatItem:
+    - attributeType: 10
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 3
+      operation: 0
+      value: 30
+      isAllHero: 1
+    - attributeType: 1
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 7
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 3
+      operation: 0
+      value: 30
+      isAllHero: 1
+    - attributeType: 3
+      operation: 0
+      value: 30
+      isAllHero: 0
+    - attributeType: 54
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 6
+      operation: 0
+      value: 3
+      isAllHero: 0
+  - heroId: 6
+    HeroPromoteBonusStatItem:
+    - attributeType: 3
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 54
+      operation: 0
+      value: 10
+      isAllHero: 1
+    - attributeType: 44
+      operation: 0
+      value: 5
+      isAllHero: 0
+    - attributeType: 7
+      operation: 0
+      value: 15
+      isAllHero: 0
+    - attributeType: 53
+      operation: 0
+      value: 10
+      isAllHero: 1
+    - attributeType: 6
+      operation: 0
+      value: 5
+      isAllHero: 0
+    - attributeType: 1
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 7
+      operation: 0
+      value: 15
+      isAllHero: 0
+  - heroId: 7
+    HeroPromoteBonusStatItem:
+    - attributeType: 1
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 1
+      operation: 3
+      value: 5
+      isAllHero: 1
+    - attributeType: 46
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 51
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 3
+      operation: 3
+      value: 5
+      isAllHero: 1
+    - attributeType: 3
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 45
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 50
+      operation: 0
+      value: 10
+      isAllHero: 0
+  - heroId: 8
+    HeroPromoteBonusStatItem:
+    - attributeType: 10
+      operation: 0
+      value: 8
+      isAllHero: 0
+    - attributeType: 3
+      operation: 0
+      value: 60
+      isAllHero: 1
+    - attributeType: 1
+      operation: 3
+      value: 8
+      isAllHero: 0
+    - attributeType: 7
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 3
+      operation: 0
+      value: 60
+      isAllHero: 1
+    - attributeType: 3
+      operation: 0
+      value: 60
+      isAllHero: 0
+    - attributeType: 51
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 6
+      operation: 0
+      value: 10
+      isAllHero: 0
+  - heroId: 9
+    HeroPromoteBonusStatItem:
+    - attributeType: 3
+      operation: 3
+      value: 8
+      isAllHero: 0
+    - attributeType: 52
+      operation: 0
+      value: 10
+      isAllHero: 1
+    - attributeType: 44
+      operation: 0
+      value: 5
+      isAllHero: 0
+    - attributeType: 7
+      operation: 0
+      value: 15
+      isAllHero: 0
+    - attributeType: 52
+      operation: 0
+      value: 10
+      isAllHero: 1
+    - attributeType: 6
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 1
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 7
+      operation: 0
+      value: 15
+      isAllHero: 0
+  - heroId: 10
+    HeroPromoteBonusStatItem:
+    - attributeType: 3
+      operation: 0
+      value: 100
+      isAllHero: 0
+    - attributeType: 54
+      operation: 0
+      value: 10
+      isAllHero: 1
+    - attributeType: 7
+      operation: 0
+      value: 3
+      isAllHero: 0
+    - attributeType: 1
+      operation: 0
+      value: 50
+      isAllHero: 0
+    - attributeType: 6
+      operation: 0
+      value: 3
+      isAllHero: 1
+    - attributeType: 7
+      operation: 0
+      value: 3
+      isAllHero: 0
+    - attributeType: 50
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 53
+      operation: 0
+      value: 10
+      isAllHero: 0
+  - heroId: 11
+    HeroPromoteBonusStatItem:
+    - attributeType: 3
+      operation: 3
+      value: 8
+      isAllHero: 0
+    - attributeType: 52
+      operation: 0
+      value: 10
+      isAllHero: 1
+    - attributeType: 44
+      operation: 0
+      value: 5
+      isAllHero: 0
+    - attributeType: 7
+      operation: 0
+      value: 15
+      isAllHero: 0
+    - attributeType: 52
+      operation: 0
+      value: 10
+      isAllHero: 1
+    - attributeType: 6
+      operation: 0
+      value: 10
+      isAllHero: 0
+    - attributeType: 1
+      operation: 3
+      value: 5
+      isAllHero: 0
+    - attributeType: 7
+      operation: 0
+      value: 15
+      isAllHero: 0
+  stars:
+  - heroId: 0
+    starItems:
+    - star: 0
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 0
+        skillTreeId: 0
+        skillTreeType: 0
+    - star: 1
+      skillTree:
+      - attributeType: 78
+        operation: 0
+        value: 5
+        skillTreeId: 1
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 50
+        skillTreeId: 2
+        skillTreeType: 3
+    - star: 2
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 1
+        skillTreeId: 3
+        skillTreeType: 0
+      - attributeType: 12
+        operation: 0
+        value: 50
+        skillTreeId: 4
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 20
+        skillTreeId: 5
+        skillTreeType: 3
+    - star: 3
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 2
+        skillTreeId: 6
+        skillTreeType: 0
+      - attributeType: 46
+        operation: 0
+        value: 5
+        skillTreeId: 7
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 20
+        skillTreeId: 8
+        skillTreeType: 3
+    - star: 4
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 3
+        skillTreeId: 9
+        skillTreeType: 0
+      - attributeType: 45
+        operation: 0
+        value: 5
+        skillTreeId: 10
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 20
+        skillTreeId: 11
+        skillTreeType: 3
+    - star: 5
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 4
+        skillTreeId: 12
+        skillTreeType: 0
+      - attributeType: 47
+        operation: 0
+        value: 5
+        skillTreeId: 13
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 3
+        value: 5
+        skillTreeId: 14
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 50
+        skillTreeId: 15
+        skillTreeType: 3
+  - heroId: 1
+    starItems:
+    - star: 0
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 0
+        skillTreeId: 0
+        skillTreeType: 0
+    - star: 1
+      skillTree:
+      - attributeType: 1
+        operation: 0
+        value: 36
+        skillTreeId: 1
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 40
+        skillTreeId: 2
+        skillTreeType: 3
+    - star: 2
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 1
+        skillTreeId: 3
+        skillTreeType: 0
+      - attributeType: 12
+        operation: 0
+        value: 50
+        skillTreeId: 4
+        skillTreeType: 3
+      - attributeType: 43
+        operation: 0
+        value: 5
+        skillTreeId: 5
+        skillTreeType: 3
+    - star: 3
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 2
+        skillTreeId: 6
+        skillTreeType: 0
+      - attributeType: 56
+        operation: 0
+        value: 5
+        skillTreeId: 7
+        skillTreeType: 3
+      - attributeType: 6
+        operation: 0
+        value: 5
+        skillTreeId: 8
+        skillTreeType: 3
+    - star: 4
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 3
+        skillTreeId: 9
+        skillTreeType: 0
+      - attributeType: 7
+        operation: 0
+        value: 5
+        skillTreeId: 10
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 36
+        skillTreeId: 11
+        skillTreeType: 3
+    - star: 5
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 4
+        skillTreeId: 12
+        skillTreeType: 0
+      - attributeType: 1
+        operation: 0
+        value: 36
+        skillTreeId: 13
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 40
+        skillTreeId: 14
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 36
+        skillTreeId: 15
+        skillTreeType: 3
+  - heroId: 2
+    starItems:
+    - star: 0
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 0
+        skillTreeId: 0
+        skillTreeType: 0
+    - star: 1
+      skillTree:
+      - attributeType: 6
+        operation: 0
+        value: 5
+        skillTreeId: 1
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 20
+        skillTreeId: 2
+        skillTreeType: 3
+    - star: 2
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 1
+        skillTreeId: 3
+        skillTreeType: 0
+      - attributeType: 44
+        operation: 0
+        value: 5
+        skillTreeId: 4
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 60
+        skillTreeId: 5
+        skillTreeType: 3
+    - star: 3
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 2
+        skillTreeId: 6
+        skillTreeType: 0
+      - attributeType: 52
+        operation: 0
+        value: 5
+        skillTreeId: 7
+        skillTreeType: 3
+      - attributeType: 7
+        operation: 0
+        value: 5
+        skillTreeId: 8
+        skillTreeType: 3
+    - star: 4
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 3
+        skillTreeId: 9
+        skillTreeType: 0
+      - attributeType: 3
+        operation: 0
+        value: 20
+        skillTreeId: 10
+        skillTreeType: 3
+      - attributeType: 46
+        operation: 0
+        value: 5
+        skillTreeId: 11
+        skillTreeType: 3
+    - star: 5
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 4
+        skillTreeId: 12
+        skillTreeType: 0
+      - attributeType: 12
+        operation: 0
+        value: 50
+        skillTreeId: 13
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 60
+        skillTreeId: 14
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 20
+        skillTreeId: 15
+        skillTreeType: 3
+  - heroId: 3
+    starItems:
+    - star: 0
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 0
+        skillTreeId: 0
+        skillTreeType: 0
+    - star: 1
+      skillTree:
+      - attributeType: 43
+        operation: 0
+        value: 5
+        skillTreeId: 1
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 52
+        skillTreeId: 2
+        skillTreeType: 3
+    - star: 2
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 1
+        skillTreeId: 3
+        skillTreeType: 0
+      - attributeType: 3
+        operation: 3
+        value: 5
+        skillTreeId: 4
+        skillTreeType: 3
+      - attributeType: 10
+        operation: 0
+        value: 5
+        skillTreeId: 5
+        skillTreeType: 3
+    - star: 3
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 2
+        skillTreeId: 6
+        skillTreeType: 0
+      - attributeType: 12
+        operation: 0
+        value: 50
+        skillTreeId: 7
+        skillTreeType: 3
+      - attributeType: 56
+        operation: 0
+        value: 10
+        skillTreeId: 8
+        skillTreeType: 3
+    - star: 4
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 3
+        skillTreeId: 9
+        skillTreeType: 0
+      - attributeType: 3
+        operation: 3
+        value: 5
+        skillTreeId: 10
+        skillTreeType: 3
+      - attributeType: 6
+        operation: 0
+        value: 5
+        skillTreeId: 11
+        skillTreeType: 3
+    - star: 5
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 4
+        skillTreeId: 12
+        skillTreeType: 0
+      - attributeType: 78
+        operation: 0
+        value: 5
+        skillTreeId: 13
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 52
+        skillTreeId: 14
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 52
+        skillTreeId: 15
+        skillTreeType: 3
+  - heroId: 4
+    starItems:
+    - star: 0
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 0
+        skillTreeId: 0
+        skillTreeType: 0
+    - star: 1
+      skillTree:
+      - attributeType: 12
+        operation: 0
+        value: 50
+        skillTreeId: 1
+        skillTreeType: 3
+      - attributeType: 6
+        operation: 0
+        value: 5
+        skillTreeId: 2
+        skillTreeType: 3
+    - star: 2
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 1
+        skillTreeId: 3
+        skillTreeType: 0
+      - attributeType: 44
+        operation: 0
+        value: 5
+        skillTreeId: 4
+        skillTreeType: 3
+      - attributeType: 51
+        operation: 0
+        value: 5
+        skillTreeId: 5
+        skillTreeType: 3
+    - star: 3
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 2
+        skillTreeId: 6
+        skillTreeType: 0
+      - attributeType: 1
+        operation: 0
+        value: 75
+        skillTreeId: 7
+        skillTreeType: 3
+      - attributeType: 52
+        operation: 0
+        value: 5
+        skillTreeId: 8
+        skillTreeType: 3
+    - star: 4
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 3
+        skillTreeId: 9
+        skillTreeType: 0
+      - attributeType: 7
+        operation: 0
+        value: 5
+        skillTreeId: 10
+        skillTreeType: 3
+      - attributeType: 6
+        operation: 0
+        value: 5
+        skillTreeId: 11
+        skillTreeType: 3
+    - star: 5
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 4
+        skillTreeId: 12
+        skillTreeType: 0
+      - attributeType: 1
+        operation: 0
+        value: 75
+        skillTreeId: 13
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 30
+        skillTreeId: 14
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 30
+        skillTreeId: 15
+        skillTreeType: 3
+  - heroId: 5
+    starItems:
+    - star: 0
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 0
+        skillTreeId: 0
+        skillTreeType: 0
+    - star: 1
+      skillTree:
+      - attributeType: 3
+        operation: 0
+        value: 30
+        skillTreeId: 1
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 60
+        skillTreeId: 2
+        skillTreeType: 3
+    - star: 2
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 1
+        skillTreeId: 3
+        skillTreeType: 0
+      - attributeType: 44
+        operation: 0
+        value: 5
+        skillTreeId: 4
+        skillTreeType: 3
+      - attributeType: 54
+        operation: 0
+        value: 5
+        skillTreeId: 5
+        skillTreeType: 3
+    - star: 3
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 2
+        skillTreeId: 6
+        skillTreeType: 0
+      - attributeType: 3
+        operation: 0
+        value: 30
+        skillTreeId: 7
+        skillTreeType: 3
+      - attributeType: 45
+        operation: 0
+        value: 5
+        skillTreeId: 8
+        skillTreeType: 3
+    - star: 4
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 3
+        skillTreeId: 9
+        skillTreeType: 0
+      - attributeType: 53
+        operation: 0
+        value: 5
+        skillTreeId: 10
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 60
+        skillTreeId: 11
+        skillTreeType: 3
+    - star: 5
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 4
+        skillTreeId: 12
+        skillTreeType: 0
+      - attributeType: 12
+        operation: 0
+        value: 50
+        skillTreeId: 13
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 30
+        skillTreeId: 14
+        skillTreeType: 3
+      - attributeType: 6
+        operation: 0
+        value: 5
+        skillTreeId: 15
+        skillTreeType: 3
+  - heroId: 6
+    starItems:
+    - star: 0
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 0
+        skillTreeId: 0
+        skillTreeType: 0
+    - star: 1
+      skillTree:
+      - attributeType: 3
+        operation: 0
+        value: 36
+        skillTreeId: 1
+        skillTreeType: 3
+      - attributeType: 6
+        operation: 0
+        value: 5
+        skillTreeId: 2
+        skillTreeType: 3
+    - star: 2
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 1
+        skillTreeId: 3
+        skillTreeType: 0
+      - attributeType: 52
+        operation: 0
+        value: 5
+        skillTreeId: 4
+        skillTreeType: 3
+      - attributeType: 7
+        operation: 0
+        value: 5
+        skillTreeId: 5
+        skillTreeType: 3
+    - star: 3
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 2
+        skillTreeId: 6
+        skillTreeType: 0
+      - attributeType: 44
+        operation: 0
+        value: 5
+        skillTreeId: 7
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 36
+        skillTreeId: 8
+        skillTreeType: 3
+    - star: 4
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 3
+        skillTreeId: 9
+        skillTreeType: 0
+      - attributeType: 1
+        operation: 0
+        value: 50
+        skillTreeId: 10
+        skillTreeType: 3
+      - attributeType: 46
+        operation: 0
+        value: 5
+        skillTreeId: 11
+        skillTreeType: 3
+    - star: 5
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 4
+        skillTreeId: 12
+        skillTreeType: 0
+      - attributeType: 6
+        operation: 0
+        value: 5
+        skillTreeId: 13
+        skillTreeType: 3
+      - attributeType: 7
+        operation: 0
+        value: 5
+        skillTreeId: 14
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 36
+        skillTreeId: 15
+        skillTreeType: 3
+  - heroId: 7
+    starItems:
+    - star: 0
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 0
+        skillTreeId: 0
+        skillTreeType: 0
+    - star: 1
+      skillTree:
+      - attributeType: 1
+        operation: 0
+        value: 54
+        skillTreeId: 1
+        skillTreeType: 3
+      - attributeType: 43
+        operation: 0
+        value: 5
+        skillTreeId: 2
+        skillTreeType: 3
+    - star: 2
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 1
+        skillTreeId: 3
+        skillTreeType: 0
+      - attributeType: 3
+        operation: 0
+        value: 30
+        skillTreeId: 4
+        skillTreeType: 3
+      - attributeType: 51
+        operation: 0
+        value: 5
+        skillTreeId: 5
+        skillTreeType: 3
+    - star: 3
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 2
+        skillTreeId: 6
+        skillTreeType: 0
+      - attributeType: 50
+        operation: 0
+        value: 5
+        skillTreeId: 7
+        skillTreeType: 3
+      - attributeType: 44
+        operation: 0
+        value: 5
+        skillTreeId: 8
+        skillTreeType: 3
+    - star: 4
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 3
+        skillTreeId: 9
+        skillTreeType: 0
+      - attributeType: 56
+        operation: 0
+        value: 10
+        skillTreeId: 10
+        skillTreeType: 3
+      - attributeType: 10
+        operation: 0
+        value: 5
+        skillTreeId: 11
+        skillTreeType: 3
+    - star: 5
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 4
+        skillTreeId: 12
+        skillTreeType: 0
+      - attributeType: 3
+        operation: 0
+        value: 30
+        skillTreeId: 13
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 54
+        skillTreeId: 14
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 54
+        skillTreeId: 15
+        skillTreeType: 3
+  - heroId: 8
+    starItems:
+    - star: 0
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 0
+        skillTreeId: 0
+        skillTreeType: 0
+    - star: 1
+      skillTree:
+      - attributeType: 3
+        operation: 0
+        value: 42
+        skillTreeId: 1
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 55
+        skillTreeId: 2
+        skillTreeType: 3
+    - star: 2
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 1
+        skillTreeId: 3
+        skillTreeType: 0
+      - attributeType: 44
+        operation: 0
+        value: 5
+        skillTreeId: 4
+        skillTreeType: 3
+      - attributeType: 54
+        operation: 0
+        value: 10
+        skillTreeId: 5
+        skillTreeType: 3
+    - star: 3
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 2
+        skillTreeId: 6
+        skillTreeType: 0
+      - attributeType: 3
+        operation: 0
+        value: 42
+        skillTreeId: 7
+        skillTreeType: 3
+      - attributeType: 45
+        operation: 0
+        value: 5
+        skillTreeId: 8
+        skillTreeType: 3
+    - star: 4
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 3
+        skillTreeId: 9
+        skillTreeType: 0
+      - attributeType: 53
+        operation: 0
+        value: 10
+        skillTreeId: 10
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 55
+        skillTreeId: 11
+        skillTreeType: 3
+    - star: 5
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 4
+        skillTreeId: 12
+        skillTreeType: 0
+      - attributeType: 12
+        operation: 0
+        value: 50
+        skillTreeId: 13
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 42
+        skillTreeId: 14
+        skillTreeType: 3
+      - attributeType: 6
+        operation: 0
+        value: 5
+        skillTreeId: 15
+        skillTreeType: 3
+  - heroId: 9
+    starItems:
+    - star: 0
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 0
+        skillTreeId: 0
+        skillTreeType: 0
+    - star: 1
+      skillTree:
+      - attributeType: 6
+        operation: 0
+        value: 5
+        skillTreeId: 1
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 50
+        skillTreeId: 2
+        skillTreeType: 3
+    - star: 2
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 1
+        skillTreeId: 3
+        skillTreeType: 0
+      - attributeType: 3
+        operation: 0
+        value: 37
+        skillTreeId: 4
+        skillTreeType: 3
+      - attributeType: 10
+        operation: 0
+        value: 10
+        skillTreeId: 5
+        skillTreeType: 3
+    - star: 3
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 2
+        skillTreeId: 6
+        skillTreeType: 0
+      - attributeType: 44
+        operation: 0
+        value: 8
+        skillTreeId: 7
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 37
+        skillTreeId: 8
+        skillTreeType: 3
+    - star: 4
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 3
+        skillTreeId: 9
+        skillTreeType: 0
+      - attributeType: 1
+        operation: 0
+        value: 50
+        skillTreeId: 10
+        skillTreeType: 3
+      - attributeType: 47
+        operation: 0
+        value: 8
+        skillTreeId: 11
+        skillTreeType: 3
+    - star: 5
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 4
+        skillTreeId: 12
+        skillTreeType: 0
+      - attributeType: 3
+        operation: 0
+        value: 37
+        skillTreeId: 13
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 50
+        skillTreeId: 14
+        skillTreeType: 3
+      - attributeType: 6
+        operation: 0
+        value: 5
+        skillTreeId: 15
+        skillTreeType: 3
+  - heroId: 10
+    starItems:
+    - star: 0
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 0
+        skillTreeId: 0
+        skillTreeType: 0
+    - star: 1
+      skillTree:
+      - attributeType: 54
+        operation: 0
+        value: 10
+        skillTreeId: 1
+        skillTreeType: 3
+      - attributeType: 12
+        operation: 0
+        value: 50
+        skillTreeId: 2
+        skillTreeType: 3
+    - star: 2
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 1
+        skillTreeId: 3
+        skillTreeType: 0
+      - attributeType: 56
+        operation: 0
+        value: 10
+        skillTreeId: 4
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 42
+        skillTreeId: 5
+        skillTreeType: 3
+    - star: 3
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 2
+        skillTreeId: 6
+        skillTreeType: 0
+      - attributeType: 3
+        operation: 0
+        value: 42
+        skillTreeId: 7
+        skillTreeType: 3
+      - attributeType: 78
+        operation: 0
+        value: 5
+        skillTreeId: 8
+        skillTreeType: 3
+    - star: 4
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 3
+        skillTreeId: 9
+        skillTreeType: 0
+      - attributeType: 44
+        operation: 0
+        value: 5
+        skillTreeId: 10
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 55
+        skillTreeId: 11
+        skillTreeType: 3
+    - star: 5
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 4
+        skillTreeId: 12
+        skillTreeType: 0
+      - attributeType: 1
+        operation: 0
+        value: 55
+        skillTreeId: 13
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 42
+        skillTreeId: 14
+        skillTreeType: 3
+      - attributeType: 52
+        operation: 0
+        value: 5
+        skillTreeId: 15
+        skillTreeType: 3
+  - heroId: 11
+    starItems:
+    - star: 0
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 0
+        skillTreeId: 0
+        skillTreeType: 0
+    - star: 1
+      skillTree:
+      - attributeType: 3
+        operation: 0
+        value: 42
+        skillTreeId: 1
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 55
+        skillTreeId: 2
+        skillTreeType: 3
+    - star: 2
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 1
+        skillTreeId: 3
+        skillTreeType: 0
+      - attributeType: 44
+        operation: 0
+        value: 5
+        skillTreeId: 4
+        skillTreeType: 3
+      - attributeType: 54
+        operation: 0
+        value: 10
+        skillTreeId: 5
+        skillTreeType: 3
+    - star: 3
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 2
+        skillTreeId: 6
+        skillTreeType: 0
+      - attributeType: 3
+        operation: 0
+        value: 42
+        skillTreeId: 7
+        skillTreeType: 3
+      - attributeType: 45
+        operation: 0
+        value: 5
+        skillTreeId: 8
+        skillTreeType: 3
+    - star: 4
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 3
+        skillTreeId: 9
+        skillTreeType: 0
+      - attributeType: 53
+        operation: 0
+        value: 10
+        skillTreeId: 10
+        skillTreeType: 3
+      - attributeType: 1
+        operation: 0
+        value: 55
+        skillTreeId: 11
+        skillTreeType: 3
+    - star: 5
+      skillTree:
+      - attributeType: 0
+        operation: 0
+        value: 4
+        skillTreeId: 12
+        skillTreeType: 0
+      - attributeType: 12
+        operation: 0
+        value: 50
+        skillTreeId: 13
+        skillTreeType: 3
+      - attributeType: 3
+        operation: 0
+        value: 42
+        skillTreeId: 14
+        skillTreeType: 3
+      - attributeType: 6
+        operation: 0
+        value: 5
+        skillTreeId: 15
+        skillTreeType: 3
+  costStarUp: 140000001e00000028000000460000006400000064000000
+  costSkillTreeUp: 050000000a000000140000001e00000028000000320000003c0000004600000050000000640000007d00000096000000c8000000fa0000002c01000077010000
+  passive:
+  - id: 0
+    heroSkillPassiveType: 0
+    level:
+    - 5
+    - 6
+    - 8
+    - 10
+    - 15
+    value_y: 15
+    name: increment_deference_in_time_title
+    description: increment_deference_in_time_desc
+  - id: 1
+    heroSkillPassiveType: 4
+    level:
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    value_y: 20
+    name: increament_rage_deal_damage_title
+    description: increament_rage_deal_damage_desc
+  - id: 2
+    heroSkillPassiveType: 1
+    level:
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    value_y: 50
+    name: regen_rage_start_room_title
+    description: regen_rage_start_room_desc
+  - id: 3
+    heroSkillPassiveType: 2
+    level:
+    - 5
+    - 6
+    - 8
+    - 10
+    - 15
+    value_y: 5
+    name: increament_deference_low_rage_title
+    description: increament_deference_low_rage_desc
+  - id: 4
+    heroSkillPassiveType: 1
+    level:
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    value_y: 50
+    name: regen_rage_start_room_title
+    description: regen_rage_start_room_desc
+  - id: 5
+    heroSkillPassiveType: 3
+    level:
+    - 0.6
+    - 0.8
+    - 1
+    - 1.2
+    - 1.5
+    value_y: 34
+    name: regen_rage_take_damage_title
+    description: regen_rage_take_damage_desc
+  - id: 6
+    heroSkillPassiveType: 1
+    level:
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    value_y: 50
+    name: regen_rage_start_room_title
+    description: regen_rage_start_room_desc
+  - id: 7
+    heroSkillPassiveType: 4
+    level:
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    value_y: 20
+    name: increament_rage_deal_damage_title
+    description: increament_rage_deal_damage_desc
+  - id: 8
+    heroSkillPassiveType: 5
+    level:
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    value_y: 100
+    name: regen_rage_when_kill_enemy_title
+    description: regen_rage_when_kill_enemy_desc
+  - id: 9
+    heroSkillPassiveType: 1
+    level:
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    value_y: 50
+    name: regen_rage_start_room_title
+    description: regen_rage_start_room_desc
+  - id: 10
+    heroSkillPassiveType: 1
+    level:
+    - 30
+    - 40
+    - 50
+    - 60
+    - 70
+    value_y: 50
+    name: regen_rage_start_room_title
+    description: regen_rage_start_room_desc
+  - id: 11
+    heroSkillPassiveType: 1
+    level:
+    - 30
+    - 40
+    - 50
+    - 60
+    - 70
+    value_y: 50
+    name: regen_rage_start_room_title
+    description: regen_rage_start_room_desc
+  skillInfo:
+  - heroId: 0
+    id: 0
+    activeName:
+    activeStat:
+    passiveName: deference_increament
+    passiveStat: 0
+    passiveParam: '%'
+  - heroId: 0
+    id: 1
+    activeName:
+    activeStat:
+    passiveName: duration
+    passiveStat: 1
+    passiveParam: (s)
+  - heroId: 1
+    id: 0
+    activeName: effect
+    activeStat: poison
+    passiveName: damage_bonus
+    passiveStat: 0
+    passiveParam: '%'
+  - heroId: 1
+    id: 1
+    activeName: range_effect
+    activeStat: aoe
+    passiveName: rage_bonus
+    passiveStat: 1
+    passiveParam: '%'
+  - heroId: 1
+    id: 2
+    activeName: rage_requip
+    activeStat: normal
+    passiveName:
+    passiveStat: 0
+    passiveParam:
+  - heroId: 2
+    id: 0
+    activeName: effect
+    activeStat: fire
+    passiveName: damage_bonus
+    passiveStat: 0
+    passiveParam: '%'
+  - heroId: 2
+    id: 1
+    activeName: range_effect
+    activeStat: aoe
+    passiveName: rage_bonus
+    passiveStat: 1
+    passiveParam: '%'
+  - heroId: 2
+    id: 2
+    activeName: rage_requip
+    activeStat: normal
+    passiveName:
+    passiveStat: 0
+    passiveParam:
+  - heroId: 3
+    id: 0
+    activeName: effect
+    activeStat: ice
+    passiveName: deference_bonus
+    passiveStat: 0
+    passiveParam: '%'
+  - heroId: 3
+    id: 1
+    activeName: range_effect
+    activeStat: single_target
+    passiveName:
+    passiveStat: 0
+    passiveParam:
+  - heroId: 3
+    id: 2
+    activeName: rage_requip
+    activeStat: normal
+    passiveName:
+    passiveStat: 0
+    passiveParam:
+  - heroId: 4
+    id: 0
+    activeName: effect
+    activeStat: lightning
+    passiveName: damage_bonus
+    passiveStat: 0
+    passiveParam: '%'
+  - heroId: 4
+    id: 1
+    activeName: range_effect
+    activeStat: single_target
+    passiveName: rage_bonus
+    passiveStat: 1
+    passiveParam: '%'
+  - heroId: 4
+    id: 2
+    activeName: rage_requip
+    activeStat: normal
+    passiveName:
+    passiveStat: 0
+    passiveParam:
+  - heroId: 5
+    id: 0
+    activeName: effect
+    activeStat: no
+    passiveName: duration_bonus
+    passiveStat: 0
+    passiveParam: (s)
+  - heroId: 5
+    id: 1
+    activeName: range_effect
+    activeStat: on_yourself
+    passiveName: rage_bonus
+    passiveStat: 1
+    passiveParam: '%'
+  - heroId: 5
+    id: 2
+    activeName: rage_requip
+    activeStat: normal
+    passiveName:
+    passiveStat: 0
+    passiveParam:
+  - heroId: 6
+    id: 0
+    activeName: effect
+    activeStat: increase_damage
+    passiveName: damage_bonus
+    passiveStat: 0
+    passiveParam: '%'
+  - heroId: 6
+    id: 1
+    activeName: range_effect
+    activeStat: aoe
+    passiveName: rage_bonus
+    passiveStat: 1
+    passiveParam: '%'
+  - heroId: 6
+    id: 2
+    activeName: rage_requip
+    activeStat: normal
+    passiveName:
+    passiveStat: 0
+    passiveParam:
+  - heroId: 7
+    id: 0
+    activeName: effect
+    activeStat: increase_damage
+    passiveName: damage_bonus
+    passiveStat: 0
+    passiveParam: '%'
+  - heroId: 7
+    id: 1
+    activeName: range_effect
+    activeStat: on_yourself
+    passiveName: rage_bonus
+    passiveStat: 1
+    passiveParam: '%'
+  - heroId: 7
+    id: 2
+    activeName: rage_requip
+    activeStat: normal
+    passiveName:
+    passiveStat: 0
+    passiveParam:
+  - heroId: 9
+    id: 0
+    activeName: effect
+    activeStat: increase_damage
+    passiveName: damage_bonus
+    passiveStat: 0
+    passiveParam: '%'
+  - heroId: 9
+    id: 1
+    activeName: range_effect
+    activeStat: on_yourself
+    passiveName: rage_bonus
+    passiveStat: 1
+    passiveParam: '%'
+  - heroId: 9
+    id: 2
+    activeName: rage_requip
+    activeStat: long
+    passiveName:
+    passiveStat: 0
+    passiveParam:
+  - heroId: 8
+    id: 0
+    activeName: effect
+    activeStat: no
+    passiveName: damage_bonus
+    passiveStat: 0
+    passiveParam: '%'
+  - heroId: 8
+    id: 1
+    activeName: range_effect
+    activeStat: aoe
+    passiveName: rage_bonus
+    passiveStat: 1
+    passiveParam: '%'
+  - heroId: 8
+    id: 2
+    activeName: rage_requip
+    activeStat: long
+    passiveName:
+    passiveStat: 0
+    passiveParam:
+  - heroId: 10
+    id: 0
+    activeName: effect
+    activeStat: no
+    passiveName: damage_bonus
+    passiveStat: 0
+    passiveParam: '%'
+  - heroId: 10
+    id: 1
+    activeName: range_effect
+    activeStat: aoe
+    passiveName: rage_bonus
+    passiveStat: 1
+    passiveParam: '%'
+  - heroId: 10
+    id: 2
+    activeName: rage_requip
+    activeStat: long
+    passiveName:
+    passiveStat: 0
+    passiveParam:
+  - heroId: 11
+    id: 0
+    activeName: effect
+    activeStat: no
+    passiveName: damage_bonus
+    passiveStat: 0
+    passiveParam: '%'
+  - heroId: 11
+    id: 1
+    activeName: range_effect
+    activeStat: aoe
+    passiveName: rage_bonus
+    passiveStat: 1
+    passiveParam: '%'
+  - heroId: 11
+    id: 2
+    activeName: rage_requip
+    activeStat: long
+    passiveName:
+    passiveStat: 0
+    passiveParam:

@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80b4a0807e3e593b1c7f6827210cb37, type: 3}
+  m_Name: Data-EquipmentFuseRuleScriptableObject-Equipment Config (new)-EquipmentFuseRule
+  m_EditorClassIdentifier:
+  rules:
+  - active: 1
+    target: 1
+    star: 0
+    rules:
+    - slotType: 2
+      slotInclude: 0
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 0
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 0
+      slot_star: 0
+  - active: 1
+    target: 2
+    star: 0
+    rules:
+    - slotType: 2
+      slotInclude: 1
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 1
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 1
+      slot_star: 0
+  - active: 1
+    target: 3
+    star: 0
+    rules:
+    - slotType: 2
+      slotInclude: 2
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 2
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 2
+      slot_star: 0
+  - active: 1
+    target: 3
+    star: 1
+    rules:
+    - slotType: 2
+      slotInclude: 3
+      slot_star: 0
+    - slotType: 1
+      slotInclude: 3
+      slot_star: 0
+  - active: 1
+    target: 3
+    star: 2
+    rules:
+    - slotType: 2
+      slotInclude: 3
+      slot_star: 1
+    - slotType: 1
+      slotInclude: 3
+      slot_star: 0
+    - slotType: 1
+      slotInclude: 3
+      slot_star: 0
+  - active: 1
+    target: 4
+    star: 0
+    rules:
+    - slotType: 2
+      slotInclude: 3
+      slot_star: 2
+    - slotType: 2
+      slotInclude: 3
+      slot_star: 2
+  - active: 1
+    target: 4
+    star: 1
+    rules:
+    - slotType: 2
+      slotInclude: 4
+      slot_star: 0
+    - slotType: 1
+      slotInclude: 4
+      slot_star: 0
+  - active: 1
+    target: 4
+    star: 2
+    rules:
+    - slotType: 2
+      slotInclude: 4
+      slot_star: 1
+    - slotType: 1
+      slotInclude: 4
+      slot_star: 0
+    - slotType: 1
+      slotInclude: 4
+      slot_star: 0
+  - active: 1
+    target: 5
+    star: 0
+    rules:
+    - slotType: 2
+      slotInclude: 4
+      slot_star: 2
+    - slotType: 2
+      slotInclude: 4
+      slot_star: 2
+  - active: 0
+    target: 6
+    star: 0
+    rules:
+    - slotType: 2
+      slotInclude: 5
+      slot_star: 0
+    - slotType: 0
+      slotInclude: 5
+      slot_star: 0
+  - active: 0
+    target: 7
+    star: 0
+    rules:
+    - slotType: 2
+      slotInclude: 6
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 6
+      slot_star: 0
+  quickFuseRules:
+  - fromTarget: 0
+    fromStar: 0
+    toTarget: 1
+    toStar: 0
+  - fromTarget: 1
+    fromStar: 0
+    toTarget: 2
+    toStar: 0
+  - fromTarget: 2
+    fromStar: 0
+    toTarget: 3
+    toStar: 0
+  - fromTarget: 3
+    fromStar: 2
+    toTarget: 4
+    toStar: 0
+  - fromTarget: 4
+    fromStar: 2
+    toTarget: 5
+    toStar: 0
+  runeRules:
+  - active: 1
+    target: 1
+    star: 0
+    rules:
+    - slotType: 2
+      slotInclude: 0
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 0
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 0
+      slot_star: 0
+  - active: 1
+    target: 2
+    star: 0
+    rules:
+    - slotType: 2
+      slotInclude: 1
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 1
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 1
+      slot_star: 0
+  - active: 1
+    target: 3
+    star: 0
+    rules:
+    - slotType: 2
+      slotInclude: 2
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 2
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 2
+      slot_star: 0
+  - active: 1
+    target: 3
+    star: 1
+    rules:
+    - slotType: 2
+      slotInclude: 3
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 3
+      slot_star: 0
+  - active: 1
+    target: 3
+    star: 2
+    rules:
+    - slotType: 2
+      slotInclude: 3
+      slot_star: 1
+    - slotType: 2
+      slotInclude: 3
+      slot_star: 1
+  - active: 1
+    target: 4
+    star: 0
+    rules:
+    - slotType: 2
+      slotInclude: 3
+      slot_star: 2
+    - slotType: 2
+      slotInclude: 3
+      slot_star: 2
+  - active: 1
+    target: 4
+    star: 1
+    rules:
+    - slotType: 2
+      slotInclude: 4
+      slot_star: 0
+    - slotType: 2
+      slotInclude: 4
+      slot_star: 0
+  - active: 1
+    target: 4
+    star: 2
+    rules:
+    - slotType: 2
+      slotInclude: 4
+      slot_star: 1
+    - slotType: 2
+      slotInclude: 4
+      slot_star: 1
+  - active: 1
+    target: 5
+    star: 0
+    rules:
+    - slotType: 2
+      slotInclude: 4
+      slot_star: 2
+    - slotType: 2
+      slotInclude: 4
+      slot_star: 2
+  quickRuneFuseRules:
+  - fromTarget: 0
+    fromStar: 0
+    toTarget: 1
+    toStar: 0
+  - fromTarget: 1
+    fromStar: 0
+    toTarget: 2
+    toStar: 0
+  - fromTarget: 2
+    fromStar: 0
+    toTarget: 3
+    toStar: 0
+  - fromTarget: 3
+    fromStar: 0
+    toTarget: 3
+    toStar: 1
+  - fromTarget: 3
+    fromStar: 1
+    toTarget: 3
+    toStar: 2
+  - fromTarget: 3
+    fromStar: 2
+    toTarget: 4
+    toStar: 0
+  - fromTarget: 4
+    fromStar: 0
+    toTarget: 4
+    toStar: 1
+  - fromTarget: 4
+    fromStar: 1
+    toTarget: 4
+    toStar: 2
+  - fromTarget: 4
+    fromStar: 2
+    toTarget: 5
+    toStar: 0

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c986ef63b40f0f5ecaa3994c3d3b32a, type: 3}
+  m_Name: AIDoNothingAction
+  m_EditorClassIdentifier:
+  guid: 55cafb8899b52ae41882fa0e93471dcc
+  Name: AIDoNothingAction
+  context: {fileID: 1817947028159803, guid: d738cea2883fdc7479f292059d52547f, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 24b6253845bd4bb49a1ce2fe3fb3f3a3, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 832142cdd6344d94ea059f2120f7137f, type: 2}

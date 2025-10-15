@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f603df9961dcc3f4e2a547688c753d, type: 3}
+  m_Name: AI3005JumpNearTarget
+  m_EditorClassIdentifier:
+  guid: f98d52ee8da58fd41ba631546e0772d3
+  Name: AI3005JumpNearTarget
+  context: {fileID: 1428802159002768, guid: 4e56884a876412746a70aca0bb945e9c, type: 2}
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 11400000, guid: 0e95dcb2bbf27e149baea22603176d9c, type: 2}
+  - {fileID: 11400000, guid: 6e4f7e7bc55d50145b88b85efe49674f, type: 2}
+  - {fileID: 11400000, guid: b7976d631d4b3e3498764c852c2009b9, type: 2}
+  ChosenTarget: {fileID: 0}
+  forceUpdateTargetsOnFinish: 0
+  overrideAnimatorController: 1
+  runtimeAnimatorController: {fileID: 9100000, guid: 2a554f14e60b2334d847c3d46a48ed4b, type: 2}
+  faceTarget: 1
+  gameObjectKeyName:
+    Value: 0
+  targetTag: Player
+  _target: {fileID: 0}
+  heightFromEnd: 3
+  protectedJumpTime: 1
+  testDistance: 40
+  cooldown: 0
+  parabolicCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.49853143
+      value: 0.3203145
+      inSlope: 0.0030936068
+      outSlope: 0.0030936068
+      weightedMode: 0
+      inWeight: 0.14638785
+      outWeight: 0.11466817
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1.8912216
+      outSlope: -1.8912216
+      weightedMode: 0
+      inWeight: 0.65970147
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  nearDistance: 10
+  jumpSpeed: 100
